@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fields>
+
+  <fieldset name="gutenberg" label="Blocks For Gutenberg">
+	
+    <field name="gut_enable"
+      type="boolean"
+      default="true"
+      label="&lt;b&gt;Enable Unlimited Blocks&lt;/b&gt;"
+      description="If disabled, the Unlimited Blocks will not appear in the Gutenberg Builder">
+    </field>
+
+
+  </fieldset>
+</fields>
+  

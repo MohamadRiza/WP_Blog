@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "am/faux-easy-digital-downloads",
+  "title": "Easy Digital Downloads",
+  "description": "Display a list of products from Easy Digital Downloads.",
+  "version": "0.1.0",
+  "category": "widgets",
+  "icon": "admin-plugins",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "easy-digital-downloads",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "attributes": {},
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "am/faux-instagram-feed",
+  "title": "Instagram Feed",
+  "description": "Select and display any of your Instagram feeds.",
+  "version": "0.1.0",
+  "category": "widgets",
+  "icon": "admin-plugins",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "instagram-feed",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "attributes": {},
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  }
+}

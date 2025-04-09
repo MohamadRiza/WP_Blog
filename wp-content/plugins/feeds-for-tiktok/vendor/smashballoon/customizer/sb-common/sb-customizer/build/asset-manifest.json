@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/static/js/main.js",
+    "main.css": "/static/css/main.eb76eb5b.css",
+    "tikTokFeed.js": "/static/js/tikTokFeed.js",
+    "tikTokFeed.css": "/static/css/tikTokFeed.fc1bf192.css",
+    "static/images/owl.video.play.png": "/static/images/owl.video.play.png?7f01b07148f205f6e8258e92bbf652d9",
+    "public/index.html": "/public/index.html",
+    "index.html": "/index.html",
+    "static/media/owl.video.play.png": "/static/media/owl.video.play.f58194cc839da0199212.png",
+    "main.js.map": "/static/js/main.js.map",
+    "main.eb76eb5b.css.map": "/static/css/main.eb76eb5b.css.map",
+    "tikTokFeed.js.map": "/static/js/tikTokFeed.js.map",
+    "tikTokFeed.fc1bf192.css.map": "/static/css/tikTokFeed.fc1bf192.css.map"
+  },
+  "entrypoints": [
+    "static/js/main.js",
+    "static/css/main.eb76eb5b.css"
+  ]
+}

@@ -1,0 +1,21 @@
+<wpml-config>
+  <admin-texts>
+    <key name="sbtt_global_settings">
+      <key name="optimize_images"/>
+      <key name="usagetracking"/>
+      <key name="admin_error_notices"/>
+      <key name="feed_issue_reports"/>
+      <key name="license_key"/>
+      <key name="preserve_settings"/>
+      <key name="gdpr"/>
+    </key>
+  </admin-texts>
+  <shortcodes>
+    <shortcode>
+      <tag>sbtt-tiktok</tag>
+      <attributes>
+        <attribute>feed</attribute>
+      </attributes>
+    </shortcode>
+  </shortcodes>
+</wpml-config>

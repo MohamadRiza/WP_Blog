@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fields>
+
+  <fieldset name="elementor" label="Widgets for Elementor">
+
+    <field name="el_enable"
+      type="boolean"
+      default="true"
+      label="&lt;b&gt;Enable Unlimited Elements&lt;/b&gt;"
+      description="If disabled, the Unlimited Elements will not appear in the Elementor Page Builder">
+    </field>
+
+    <field type="bulk_control_start"
+      parent="el_enable"
+      ctype="show"
+      value="true"
+    />
+
+
+    <field name="css_includes_to"
+      type="list"
+      default="body"
+      label="		Include Css Files To"
+      description="Choose where to include css files">
+      <option value="body" text="Body Before Widget HTML" />
+      <option value="footer" text="Footer" />
+    </field>
+
+
+    <field name="enable_import_export"
+      type="boolean"
+      default="true"
+      label="		Show Import and Export Buttons In Templates"
+      description="Show special import and export buttons (import and export with images) in elementor saved templates screen">
+    </field>
+
+
+    <field name="enable_backgrounds"
+      type="boolean"
+      default="true"
+      label="		Enable Background Widgets"
+      description="Enable background widgets for elementor sections">
+    </field>
+
+    <field name="enable_panel_previews"
+      type="boolean"
+      default="true"
+      label="		Show Elementor Panel Widgets Previews"
+      description="Show preview images of widget boxes in elementor editor side panel">
+    </field>
+
+    <field type="bulk_control_end" />
+
+  </fieldset>
+</fields>
+  

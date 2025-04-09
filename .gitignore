@@ -1,0 +1,30 @@
+# Ignore core WordPress files
+wp-admin/
+wp-includes/
+
+# Ignore uploads and logs
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backups/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+
+# Ignore configuration files
+wp-config.php
+
+# Ignore environment-specific files
+*.log
+*.sql
+*.sqlite
+*.env
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

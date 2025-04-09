@@ -1,0 +1,308 @@
+#sbtt-notifications {
+  position: relative;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05), 0px 4px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  opacity: 1;
+  min-height: 48px;
+  padding: 20px 120px 20px 82px;
+  margin: 40px 20px 10px 0;
+  box-sizing: border-box;
+}
+
+#sb-app #sbtt-notifications {
+  margin: 0 0 14px 0;
+}
+#sbtt-notifications.sbtt_review_notice,
+#sbtt-notifications.sbtt_discount_notice,
+#sbtt-notifications.sbtt_review_notice_step_1 {
+  border-top: 2px solid #0068A0;
+}
+#sbtt-notifications * {
+  box-sizing: border-box;
+}
+
+#sbtt-notifications .bell,
+#sbtt-notifications .thumb{
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  width: 42px;
+  height: 42px;
+}
+
+#sbtt-notifications .thumb img,
+#sbtt-notifications .bell img {
+  max-width: 100%;
+}
+#sbtt-notifications .thumb .img-overlay {
+  top: 42px;
+  left: -6px;
+  width: 54px;
+  position: absolute;
+  background: #ca4a1f;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 3px;
+  line-height: 1;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#sbtt-notifications .messages .message {
+  display: none;
+}
+
+#sbtt-notifications .messages .message.current {
+  display: block;
+}
+
+#sbtt-notifications .messages .message .title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0;
+  color: #141B38;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+
+#sbtt-notifications .messages .message .content {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 2px 0 32px 0;
+  color: #434960;
+}
+
+#sbtt-notifications .messages .message .buttons {
+  margin: -15px 0px 3px 0;
+  display: flex;
+}
+.sbtt-btn {
+  transition: all 0.15s ease-in-out;
+  letter-spacing: 0.2px;
+}
+/*orange*/
+.sbtt-btn-orange{
+  background: #FE544F!important;
+  color: #fff!important;
+}
+.sbtt-btn-orange:hover{
+  background: #EC352F!important;
+  color: #fff!important;
+}
+.sbtt-btn-orange:focus,
+.sbtt-btn-orange:active{
+  background: #BC120E!important;
+  color: #fff!important;
+}
+/*grey*/
+.sbtt-btn-grey{
+  background: #F3F4F5!important;
+  color: #141B38!important;
+  border: 1px solid #D0D1D7!important;
+}
+.sbtt-btn-grey:hover{
+  background: #fff!important;
+  color: #141B38!important;
+  border: 1px solid #DCDDE1!important;
+}
+.sbtt-btn-grey:focus,
+.sbtt-btn-grey:active{
+  background: #E8E8EB!important;
+  color: #141B38!important;
+  border: 1px solid #D0D1D7!important;
+}
+/*blue*/
+.sbtt-btn-blue {
+  background: #0068A0 !important;
+  color: #fff !important;
+}
+.sbtt-btn-blue:hover {
+  background: #0096CC !important;
+  color: #fff !important;
+}
+body .sbtt_review_step1_notice .sbtt-btn-link:not(:last-child) {
+  margin-right: 12px;
+}
+
+body .sbtt_review_step1_notice .sbtt-btn-link {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-decoration-line: underline;
+  color: #0068A0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+body .sbtt_review_step1_notice .sbtt-btn-link:not(:last-child) {
+  margin-right: 12px;
+}
+.sbtt-notice-consent-btns {
+  display: inline-block;
+}
+#sbtt-notifications .messages .message .buttons a {
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 32px;
+  text-decoration: none;
+  font-size: 12px;
+  border: none;
+}
+#sbtt-notifications .messages .message .buttons a.sbtt-btn-orange {
+  border: 1px solid #FE544F
+}
+#sbtt-notifications .messages .message .buttons a:not(:last-child) {
+  margin-right: 8px;
+}
+#sbtt-notifications .messages .message .buttons a:focus,
+#sbtt-notifications .messages .message .buttons a:active {
+  outline: none;
+  box-shadow: none;
+}
+#sbtt-notifications .dismiss {
+  position: absolute;
+  top: 12px;
+  right: 6px;
+  width: 30px;
+  height: 32px;
+  color: #72777C;
+  font-size: 16px;
+  cursor: pointer;
+  align-items: center;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+}
+#sbtt-notifications .dismiss svg {
+  width: 15px;
+  height: 15px;
+}
+#sbtt-notifications .dismiss svg path {
+  fill: #8C8F9A;
+}
+#sbtt-notifications .navigation {
+  position: absolute;
+  bottom: 24px;
+  right: 40px;
+  width: 72px;
+  height: 30px;
+}
+
+#sbtt-notifications .navigation a {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #DCDDE1;
+  border-radius: 2px;
+  font-size: 8px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  cursor: pointer;
+  background: #F3F4F5;
+  color: #141B38;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease-in-out;
+}
+
+#sbtt-notifications .navigation svg {
+  width: 9px;
+  height: 9px;
+}
+
+#sbtt-notifications .navigation a:not(.disabled):hover {
+  background-color: #fff;
+}
+#sbtt-notifications .navigation a:not(.disabled):focus,
+#sbtt-notifications .navigation a:not(.disabled):active {
+  background: #E8E8EB;
+  color: #141B38;
+}
+
+#sbtt-notifications .navigation .prev {
+  float: left;
+}
+
+#sbtt-notifications .navigation .next {
+  float: right;
+}
+
+#sbtt-notifications .navigation .disabled {
+  background: #E8E8EB;
+  color: #8C8F9A;
+  cursor: default;
+}
+
+#sbtt-notifications .navigation .disabled img {
+  opacity: 0.4;
+}
+
+.sbtt-notice-alert {
+  display: inline-block;
+  position: absolute;
+  vertical-align: top;
+  box-sizing: border-box;
+  margin: 1px 0 0 4px;
+  padding: 0 5px;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  background-color: #d63638;
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.6;
+  text-align: center;
+  z-index: 26;
+}
+
+@media screen and (max-width: 880px) {
+  #sbtt-notifications .messages .message .buttons {
+    flex-wrap: wrap;
+  }
+  #sbtt-notifications .messages .message .buttons a {
+    margin: 0;
+    display: inline-block;
+    margin-bottom: 6px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #sbtt-notifications {
+    padding: 15px 15px 15px 72px;
+  }
+  #sbtt-notifications .messages .message .title {
+    margin: 0 30px 0 0;
+  }
+  #sbtt-notifications .messages .message .content {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #sbtt-notifications .messages .message .buttons {
+    margin: -10px 0 0;
+  }
+
+  #sbtt-notifications .messages .message .buttons .button-secondary {
+    margin-top: 6px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  #sbtt-notifications.sbtt_review_notice, #sbtt-notifications.sbtt_discount_notice {
+    padding: 16px 30px 16px 82px;
+  }
+}
+
+@media (min-width: 700px) {
+  .sbtt_review_step1_notice .sbtt-notice-consent-btns {
+    margin-left: 20px;
+  }
+}
+

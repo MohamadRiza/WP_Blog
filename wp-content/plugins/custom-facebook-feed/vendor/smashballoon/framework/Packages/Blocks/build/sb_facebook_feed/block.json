@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "am/faux-custom-facebook-feed",
+  "title": "Facebook Feed",
+  "description": "Select and display any of your Facebook feeds.",
+  "version": "0.1.0",
+  "category": "widgets",
+  "icon": "admin-plugins",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "custom-facebook-feed",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "attributes": {},
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  }
+}

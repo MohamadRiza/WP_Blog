@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "smashballoon/facebook-feed",
+  "title": "Facebook Feed",
+  "category": "smashballoon",
+  "icon": "facebook",
+  "description": "Select and display any of your Facebook feeds",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "custom-facebook-feed",
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "feedId": {
+      "type": "string",
+      "default": ""
+    },
+    "preview": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "keywords": [
+    "facebook",
+    "feed",
+    "gallery",
+    "photos",
+    "images",
+    "social media",
+    "smashballoon"
+  ]
+}

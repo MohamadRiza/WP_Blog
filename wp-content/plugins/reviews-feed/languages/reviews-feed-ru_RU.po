@@ -1,0 +1,3767 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 637a54ff789a197f3b0df3b99529153f\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sb-reviews\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-12T22:57:20+05:45\n"
+"PO-Revision-Date: 2024-01-12 18:05\n"
+"Language: ru_RU\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: reviews-feed\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: 637a54ff789a197f3b0df3b99529153f\n"
+"X-Crowdin-Project-ID: 17\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /[awesomemotive.sb-reviews] master/languages/reviews-feed.pot\n"
+"X-Crowdin-File-ID: 1271\n"
+
+#. Plugin Name of the plugin
+#: sb-reviews.php
+#: class/Common/Admin/MenuService.php:38
+msgid "Reviews Feed"
+msgstr "Reviews Feed"
+
+#. Author of the plugin
+#: sb-reviews.php
+msgid "Smash Balloon"
+msgstr "Smash Balloon"
+
+#: class/Common/Admin/MenuService.php:35
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "All Feeds"
+msgstr "Все ленты"
+
+#: class/Common/Admin/MenuService.php:35
+msgid "Set up Plugin"
+msgstr "Настройка плагина"
+
+#: class/Common/Admin/SBR_New_User.php:302
+#: class/Common/Admin/SBR_Notifications.php:648
+msgid "Are you enjoying the Reviews Feed Plugin?"
+msgstr "Вам нравится плагин Reviews Feed?"
+
+#: class/Common/Admin/SBR_New_User.php:308
+#: class/Common/Admin/SBR_Notifications.php:636
+#: class/Common/Settings/Tabs/SBR_Feeds_Tab.php:58
+msgid "Yes"
+msgstr "Да"
+
+#: class/Common/Admin/SBR_New_User.php:314
+#: class/Common/Admin/SBR_Notifications.php:641
+#: class/Common/Settings/Tabs/SBR_Feeds_Tab.php:59
+msgid "No"
+msgstr "Нет"
+
+#: class/Common/Admin/SBR_New_User.php:415
+#: class/Common/Admin/SBR_Notifications.php:669
+msgid "Glad to hear you are enjoying it. Would you consider leaving a positive review?"
+msgstr "Мы очень рады, что вам нравится наш продукт. Не могли бы вы оставить нам отзыв?"
+
+#: class/Common/Admin/SBR_New_User.php:417
+msgid "Exclusive Offer! 60% OFF"
+msgstr "Эксклюзивное предложение! СКИДКА 60%"
+
+#: class/Common/Admin/SBR_New_User.php:441
+#: class/Common/Admin/SBR_Notifications.php:670
+msgid "It really helps to support the plugin and help others to discover it too!"
+msgstr "Это пойдет на пользу развитию плагина и позволит другим пользователям чаще его находить!"
+
+#: class/Common/Admin/SBR_New_User.php:443
+msgid "We don’t run promotions very often, but for a limited time we’re offering 60% Off our Pro version to all users of our free Reviews Feed."
+msgstr "Мы не так уж часто проводим рекламные акции и сейчас предлагаем ограниченную по времени скидку 60% на версию Pro всем пользователям бесплатного плагина Reviews Feed."
+
+#: class/Common/Admin/SBR_Notifications.php:708
+msgid "Dismiss this message"
+msgstr "Отклонить это сообщение"
+
+#: class/Common/Admin/SBR_Notifications.php:714
+msgid "Previous message"
+msgstr "Предыдущее сообщение"
+
+#: class/Common/Admin/SBR_Notifications.php:715
+msgid "Next message"
+msgstr "Следующее сообщение"
+
+#: class/Common/Admin/SBR_Plugin_Insltaller.php:43
+msgid "Could not install addon. Please download from smashballoon.com and install manually."
+msgstr "Не удалось установить дополнение. Скачайте с сайта smashballoon.com и установите вручную."
+
+#: class/Common/Admin/SBR_Plugin_Insltaller.php:103
+msgid "Plugin Installed & Activated."
+msgstr "Плагин установлен и активирован."
+
+#: class/Common/Admin/SBR_Plugin_Insltaller.php:103
+msgid "Plugin Installed."
+msgstr "Плагин установлен."
+
+#: class/Common/Admin/SBR_Plugin_Insltaller.php:134
+msgid "Could not Activate the Plugin. Please Activate from the Plugins page."
+msgstr "Не удалось активировать плагин. Выполните активацию на странице «Плагины»."
+
+#: class/Common/Admin/SBR_Plugin_Insltaller.php:162
+msgid "Could not deactivate the Plugin. Please deactivate from the Plugins page."
+msgstr "Не удалось деактивировать плагин. Выполните деактивацию на странице «Плагины»."
+
+#: class/Common/Admin/SBR_Support_Builder.php:69
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Getting Started"
+msgstr "Начало работы"
+
+#: class/Common/Admin/SBR_Support_Builder.php:70
+msgid "Some helpful resources to get you started"
+msgstr "Ряд полезных ресурсов для начала работы"
+
+#: class/Common/Admin/SBR_Support_Builder.php:74
+msgid "Getting Started with Reviews Feed"
+msgstr "Начало работы с плагином Reviews Feed"
+
+#: class/Common/Admin/SBR_Support_Builder.php:78
+msgid "How to Create a Yelp API Key"
+msgstr "Как создать ключ API Yelp"
+
+#: class/Common/Admin/SBR_Support_Builder.php:82
+msgid "How to Create a Google API Key"
+msgstr "Как создать ключ API Google"
+
+#: class/Common/Admin/SBR_Support_Builder.php:87
+msgid "More help on Getting started"
+msgstr "Дополнительная помощь в запуске"
+
+#: class/Common/Admin/SBR_Support_Builder.php:92
+msgid "Docs & Troubleshooting"
+msgstr "Документы и устранение неполадок"
+
+#: class/Common/Admin/SBR_Support_Builder.php:93
+msgid "Run into an issue? Check out our help docs."
+msgstr "Возникли проблемы? Ознакомьтесь с нашей справочной документацией."
+
+#: class/Common/Admin/SBR_Support_Builder.php:97
+msgid "Why do I only see a few reviews?"
+msgstr "Почему я вижу только несколько отзывов?"
+
+#: class/Common/Admin/SBR_Support_Builder.php:101
+msgid "How to Resolve Error Messages"
+msgstr "Как реагировать на сообщения об ошибках"
+
+#: class/Common/Admin/SBR_Support_Builder.php:105
+msgid "Translating Google Reviews"
+msgstr "Перевод отзывов Google"
+
+#: class/Common/Admin/SBR_Support_Builder.php:110
+msgid "View Documentation"
+msgstr "Посмотреть документацию"
+
+#: class/Common/Admin/SBR_Support_Builder.php:115
+msgid "Additional Resources"
+msgstr "Дополнительные ресурсы"
+
+#: class/Common/Admin/SBR_Support_Builder.php:116
+msgid "To help you get the most out of the plugin"
+msgstr "Для получения максимальной пользы от плагина"
+
+#: class/Common/Admin/SBR_Support_Builder.php:120
+msgid "Can I Display Multiple Reviews on One Page?"
+msgstr "Могу ли я разместить несколько отзывов на одной странице?"
+
+#: class/Common/Admin/SBR_Support_Builder.php:124
+msgid "License Tiers Explained (additional review providers)"
+msgstr "Объяснение уровней лицензии (дополнительные источники отзывов)"
+
+#: class/Common/Admin/SBR_Support_Builder.php:128
+msgid "How do I Embed My Feed Directly in a Template?"
+msgstr "Как встроить ленту прямо в шаблон?"
+
+#: class/Common/Admin/SBR_Support_Builder.php:133
+msgid "View Blog"
+msgstr "Посмотреть блог"
+
+#: class/Common/Admin/SBR_Support_Tool.php:432
+#: class/Common/Admin/SBR_Support_Tool.php:433
+msgid "Support API tool"
+msgstr ""
+
+#: class/Common/Admin/SBR_Support_Tool.php:500
+msgid "Cannot get info"
+msgstr ""
+
+#: class/Common/Builder/SBR_Feed_Builder.php:146
+msgid "Default"
+msgstr "По умолчанию"
+
+#: class/Common/Builder/SBR_Feed_Builder.php:150
+msgid "Simple Cards"
+msgstr "Простые карточки"
+
+#: class/Common/Builder/SBR_Feed_Builder.php:155
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:165
+msgid "Masonry"
+msgstr "Плитка"
+
+#: class/Common/Builder/SBR_Feed_Builder.php:166
+msgid "Single Review"
+msgstr "Один отзыв"
+
+#: class/Common/Builder/SBR_Feed_Builder.php:171
+msgid "Showcase Carousel"
+msgstr "Карусель-презентация"
+
+#: class/Common/Builder/SBR_Feed_Builder.php:176
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:170
+msgid "Carousel"
+msgstr "Карусель"
+
+#: class/Common/Builder/SBR_Feed_Builder.php:181
+msgid "Grid Carousel"
+msgstr "Сетка-карусель"
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:509
+msgid "Don't have file, Please try again"
+msgstr "Нет файла. Повторите попытку."
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:967
+msgid "No feed source is included. Cannot upload feed."
+msgstr "Источник ленты не включен. Невозможно загрузить ленту."
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:979
+msgid "Feed settings imported successfully."
+msgstr "Настройки ленты импортированы."
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:984
+msgid "Could not import feed. Please try again"
+msgstr "Не удалось импортировать ленту. Попробуйте еще раз"
+
+#: class/Common/Customizer/DB.php:451
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:77
+#: class/Common/Feed_Locator.php:368
+msgid "Header"
+msgstr "Заголовок"
+
+#: class/Common/Customizer/DB.php:453
+#: class/Common/Feed_Locator.php:378
+msgid "Footer"
+msgstr "Футер"
+
+#: class/Common/Customizer/DB.php:455
+#: class/Common/Feed_Locator.php:373
+msgid "Sidebar"
+msgstr "Область виджетов"
+
+#: class/Common/Customizer/DB.php:457
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:603
+#: class/Common/Feed_Locator.php:364
+msgid "Content"
+msgstr "Содержимое"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:30
+msgid "Customize"
+msgstr "Персонализация"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:44
+msgid "Templates"
+msgstr "Шаблоны"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:58
+msgid "Layout"
+msgstr "Макет"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:83
+#: class/Common/FeedDisplay.php:105
+#: class/Common/FeedDisplay.php:113
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:89
+msgid "Load More Button"
+msgstr "Кнопка «Загрузить еще»"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:92
+msgid "Upgrade to Pro to Load posts asynchronously with Load more button. %sLearn More%s"
+msgstr "Перейдите на версию Pro, чтобы загружать публикации асинхронно с помощью кнопки «Загрузить еще». %sПодробнее%s"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:153
+msgid "List"
+msgstr "Список"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:178
+msgid "Spacing"
+msgstr "Интервал"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:183
+msgid "Vertical"
+msgstr "По вертикали"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:191
+msgid "Horizontal"
+msgstr "По горизонтали"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:208
+msgid "Number of reviews to display"
+msgstr "Количество отзывов для показа"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:244
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:284
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:333
+msgid "Columns"
+msgstr "Столбцы"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:324
+msgid "Columns and Rows"
+msgstr "Столбцы и строки"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:437
+msgid "Pagination"
+msgstr "Разбивка на страницы"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:450
+msgid "Loop Type"
+msgstr "Тип цикла"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:452
+msgid "Rewind"
+msgstr "Перемотка"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:453
+msgid "Infinity"
+msgstr "Бесконечность"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:462
+msgid "Interval Time"
+msgstr "Время интервала"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:468
+msgid "Show Navigation Arrows"
+msgstr "Показывать стрелки навигации"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:478
+msgid "Show Pagination"
+msgstr "Показывать разбивку на страницы"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:488
+msgid "Enable Autoplay"
+msgstr "Включить автозапуск"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:500
+msgid "Content Length"
+msgstr "Длина контента"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:505
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:338
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:349
+msgid "characters"
+msgstr "символов"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:528
+msgid "Inherit from Theme"
+msgstr "Наследовать из темы"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:533
+msgid "Light"
+msgstr "Светлая"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:538
+msgid "Dark"
+msgstr "Темная"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:543
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1580
+msgid "Custom"
+msgstr "Произвольная"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:578
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:949
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:376
+msgid "Enable"
+msgstr "Включить"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:588
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1212
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1324
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Name"
+msgstr "Название"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:595
+msgid "Heading"
+msgstr "Шапка ленты"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:620
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:717
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:815
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1003
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1230
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1280
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Color"
+msgstr "Цвет"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:625
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:705
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:725
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:972
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:984
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1015
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1028
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1287
+msgid "Text"
+msgstr "Текст"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:641
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:761
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:849
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1065
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1185
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1240
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1295
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1347
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1392
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1463
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1512
+msgid "Element Spacing"
+msgstr "Расстояние между элементами"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:649
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:767
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:855
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:888
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1075
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1191
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1246
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1301
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1353
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1469
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1518
+msgid "Padding"
+msgstr "Внутренний отступ"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:656
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:774
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:862
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:898
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1086
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1253
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1308
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1360
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1398
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1476
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1525
+msgid "Margin"
+msgstr "Внешний отступ"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:662
+msgid "Button"
+msgstr "Кнопка"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:669
+msgid "Link to"
+msgstr "Ссылка на"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:677
+msgid "Google (Write a Review)"
+msgstr "Google (Написать отзыв)"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:678
+msgid "External Link"
+msgstr "Внешняя ссылка"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:734
+msgid "Background"
+msgstr "Фон"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:743
+msgid "Text/ Hover"
+msgstr "Текст/наведение"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:752
+msgid "Bg/ Hover"
+msgstr "Фон/наведение"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:783
+msgid "Average Review Rating"
+msgstr "Средний рейтинг"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:791
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:832
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1217
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:803
+msgid "Rating Subtext"
+msgstr "Подтекст рейтинга"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:823
+msgid "Rating Icon"
+msgstr "Значок рейтинга"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:841
+msgid "Subtext"
+msgstr "Подтекст"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:876
+msgid "Element Header Spacing"
+msgstr "Расстояние между элементами шапки"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:919
+msgid "Post Style"
+msgstr "Стиль записи"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:927
+msgid "Edit Individual Elements"
+msgstr "Редактировать отдельные элементы"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:928
+msgid "Hide or Show individual elements of a post or edit their options"
+msgstr "Скрывайте или показывайте отдельные элементы публикации или редактируйте их настройки"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1041
+msgid "Text / Hover"
+msgstr "Текст/наведение"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1054
+msgid "Bg / Hover"
+msgstr "Фон/наведение"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1114
+msgid "Boxed"
+msgstr "С рамкой"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1120
+msgid "Regular"
+msgstr "Без рамки"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1130
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1489
+msgid "Colors"
+msgstr "Цвета"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1135
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1150
+msgid "Properties"
+msgstr "Характеристики"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1158
+msgid "Box Shadow"
+msgstr "Тень от блока"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1167
+msgid "Corner Radius"
+msgstr "Радиус скругления"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1173
+msgid "Stroke"
+msgstr "Контур"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1224
+msgid "Icon Color"
+msgstr "Цвет значка"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1261
+msgid "Review Paragraph"
+msgstr "Раздел отзыва"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1268
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1335
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1413
+msgid "Font"
+msgstr "Шрифт"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1316
+msgid "Author and Date"
+msgstr "Автор и дата"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1328
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1496
+msgid "Author Name"
+msgstr "Имя автора"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1368
+msgid "Author Image"
+msgstr "Изображение автора"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1381
+msgid "Border Radius"
+msgstr "Радиус скругления"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1406
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1504
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Date"
+msgstr "Дата"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1425
+msgid "Format"
+msgstr "Формат"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1444
+msgid "Add text before date"
+msgstr "Добавить текст перед датой"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1452
+msgid "Add text after date"
+msgstr "Добавить текст после даты"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1533
+msgid "Images or Videos"
+msgstr "Изображения или видео"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1560
+msgid "2 days ago"
+msgstr "2 дня назад"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:29
+#: class/sbr-functions.php:452
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Settings"
+msgstr "Настройки"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:43
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Sources"
+msgstr "Источники"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:48
+msgid "Sort"
+msgstr "Сортировка"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:53
+msgid "Filters"
+msgstr "Фильтры"
+
+#. translators: %s: Opening and closing anchor HTML tags
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:58
+msgid "Upgrade to Pro to apply filters to your reviews feed. %sLearn More%s"
+msgstr "Перейдите на версию Pro, чтобы применять фильтры к ленте отзывов. %sПодробнее%s"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:66
+msgid "Moderation"
+msgstr "Модерация"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:73
+msgid "Upgrade to Pro to moderate your feed. %sLearn More%s"
+msgstr "Перейдите на версию Pro, чтобы модерировать ленту. %sПодробнее%s"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:88
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:47
+msgid "Language"
+msgstr "Язык"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:89
+msgid "Change language of what posts are displayed in"
+msgstr "Сменить язык, на котором отображаются публикации"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:136
+msgid "By Date"
+msgstr "По дате"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:154
+msgid "Latest Reviews First"
+msgstr "Сначала новые отзывы"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:155
+msgid "Oldest Reviews First"
+msgstr "Сначала самые старые отзывы"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:175
+msgid "By Rating"
+msgstr "По рейтингу"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:193
+msgid "Highest Rated First"
+msgstr "Сначала с высоким рейтингом"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:194
+msgid "Lowest Rated First"
+msgstr "Сначала с низким рейтингом"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:212
+msgid "Randomize"
+msgstr "Рандомизировать"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:213
+msgid "This will disable “By date” and “By rating” and randomly choose among the filtered reviews"
+msgstr "Параметры «По дате» и «По рейтингу» будут отключены, и отзывы будут отбираться случайным образом среди отфильтрованных"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:273
+msgid "By Words"
+msgstr "По словам"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:281
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:282
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:292
+msgid "Only show reviews containing"
+msgstr "Показывать только отзывы, содержащие"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:283
+msgid "Add words here to only show posts containing these words"
+msgstr "Добавьте сюда слова, публикации с которыми вы хотите показывать"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:291
+msgid "Do not show reviews containing"
+msgstr "Не показывать отзывы, содержащие"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:293
+msgid "Add words here to hide any posts containing these words"
+msgstr "Добавьте сюда слова, публикации с которыми требуется скрыть."
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:327
+msgid "By Character Count"
+msgstr "По количеству символов"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:337
+msgid "Minimum"
+msgstr "Минимум"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:348
+msgid "Maxiumum"
+msgstr "Максимум"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:350
+msgid "Unset"
+msgstr "Не настроено"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:393
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:430
+msgid "Allow List"
+msgstr "Список разрешений"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:394
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:432
+msgid "Hides post by default so you can select the ones you want to show"
+msgstr "Публикации скрыты по умолчанию, и вы выбираете только те, которые хотите показывать"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:398
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:436
+msgid "Block List"
+msgstr "Черный список"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:399
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:438
+msgid "Show all posts by default so you can select the ones you want to hide"
+msgstr "Все публикации показываются по умолчанию, и вы выбираете только те, которые хотите скрыть"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:415
+msgid "You can only view and filter through the last 100 reviews"
+msgstr "Просматривать и фильтровать можно только последние 100 отзывов"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:416
+msgid "Due to platform API limitations, we cannot store and provide you with a complete repository of your reviews."
+msgstr "Из-за ограничений API платформы мы не можем хранить и предоставлять вам весь архив отзывов."
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:461
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:29
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:495
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:53
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reset"
+msgstr "Сброс"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:503
+msgid "Limited Support"
+msgstr "Поддерживается ограниченно"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:504
+msgid "Only Google supports different languages. Reviews from other providers will still show up in English or the language they were submitted in."
+msgstr "Только Google поддерживает разные языки. Отзывы с других ресурсов по-прежнему будут отображаться на английском языке или на том языке, на котором были отправлены."
+
+#: class/Common/Error_Reporter.php:433
+msgid "Your access token could not be decrypted on this website. Reconnect this account or go to our website to learn how to prevent this."
+msgstr "Не удалось расшифровать ваш токен доступа на этом сайте. Повторно подключите эту учетную запись или перейдите на наш веб-сайт, чтобы узнать, как это исправить."
+
+#: class/Common/Error_Reporter.php:437
+msgid "API Error %s:"
+msgstr "Ошибка API %s:"
+
+#: class/Common/Error_Reporter.php:438
+msgid "Error connecting to the Facebook API."
+msgstr "Ошибка подключения к API Facebook."
+
+#: class/Common/Error_Reporter.php:446
+#: class/Common/Error_Reporter.php:447
+#: class/Common/Error_Reporter.php:450
+#: class/Common/Error_Reporter.php:451
+msgid "Directions on How to Resolve This Issue"
+msgstr "Указания по решению этой проблемы"
+
+#: class/Common/Error_Reporter.php:455
+msgid "An unknown error has occurred."
+msgstr "Произошла неизвестная ошибка."
+
+#: class/Common/Error_Reporter.php:495
+msgid "There's an Issue with a Reviews Feed on Your Website"
+msgstr ""
+
+#: class/Common/Error_Reporter.php:496
+msgid "A Custom Reviews Feed on your website is currently unable to connect to Facebook to retrieve new posts. Don't worry, your feed is still being displayed using a cached version, but is no longer able to display new posts."
+msgstr ""
+
+#: class/Common/Error_Reporter.php:497
+msgid "This is caused by an issue with your Facebook account connecting to the Facebook API. For information on the exact issue and directions on how to resolve it, please visit the %sCustom Facebook Feed settings page%s on your website."
+msgstr "Это вызвано проблемой подключения вашей учетной записи Facebook к API Facebook. Для получения информации о конкретной ошибке и инструкций по ее устранению зайдите на %sстраницу настройки Custom Facebook Feed%s на своем веб-сайте."
+
+#: class/Common/Error_Reporter.php:526
+msgid "All Facebook Data has Been Remove."
+msgstr ""
+
+#: class/Common/Error_Reporter.php:527
+msgid "An account admin has deauthorized the Smash Balloon app used to power the Facebook Feed plugin. The page was not reconnected within the 7 day limit and all Facebook data was automatically deleted on your website due to Facebook data privacy rules.<br/><br/>Due to API limitations your feeds will not show new reviews until you enter an API key on the settings page."
+msgstr ""
+
+#: class/Common/Error_Reporter.php:534
+msgid "Action Required Within 7 Days:"
+msgstr "Что нужно сделать в следующие 7 дней:"
+
+#: class/Common/Error_Reporter.php:535
+msgid "Your Facebook Reviews feed has been not viewed in the last 14 days. Due to Facebook data privacy rules, all data for this feed will be deleted in 7 days time. To avoid automated data deletion, simply view the Facebook feed on your website within the next 7 days."
+msgstr ""
+
+#: class/Common/Error_Reporter.php:552
+#: class/Pro/Platform_Data.php:315
+#: class/Pro/Platform_Data.php:333
+msgid "Action Required Within 7 Days"
+msgstr "Что нужно сделать в следующие 7 дней"
+
+#: class/Common/Error_Reporter.php:554
+#: class/Pro/Platform_Data.php:350
+msgid "An account admin has deauthorized the Smash Balloon app used to power the Facebook Feed plugin."
+msgstr ""
+
+#: class/Common/Error_Reporter.php:556
+msgid "Facebook Feed related data for the account(s) %s was removed due to permission for the Smash Balloon App on Facebook being revoked."
+msgstr ""
+
+#: class/Common/Error_Reporter.php:559
+msgid "To prevent the automated data deletion for the account, please reconnect your account within 7 days."
+msgstr ""
+
+#: class/Common/Error_Reporter.php:560
+#: class/Pro/Platform_Data.php:320
+msgid "More Information"
+msgstr "Больше информации"
+
+#: class/Common/Feed.php:72
+#: class/Pro/Feed.php:17
+msgid "No feed with the ID %d found."
+msgstr "Лента с ID %d не найдена."
+
+#. translators: %s: Opening and closing anchor HTML tags
+#: class/Common/Feed.php:72
+#: class/Pro/Feed.php:18
+msgid "Please go to the %sReviews Feed%s settings page to create a feed."
+msgstr "Перейдите на страницу настройки %sReviews Feed%s и создайте ленту."
+
+#: class/Common/Feed.php:76
+#: class/Pro/Feed.php:22
+msgid "No sources available for this feed."
+msgstr "Отсутствуют источники для этой ленты."
+
+#: class/Common/Feed.php:76
+#: class/Pro/Feed.php:22
+msgid "Please go to the %sReviews Feed%s settings page add sources for this feed to use."
+msgstr "Перейдите на страницу настройки %sReviews Feed%s и добавьте источники для этой ленты."
+
+#: class/Common/Feed.php:196
+msgid "No Posts Found."
+msgstr "Публикаций не найдено."
+
+#: class/Common/Feed.php:198
+msgid "There were no posts that fit your filters. Try modifying the filters set or add more sources with reviews that fit the filter by %sediting your feed%s"
+msgstr "Отсутствуют публикации по вашим фильтрам. Попробуйте изменить набор фильтров или %sотредактируйте ленту%s, добавив больше источников с отзывами, которые соответствуют фильтру"
+
+#: class/Common/Feed.php:200
+msgid "There were no posts found for the sources selected. Make sure reviews are available for this source or change the source by %sediting your feed%s"
+msgstr "Отсутствуют публикации в выбранных источниках. Убедитесь, что в этом источнике есть отзывы, или %sотредактируйте ленту%s, изменив источник"
+
+#: class/Common/Feed.php:399
+msgid "This is affecting the source %s for %s. New reviews will not be fetched until this is resolved."
+msgstr "Это влияет на источник %s для %s. Новые отзывы не будут получены, пока проблема не будет решена."
+
+#: class/Common/Feed.php:401
+msgid "Troubleshoot by visiting %serror message reference page%s."
+msgstr "Зайдите на %sсправочную страницу сообщений об ошибках%s и узнайте, как устранить неполадку."
+
+#: class/Common/FeedDisplay.php:117
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:72
+#: class/sbr-functions.php:277
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Write a Review"
+msgstr "Написать отзыв"
+
+#: class/Common/FeedDisplay.php:238
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:77
+#: class/sbr-functions.php:262
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "second"
+msgstr "секунда"
+
+#: class/Common/FeedDisplay.php:239
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:82
+#: class/sbr-functions.php:263
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "seconds"
+msgstr "секунды"
+
+#: class/Common/FeedDisplay.php:240
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:87
+#: class/sbr-functions.php:264
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "minute"
+msgstr "минута"
+
+#: class/Common/FeedDisplay.php:241
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:92
+#: class/sbr-functions.php:265
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "minutes"
+msgstr "минуты"
+
+#: class/Common/FeedDisplay.php:242
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:97
+#: class/sbr-functions.php:266
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "hour"
+msgstr "час"
+
+#: class/Common/FeedDisplay.php:243
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:102
+#: class/sbr-functions.php:267
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "hours"
+msgstr "часы"
+
+#: class/Common/FeedDisplay.php:244
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:107
+#: class/sbr-functions.php:268
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "day"
+msgstr "день"
+
+#: class/Common/FeedDisplay.php:245
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:112
+#: class/sbr-functions.php:269
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "days"
+msgstr "дни"
+
+#: class/Common/FeedDisplay.php:246
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:117
+#: class/sbr-functions.php:270
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "week"
+msgstr "неделя"
+
+#: class/Common/FeedDisplay.php:247
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:122
+#: class/sbr-functions.php:271
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "weeks"
+msgstr "недели"
+
+#: class/Common/FeedDisplay.php:248
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:127
+#: class/sbr-functions.php:272
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "month"
+msgstr "месяц"
+
+#: class/Common/FeedDisplay.php:249
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:132
+#: class/sbr-functions.php:273
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "months"
+msgstr "месяцы"
+
+#: class/Common/FeedDisplay.php:250
+#: class/Common/FeedDisplay.php:251
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:142
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "years"
+msgstr "годы"
+
+#: class/Common/FeedDisplay.php:252
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:147
+#: class/sbr-functions.php:276
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "ago"
+msgstr "назад"
+
+#: class/Common/FeedDisplay.php:393
+#: class/Pro/FeedDisplay.php:158
+msgid "This error message is only visible to WordPress admins"
+msgstr "Это сообщение об ошибке видно только администраторам WordPress"
+
+#: class/Common/SBR_Blocks.php:111
+msgid "Add Settings"
+msgstr "Добавить настройки"
+
+#: class/Common/SBR_Blocks.php:112
+msgid "Shortcode Settings"
+msgstr "Настройки шорткода"
+
+#: class/Common/SBR_Blocks.php:113
+msgid "Example"
+msgstr "Пример"
+
+#: class/Common/SBR_Blocks.php:114
+msgid "Apply Changes"
+msgstr "Применить изменения"
+
+#: class/Common/SBR_Blocks.php:207
+msgid "Only Visible to WordPress Admins"
+msgstr "Показывается только администраторам WordPress"
+
+#: class/Common/SBR_Blocks.php:213
+msgid "Your license key is inactive. Activate it to enable Pro features."
+msgstr "Ваш лицензионный ключ неактивен. Активируйте его, чтобы получить доступ к функциям Pro."
+
+#: class/Common/SBR_Blocks.php:215
+msgid "Your license has expired! Renew it to reactivate Pro features."
+msgstr "Срок действия вашей лицензии истек! Продлите ее, чтобы функции Pro снова были активны."
+
+#: class/Common/SBR_Blocks.php:219
+msgid "Resolve Now"
+msgstr "Решите сейчас"
+
+#: class/Common/SBR_Blocks.php:269
+msgid "Create a Reviews Feed"
+msgstr "Создать ленту отзывов"
+
+#: class/Common/SBR_Education.php:48
+msgid "Bring Your Feeds to Life with Media Content"
+msgstr ""
+
+#: class/Common/SBR_Education.php:49
+msgid "You've done the hard work of getting a visitor onto your site, now keep them there by displaying your Facebook photos and videos directly on your site, rather than sending your visitors away to Facebook."
+msgstr ""
+
+#: class/Common/SBR_Education.php:54
+#: class/Common/SBR_Education.php:81
+msgid "Use Facebook Reviews to Boost Conversions"
+msgstr ""
+
+#: class/Common/SBR_Education.php:55
+#: class/Common/SBR_Education.php:82
+msgid "Reviews for your product or service are the best way to give users the confidence to take action. With the Reviews extension, easily add 5 star reviews and recommendations from Facebook to your website help increase conversions."
+msgstr ""
+
+#: class/Common/SBR_Education.php:60
+msgid "Bring the Conversation to Your Website"
+msgstr ""
+
+#: class/Common/SBR_Education.php:61
+msgid "Include the Facebook comments with each of your posts to engage your website viewers, keep them on your site for longer, and encourage them to interact with your content."
+msgstr ""
+
+#: class/Common/SBR_Education.php:66
+msgid "Automatically Feed Facebook Events to Your Website"
+msgstr ""
+
+#: class/Common/SBR_Education.php:67
+msgid "Save yourself the time and effort of posting events both to Facebook and your website by using the Custom Facebook Feed Pro plugin to automatically feeds events right to your site."
+msgstr ""
+
+#: class/Common/SBR_Education.php:75
+msgid "Automated YouTube Live Streaming"
+msgstr "Автоматическая прямая трансляция на YouTube"
+
+#: class/Common/SBR_Education.php:76
+msgid "You can automatically feed live YouTube videos to your website using our Feeds For YouTube Pro plugin. It takes all the hassle out of publishing live videos to your site by automating the process."
+msgstr "Вы можете автоматически загружать видео с YouTube в прямом эфире на свой сайт с помощью нашего плагина Feeds For YouTube Pro. Он устраняет все хлопоты, связанные с публикацией видео в прямом эфире на вашем сайте, автоматизируя этот процесс."
+
+#: class/Common/SBR_Education.php:87
+msgid "Adding Social Proof with Twitter Feeds"
+msgstr "Добавление социального доказательства с помощью Twitter Feeds"
+
+#: class/Common/SBR_Education.php:88
+msgid "Twitter testimonials are one of the best ways to add verifiable social proof to your website. They add credibility to your brand, product, or service by displaying reviews from real people to your site, helping to convert more visitors into customers. Our free Custom Twitter Feeds plugin makes displaying Tweets on your website a breeze."
+msgstr "Отзывы в Twitter - это один из лучших способов добавить на ваш сайт поддающиеся проверке социальные доказательства. Они повышают доверие к вашему бренду, продукту или услуге, отображая отзывы реальных людей на вашем сайте, что помогает конвертировать больше посетителей в клиентов. Наш бесплатный плагин Custom Twitter Feeds позволяет легко отображать твиты на вашем сайте."
+
+#: class/Common/SBR_Education.php:93
+msgid "Run Promotions with Instagram Hashtags"
+msgstr ""
+
+#: class/Common/SBR_Education.php:94
+msgid "You can use hashtags on Instagram for so many things; but one of the most effective is for targeted promotions or competitions which engage with your audience and boost your exposure. Our Instagram Feed Pro plugin allows you to bring your hashtagged content into your website and display it in one centralized location."
+msgstr ""
+
+#: class/Common/Services/SBR_Upgrader.php:109
+msgid "You are not allowed to install plugins."
+msgstr "У вас недостаточно прав для установки плагинов."
+
+#: class/Common/Services/SBR_Upgrader.php:121
+#: class/Common/Services/SBR_Upgrader.php:287
+#: class/Common/Services/SBR_Upgrader.php:312
+msgid "You are not licensed."
+msgstr "У вас нет лицензии."
+
+#: class/Common/Services/SBR_Upgrader.php:227
+msgid "Could not connect."
+msgstr "Не удалось подключить."
+
+#: class/Common/Services/SBR_Upgrader.php:236
+msgid "Could not install upgrade. Please download from smashballoon.com and install manually."
+msgstr "Не удалось установить обновление. Выполните загрузку с сайта smashballoon.com и установите обновление вручную."
+
+#: class/Common/Services/SBR_Upgrader.php:272
+#: class/Common/Services/SBR_Upgrader.php:331
+msgid "Plugin installed & activated."
+msgstr "Плагин установлен и активирован."
+
+#: class/Common/Services/SBR_Upgrader.php:335
+msgid "Pro version installed but needs to be activated from the Plugins page inside your WordPress admin."
+msgstr "Версия Pro установлена, но ее необходимо активировать на странице Плагины в админке WordPress."
+
+#: class/Common/Services/SBR_Upgrader.php:408
+msgid "This license is expired."
+msgstr "Срок действия этой лицензии истек."
+
+#: class/Common/Services/SBR_Upgrader.php:411
+msgid "We encountered a problem unlocking the PRO features. Please install the PRO version manually."
+msgstr "Возникла проблема с разблокировкой функций PRO. Установите PRO-версию вручную."
+
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:45
+msgid "Optimize Images"
+msgstr "Оптимизировать изображения"
+
+#. translators: "It" refers to the optimize images feature
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:46
+msgid "It will create multiple local copies of images in different sizes and use smallest size based on where the image is being displayed"
+msgstr "Будут созданы локальные копии изображений разных размеров, и использоваться будет наименьший размер — в зависимости от того, где появляется изображение"
+
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:58
+msgid "Images Cleared"
+msgstr "Изображения удалены"
+
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:84
+msgid "Usage Tracking"
+msgstr "Отслеживание использования"
+
+#. translators: %s: Opening and closing anchor HTML tags
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:87
+msgid "This helps us prevent plugin and theme conflicts by sending a report in the background once per week about your settings and relevant site stats. It does not send sensitive information like access tokens, email addresses, or user info. This will not affect your site performace as well. %sLearn More%s"
+msgstr "Это позволяет предотвратить конфликты между плагином и темой: раз в неделю в фоновом режиме отправляется отчет о ваших настройках и соответствующей статистике сайта. Конфиденциальная информация, такая ​​как токены доступа, адреса электронной почты или информация о пользователе, отправляться не будет. Это также не повлияет на производительность вашего сайта. %sЧитать дальше%s"
+
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:99
+msgid "Enqueue JavaScript in head"
+msgstr "Добавление JavaScript в очередь в шапку"
+
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:100
+msgid "Add the JavaScript file for the plugin in the header instead of the footer"
+msgstr "Файл Javascript для плагина добавляется в шапку, а не в нижний колонтитул"
+
+#: class/Common/Settings/Tabs/SBR_Feeds_Tab.php:29
+msgid "Feeds"
+msgstr "Ленты"
+
+#: class/Common/Settings/Tabs/SBR_Feeds_Tab.php:44
+msgid "Caching"
+msgstr "Кеширование"
+
+#: class/Common/Settings/Tabs/SBR_Feeds_Tab.php:49
+msgid "GDPR"
+msgstr "GDPR"
+
+#. translators: %s: Opening and closing anchor HTML tags
+#: class/Common/Settings/Tabs/SBR_Feeds_Tab.php:52
+msgid "We will automatically enable GDPR compliance if we detect a supported privacy consent plugin.%sLearn more%s."
+msgstr "При обнаружении поддерживаемого плагина для получения согласия на обработку персональных данных мы автоматически включим функцию соблюдения GDPR. %sПодробнее%s."
+
+#: class/Common/Settings/Tabs/SBR_Feeds_Tab.php:57
+msgid "Automatic"
+msgstr "Автоматически"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:29
+msgid "General"
+msgstr "Основные"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:44
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:52
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:46
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:54
+msgid "Your license key provides access to updates and support"
+msgstr "Ваш лицензионный ключ обеспечивает доступ к обновлениям и поддержке"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:59
+msgid "Manage Sources"
+msgstr "Управление источниками"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:60
+msgid "Add or remove connected accounts"
+msgstr "Добавить или удалить подключенные учетные записи"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:64
+msgid "Manage API Keys"
+msgstr "Управление ключами API"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:66
+msgid "Update or modify an API key"
+msgstr "Обновление или изменение ключа API"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:73
+msgid "Preserve settings if plugin is removed"
+msgstr "Сохранять настройки при удалении плагина"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:74
+msgid "This will make sure that all of your feeds and settings are still saved even if the plugin is uninstalled"
+msgstr "Это гарантирует сохранение всех ваших лент и настроек даже после удаления плагина"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:83
+msgid "Import Feed Settings"
+msgstr "Импортировать настройки ленты"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:85
+msgid "You will need a JSON file previously exported from the Reviews Feed Plugin"
+msgstr "Вам понадобится файл JSON, ранее экспортированный из плагина Reviews Feed"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:88
+msgid "Export Feed Settings"
+msgstr "Экспорт настроек ленты"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:90
+msgid "Export settings for one or more of your feeds"
+msgstr "Экспортируйте настройки для одной или нескольких лент"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:31
+msgid "Language & Translation"
+msgstr "Язык и перевод"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:49
+msgid ""
+"Change the displayed language for all feeds and its displayed reviews. You can override this for each feed from the individual feed settings.%sLearn more%s <br/>\n"
+"                    %sNote: Currently only Google support translated reviews.%s"
+msgstr ""
+"Измените язык отображения для всех лент и отзывов в них. Вы можете переопределить этот параметр в настройках каждой отдельной ленты.%Подробнее%s <br/>\n"
+"                    %sПримечание: в настоящее время перевод отзывов поддерживает только Google.%s"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:64
+msgid "Custom Text/Translate"
+msgstr "Произвольный текст / перевод"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:65
+msgid "Enter custom text for the words below, or translate it into the language you would like to use."
+msgstr "Введите произвольный текст для слов ниже или переведите их на язык, который вы хотите использовать."
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:68
+msgid "Dates"
+msgstr "Даты"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:73
+msgid "Used for header “Write a Review” button"
+msgstr "Используется для кнопки «Написать отзыв» в шапке ленты"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:78
+msgid "Used for “Posted a second ago”"
+msgstr "Используется для «Опубликовано секунду назад»"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:83
+msgid "Used for “Posted a seconds ago”"
+msgstr "Используется для «Опубликовано секунду назад»"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:88
+msgid "Used for “Posted a minute ago”"
+msgstr "Используется для «Опубликовано минуту назад»"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:93
+msgid "Used for “Posted a minutes ago”"
+msgstr "Используется для «Опубликовано минуту назад»"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:98
+msgid "Used for “Posted a hour ago”"
+msgstr "Используется для «Опубликовано час назад»"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:103
+msgid "Used for “Posted a hours ago”"
+msgstr "Используется для «Опубликовано час назад»"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:108
+msgid "Used for “Posted a day ago”"
+msgstr "Используется для «Опубликовано день назад»"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:113
+msgid "Used for “Posted a days ago”"
+msgstr "Используется для «Опубликовано сутки назад»"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:118
+msgid "Used for “Posted a week ago”"
+msgstr "Используется для «Опубликовано неделю назад»"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:123
+msgid "Used for “Posted a weeks ago”"
+msgstr "Используется для «Опубликовано неделю назад»"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:128
+msgid "Used for “Posted a month ago”"
+msgstr "Используется для «Опубликовано месяц назад»"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:133
+msgid "Used for “Posted a months ago”"
+msgstr "Используется для «Опубликовано месяц назад»"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:137
+#: class/sbr-functions.php:274
+#: class/sbr-functions.php:275
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "year"
+msgstr "год"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:138
+msgid "Used for “Posted a year ago”"
+msgstr "Используется для «Опубликовано год назад»"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:143
+msgid "Used for “Posted a years ago”"
+msgstr "Используется для «Опубликовано год назад»"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:148
+msgid "Used for “Posted a XXX ago”"
+msgstr "Используется для «Опубликовано XXX назад»"
+
+#: class/Common/Tooltip_Wizard.php:122
+msgid "Add a Block"
+msgstr "Добавить блок"
+
+#: class/Common/Tooltip_Wizard.php:125
+msgid "Click the plus button, search for Reviews Feed"
+msgstr "Нажмите на «плюс», введите в поиск Reviews Feed"
+
+#: class/Common/Tooltip_Wizard.php:127
+msgid "and click the block to embed it."
+msgstr "и затем нажмите на блок, чтобы встроить ленту."
+
+#: class/Common/Tooltip_Wizard.php:130
+#: templates/email.php:63
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Learn More"
+msgstr "Узнать больше"
+
+#: class/Common/Tooltip_Wizard.php:135
+msgid "Done"
+msgstr "Готово"
+
+#: class/Common/Util.php:23
+msgid "Place ID"
+msgstr "ID места"
+
+#: class/Common/Util.php:24
+msgid "Enter Place ID"
+msgstr "Введите ID места"
+
+#: class/Common/Util.php:36
+#: class/Common/Util.php:45
+#: class/Common/Util.php:53
+#: class/Common/Util.php:60
+msgid "Page URL"
+msgstr "URL страницы"
+
+#: class/Common/Util.php:37
+msgid "https://tripadvisor.com/..."
+msgstr "https://tripadvisor.com/..."
+
+#: class/Common/Util.php:46
+msgid "https://yelp.com/..."
+msgstr "https://yelp.com/..."
+
+#: class/Common/Util.php:54
+msgid "https://trustpilot.com/review/..."
+msgstr "https://trustpilot.com/review/..."
+
+#: class/Common/Util.php:61
+msgid "https://wordpress.org/..."
+msgstr "https://wordpress.org/..."
+
+#: class/Common/Util.php:94
+msgid "Unable to connect to Facebook to retrieve account information."
+msgstr "Невозможно подключиться к Facebook для получения информации об учетной записи."
+
+#: class/Common/Util.php:184
+msgid "New reviews will not display until an API key is entered for your sources."
+msgstr "Новые отзывы не будут отображаться, пока для ваших источников не будет введен ключ API."
+
+#: class/Common/Util.php:185
+msgid "Due to API limitations your feeds will not show new reviews until you enter an API key on the settings page."
+msgstr "Из-за ограничений API в ваших лентах не будут отображаться новые отзывы, пока вы не введете ключ API на странице настройки."
+
+#: class/Common/Util.php:189
+msgid "How to create an API key"
+msgstr "Как создать ключ API"
+
+#: class/Common/Util.php:194
+msgid "Go to Settings page"
+msgstr "Перейдите на страницу настройки"
+
+#: class/Common/Util.php:207
+msgid "You have reached the number of allowed sources."
+msgstr "Вы достигли максимального числа разрешенных источников."
+
+#: class/Common/Util.php:208
+msgid "Due to API limitations your feeds will not show new reviews because you have reached the number of allowed sources."
+msgstr "Из-за ограничений API в ваших лентах не будут появляться новые отзывы, поскольку вы достигли максимально допустимого числа разрешенных источников."
+
+#: class/Common/Util.php:266
+msgid "Custom Facebook Feed"
+msgstr "Custom Facebook Feed"
+
+#: class/Common/Util.php:267
+msgid "Add Facebook posts from your timeline, albums and much more."
+msgstr "Добавление публикаций Facebook из хроники, альбомов и так далее."
+
+#: class/Common/Util.php:276
+msgid "Instagram Feed"
+msgstr "Instagram Feed"
+
+#: class/Common/Util.php:277
+msgid "A quick and elegant way to add your Instagram posts to your website. "
+msgstr "Быстрый и элегантный способ добавления на сайт публикаций из Instagram. "
+
+#: class/Common/Util.php:286
+msgid "Custom Twitter Feeds"
+msgstr "Custom Twitter Feeds"
+
+#: class/Common/Util.php:287
+msgid "A customizable way to display tweets from your Twitter account. "
+msgstr "Возможность настраивать отображение твитов из вашей учетной записи в Twitter. "
+
+#: class/Common/Util.php:296
+msgid "Feeds for YouTube"
+msgstr "Feeds for YouTube"
+
+#: class/Common/Util.php:297
+msgid "A simple yet powerful way to display videos from YouTube. "
+msgstr "Простой и функциональный способ отображения видео с YouTube. "
+
+#: class/Common/Util.php:317
+msgid "WPForms"
+msgstr "WPForms"
+
+#: class/Common/Util.php:318
+msgid "The most beginner friendly drag & drop WordPress forms plugin allowing you to create beautiful contact forms, subscription forms, payment forms, and more in minutes, not hours!"
+msgstr "Самый удобный для новичков плагин форм WordPress, позволяющий создавать красивые контактные формы, формы подписки, формы оплаты и многое другое за считанные минуты, а не часы!"
+
+#: class/Common/Util.php:326
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: class/Common/Util.php:327
+msgid "MonsterInsights makes it “effortless” to properly connect your WordPress site with Google Analytics, so you can start making data-driven decisions to grow your business."
+msgstr "MonsterInsights позволяет без особых усилий правильно связать ваш сайт WordPress с Google Analytics, чтобы в интересах своего бизнеса вы могли принимать решения, основанные на данных."
+
+#: class/Common/Util.php:335
+msgid "OptinMonster"
+msgstr "OptinMonster"
+
+#: class/Common/Util.php:336
+msgid "Our high-converting optin forms like Exit-Intent® popups, Fullscreen Welcome Mats, and Scroll boxes help you dramatically boost conversions and get more email subscribers."
+msgstr "Наши формы подтверждения подписки с высокой конверсией, такие как всплывающие сообщения Exit-Intent®, приветственные баннеры на весь экран и поля прокрутки, позволят вам быстро повысить конверсию и увеличить число подписчиков."
+
+#: class/Common/Util.php:344
+msgid "WP Mail SMTP"
+msgstr "WP Mail SMTP"
+
+#: class/Common/Util.php:345
+msgid "Make sure your website's emails reach the inbox. Our goal is to make email deliverability easy and reliable. Trusted by over 1 million websites."
+msgstr "Убедитесь, что письма с вашего сайта доходят до адресатов. Мы прикладываем все усилия, чтобы сделать доставку эл. почты простой и надежной, и нам уже доверяют более миллиона веб-сайтов."
+
+#: class/Common/Util.php:353
+msgid "RafflePress"
+msgstr "RafflePress"
+
+#: class/Common/Util.php:354
+msgid "Turn your visitors into brand ambassadors! Easily grow your email list, website traffic, and social media followers with powerful viral giveaways & contests."
+msgstr "Превратите своих посетителей в послов бренда! Расширяйте список адресов электронной почты, наращивайте посещаемость веб-сайта и количество подписчиков в социальных сетях с помощью мощных вирусных розыгрышей и конкурсов."
+
+#: class/Common/Util.php:362
+msgid "All in One SEO Pack"
+msgstr "All In One SEO Pack"
+
+#: class/Common/Util.php:363
+msgid "Out-of-the-box SEO for WordPress. Features like XML Sitemaps, SEO for custom post types, SEO for blogs, business sites, or ecommerce sites, and much more."
+msgstr "Готовое SEO для WordPress. Имеет множество функций, таких как XML-карта сайта, SEO для произвольных типов записей, SEO для блогов, сайтов компаний или онлайн-магазинов и так далее."
+
+#: class/Common/Util.php:890
+msgid "Upgrade to Pro to display Facebook reviews"
+msgstr "Перейдите на версию Pro, чтобы отображать отзывы с Facebook"
+
+#: class/Common/Util.php:891
+msgid "Upgrade to our \"Plus\" tier to display reviews from the well known social media platform."
+msgstr "Перейдите на уровень Plus, чтобы отображать отзывы из известной социальной сети."
+
+#: class/Common/Util.php:902
+msgid "Upgrade to Pro to display TrustPilot reviews"
+msgstr "Перейдите на версию Pro, чтобы показывать отзывы TrustPilot"
+
+#: class/Common/Util.php:903
+msgid "Upgrade to our \"Plus\" tier to display reviews from the well known business review site."
+msgstr "Перейдите на уровень Plus, чтобы отображать отзывы с известного сайта с отзывами о компаниях."
+
+#: class/Common/Util.php:912
+msgid "Upgrade to Pro to display TripAdvisor reviews"
+msgstr "Перейдите на версию Pro, чтобы отображать отзывы TripAdvisor"
+
+#: class/Common/Util.php:913
+msgid "Upgrade to our \"Elite\" tier to display reviews from the well known travel advice site."
+msgstr "Перейдите на уровень Elite, чтобы отображать отзывы с известного сайта рекомендаций для путешественников."
+
+#: class/Common/Util.php:922
+msgid "Upgrade to Pro to display WordPress.org reviews"
+msgstr "Перейдите на версию Pro, чтобы отображать отзывы с WordPress.org"
+
+#: class/Common/Util.php:923
+msgid "Upgrade to our \"Elite\" tier to display reviews for plugins and themes."
+msgstr "Перейдите на уровень Elite, чтобы отображать отзывы на плагины и темы."
+
+#: class/Common/Util.php:932
+msgid "Upgrade to Pro to get Carousel layout"
+msgstr "Перейдите на версию Pro, чтобы иметь доступ к разметке в виде карусели"
+
+#: class/Common/Util.php:933
+msgid "An eye-catching rotating slider of your videos to add extra content in minimal space on your website."
+msgstr "Размещая видео в формате слайдера, вы показываете больше контента на меньшем пространстве сайта."
+
+#: class/Common/Util.php:942
+msgid "Upgrade to Pro to display more reviews"
+msgstr "Перейдите на версию Pro и показывайте еще больше отзывов"
+
+#: class/Common/Util.php:943
+msgid "More layout settings to customize the look and feel of your reviews even more."
+msgstr "Дополнительные параметры разметки для еще большей персонализации ваших отзывов."
+
+#: class/Common/Util.php:952
+msgid "Upgrade to Pro to display average rating"
+msgstr "Перейдите на версию Pro, чтобы отображать средний рейтинг"
+
+#: class/Common/Util.php:953
+msgid "Boost social proof to make more sales conversions with the number of ratings and an average rating."
+msgstr "Добавьте социальных доказательств: конверсия продаж растет с увеличением количества оценок и повышением среднего рейтинга."
+
+#: class/Common/Util.php:962
+msgid "Upgrade to Pro to add load more functionality"
+msgstr "Перейдите на версию Pro, чтобы иметь доступ к расширенному функционалу"
+
+#: class/Common/Util.php:963
+msgid "Overwhelm (in a good way) your visitors with additional reviews loaded on the page with a click."
+msgstr "Поразите посетителей тем, как всего в одно нажатие на странице загружаются дополнительные отзывы."
+
+#: class/Common/Util.php:972
+msgid "Upgrade to Pro to add images"
+msgstr "Перейдите на версию Pro, чтобы иметь возможность добавлять изображения"
+
+#: class/Common/Util.php:973
+msgid "Display images from Yelp and Tripadvisor reviews."
+msgstr "Показывайте изображения из отзывов Yelp и Tripadvisor."
+
+#: class/Common/Util.php:982
+msgid "Upgrade to Pro to display author images"
+msgstr "Перейдите на версию Pro, чтобы показывать изображения авторов"
+
+#: class/Common/Util.php:983
+msgid "Build brand trust with positive reviews from real customers."
+msgstr "Повышайте доверие к бренду с помощью положительных отзывов реальных клиентов."
+
+#: class/Common/Util.php:992
+msgid "Upgrade to Pro to filter your reviews"
+msgstr "Перейдите на версию Pro, чтобы иметь возможность фильтровать отзывы"
+
+#: class/Common/Util.php:993
+msgid "Show only the most positive reviews and build brand trust with review filtering."
+msgstr "Показывайте только лучшие отзывы и повышайте доверие к бренду, используя фильтры."
+
+#: class/Common/Util.php:1002
+msgid "Upgrade to Pro to moderate your reviews"
+msgstr "Перейдите на версию Pro, чтобы модерировать отзывы"
+
+#: class/Common/Util.php:1003
+msgid "Take complete control of what reviews show in the feed using keyword filters and a visual moderation system."
+msgstr "Полностью контролируйте то, какие отзывы показывать в ленте, используя фильтры по ключевым словам и систему визуальной модерации."
+
+#: class/Common/Util.php:1012
+msgid "Upgrade to Pro to get one-click templates!"
+msgstr "Перейдите на версию Pro, чтобы получить шаблоны моментального применения!"
+
+#: class/Common/Util.php:1013
+msgid "Quickly create and preview new feeds with pre-configured options based on popular feed types."
+msgstr "Быстрое создание и предпросмотр новых лент с предварительно настроенными параметрами на основе популярных типов лент."
+
+#: class/Common/Util.php:1022
+msgid "Upgrade to Pro for responsive layouts"
+msgstr "Перейдите на версию Pro, чтобы иметь доступ к адаптивным макетам"
+
+#: class/Common/Util.php:1023
+msgid "Take control of your feed layouts by customizing number of reviews & columns"
+msgstr "Возьмите под свой контроль внешний вид ленты, настраивая количество отзывов и столбцов"
+
+#: class/Common/Util.php:1048
+msgid "Display images"
+msgstr "Показывать изображения"
+
+#: class/Common/Util.php:1049
+msgid "With the Pro version enable images like avatars and review  photos"
+msgstr "В версии Pro видны изображения, такие как аватары, и фотографии отзывов"
+
+#: class/Common/Util.php:1054
+msgid "Get carousel layout"
+msgstr "Получить доступ к разметке в виде карусели"
+
+#: class/Common/Util.php:1055
+msgid "Show your reviews in a neat carousel with Review Feed Pro"
+msgstr "Размещайте отзывы в аккуратной карусели, используя плагин Reviews Feed Pro"
+
+#: class/Common/Util.php:1060
+msgid "Change your feed style with one-click templates!"
+msgstr "Мгновенно меняйте стиль ленты с помощью готовых шаблонов!"
+
+#: class/Common/Util.php:1061
+msgid "Over 12 templates to choose from"
+msgstr "Более 12 шаблонов на выбор"
+
+#: class/Common/Util.php:1066
+msgid "Only show selected reviews with Moderation mode"
+msgstr "Показывать только выбранные отзывы в режиме модерации"
+
+#: class/Common/Util.php:1067
+msgid "Hide or show only certain reviews"
+msgstr "Скрывать или показывать только определенные отзывы"
+
+#: class/Pro/FeedDisplay.php:74
+#: class/Pro/FeedDisplay.php:82
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Load More"
+msgstr "Загрузить еще"
+
+#: class/Pro/Platform_Data.php:156
+msgid "An account admin has deauthorized the Smash Balloon app used to power the Facebook Feed plugin. The page was not reconnected within the 7 day limit and all Facebook data was automatically deleted on your website due to Facebook data privacy rules."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:252
+msgid "Your Facebook feed has been not viewed in the last 14 days. Due to Facebook data privacy rules, all data for this feed will be deleted in 7 days time. To avoid automated data deletion, simply view the Facebook feed on your website within the next 7 days."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:287
+msgid "Success! Your Facebook Feeds will continue to work normally."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:314
+#: class/Pro/Platform_Data.php:332
+msgid "There has been a problem with your Facebook Feed."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:316
+#: class/Pro/Platform_Data.php:334
+#: class/Pro/Platform_Data.php:351
+msgid "your website"
+msgstr "ваш сайт"
+
+#: class/Pro/Platform_Data.php:317
+msgid "An account admin has deauthorized the Smash Balloon app used to power the Facebook Feed plugin on %s. If the Facebook source is not reconnected within 7 days then all Facebook data will be automatically deleted on your website due to Facebook data privacy rules."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:318
+#: class/Pro/Platform_Data.php:353
+msgid "Settings Page"
+msgstr "Страница настроек"
+
+#: class/Pro/Platform_Data.php:319
+msgid "To prevent the automated deletion of data for the source, please reconnect your source for the Facebook Feed plugin %s within 7 days."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:335
+msgid "An Facebook feed on %s has been not viewed in the last 14 days. Due to Facebook data privacy rules, all data for this feed will be deleted in 7 days time."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:336
+msgid "To avoid automated data deletion, simply view the Facebook feed on your website within the next 7 days."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:349
+msgid "All Facebook Data has Been Removed"
+msgstr ""
+
+#: class/Pro/Platform_Data.php:352
+msgid "The page was not reconnected within the 7 day limit and all Facebook data was automatically deleted on %s due to Facebook data privacy rules."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:354
+msgid "To fix your feeds, reconnect all accounts that were in use on the Settings page."
+msgstr "Чтобы исправить проблемы с лентами, повторно подключите на странице настроек все учетные записи, которые ранее использовались."
+
+#: class/sbr-functions.php:458
+#: class/sbr-functions.php:506
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrade to Pro"
+msgstr "Обновить до версии Pro"
+
+#: class/sbr-functions.php:465
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Support"
+msgstr "Поддержка"
+
+#: class/sbr-functions.php:507
+msgid "<div class=\"sb-pro-upgradelink-bg\"></div><strong class=\"sb-pro-upgradelink\">Upgrade to Pro</strong>"
+msgstr "<div class=\"sb-pro-upgradelink-bg\"></div><strong class=\"sb-pro-upgradelink\">Перейти на версию Pro</strong>"
+
+#. translators: the plugin name.
+#: EDD_SL_Plugin_Updater.php:232
+msgid "There is a new version of %1$s available."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:238
+msgid "Contact your network administrator to install the update."
+msgstr ""
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: EDD_SL_Plugin_Updater.php:243
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sЧитать подробнее о версии %2$s%3$s."
+
+#: EDD_SL_Plugin_Updater.php:251
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sЧитать подробнее о версии %2$s%3$s или %4$sобновить сейчас%5$s."
+
+#: EDD_SL_Plugin_Updater.php:262
+msgid "Update now."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:494
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:494
+msgid "Error"
+msgstr "Ошибка"
+
+#. translators: %s - link to a site.
+#: templates/email.php:82
+msgid "This is a courtesy email sent from the Smash Balloon Custom Facebook Feed plugin on your website to alert you when there is an issue with one of your Facebook feeds."
+msgstr ""
+
+#: templates/email.php:89
+msgid "Sent from %s"
+msgstr "Отправлено c %s"
+
+#: templates/email.php:93
+msgid "%sLog in and disable these emails%s"
+msgstr "%sВойдите и отключите эти письма%s"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Unsported Format"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Copied to Clipboard"
+msgstr "Скопировано в буфер обмена"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You need to add an API key to fetch new reviews"
+msgstr "Чтобы получать новые отзывы, необходимо добавить ключ API"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add API Key"
+msgstr "Добавить ключ API"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You're using Reviews Feed Lite. To unlock more features consider"
+msgstr "Вы используете Reviews Feed Lite. Чтобы разблокировать дополнительные функции, перейдите на"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "upgrading to Pro"
+msgstr "переход на Pro"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Preview updated successfully"
+msgstr "Предварительный просмотр обновлен"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Feed saved succesfully"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Facebook reviews are only based upon a positive or negative recommendation"
+msgstr "Отзывы в Facebook основаны только на положительных или отрицательных рекомендациях"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Filter"
+msgstr "Фильтр"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Search Reviews"
+msgstr "Поиск отзывов"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Show All"
+msgstr "Показать все"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Show Selected"
+msgstr "Показать выбранные"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Provider"
+msgstr "Ресурс"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "From"
+msgstr "От кого"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "To"
+msgstr "Кому"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Apply"
+msgstr "Применить"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Filters Applied"
+msgstr "Фильтры применены"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Cancel"
+msgstr "Отмена"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Moderation Mode Started"
+msgstr "Режим модерации запущен"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Weight"
+msgstr "Толщина"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "400 (Regular)"
+msgstr "400 (обычная)"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Size"
+msgstr "Размер"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Inherit"
+msgstr "Наследовать"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Height"
+msgstr "Высота"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Edit Stroke"
+msgstr "Редактировать контур"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Thickness"
+msgstr "Толщина"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Edit Box Shadow"
+msgstr "Редактировать тень от блока"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Blur"
+msgstr "Размытие"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Spread"
+msgstr "Размах"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Edit Corner Radius"
+msgstr "Изменить радиус скругления"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Radius"
+msgstr "Радиус"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select another template"
+msgstr "Выбрать другой шаблон"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Templates updated"
+msgstr "Шаблоны обновлены"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Update"
+msgstr "Обновить"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Changing a template will override your layout, header and button settings"
+msgstr "При изменении шаблона изменятся настройки разметки, шапки и кнопок"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Change"
+msgstr "Изменить"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Changing a template might override your customizations"
+msgstr "Изменение шаблона может привести к сбросу ваших настроек"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You can also skip this step, but you will need to add an API key later to keep the reviews updated."
+msgstr "Вы также можете пропустить этот шаг, но позднее нужно будет добавить ключ API, чтобы отзывы могли обновляться."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You have reached the maximum sources limit, Please enter a valid API key to retrieve new sources."
+msgstr "Вы достигли максимально допустимого числа источников. Введите действительный ключ API, чтобы получить новые источники."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Are you using a local host? API keys may be required for all review retrieving."
+msgstr "Вы используете локальный хост? Ключи API могут потребоваться для получения всех отзывов."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Source Type"
+msgstr "Выберите тип источника"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Source Details"
+msgstr "Добавить данные источника"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Your URL must contain \"/themes/\" or \"/plugins/\". Examples: <a href=\"#\">https://wordpress.org/plugins/instagram-feed/</a>, <a href=\"#\">https://wordpress.org/themes/twentytwentythree/</a>"
+msgstr "Ваш URL должен содержать /themes/ или /plugins/. Примеры: <a href=\"#\">https://wordpress.org/plugins/instagram-feed/</a></a>, <a href=\"#\">https://wordpress.org/themes/twentytwentythree/</a></a>"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Unknown error occured!"
+msgstr "Неизвестная ошибка!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Source Limit Exceeded. Please enter API Key."
+msgstr "Превышен лимит источников. Введите ключ API."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Source Limit Exceeded."
+msgstr "Превышен лимит источников."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "API Key Added"
+msgstr "Ключ API добавлен"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Invalid API Key"
+msgstr "Неверный ключ API"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Invalid Location ID or URL"
+msgstr "Неверный ID местоположения или URL"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Source added successfully"
+msgstr "Источник добавлен"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "\"Elite\""
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "\"Plus\" and \"Elite\""
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "reviews are available for the"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "license tiers only, please upgrade your license on "
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "in order to connect a "
+msgstr "чтобы подключить "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "source."
+msgstr "источник."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Sources"
+msgstr "Добавить источники"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "ADVANCED SOURCES"
+msgstr "РАСШИРЕННЫЕ ИСТОЧНИКИ"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You have reached the allowed the number of sources for "
+msgstr "Вы достигли разрешенного количества источников для "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add an API Key for "
+msgstr "Добавить ключ API для "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "API key gives us permission to fetch data from "
+msgstr "Ключ API дает нам разрешение на получение данных из "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid ". You only need to add this once. For any future "
+msgstr ". Его нужно добавить только один раз. Для любых будущих "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid " accounts, we will use the same API key."
+msgstr " учетных записей будет использоваться тот же ключ API."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "The TripAdvisor API has a significant monthly cost. Your feeds will still update without entering an API key but you can choose to add your own."
+msgstr "API TripAdvisor требует значительных ежемесячных затрат. Ваши ленты по-прежнему будут обновляться без ввода ключа API, но вы можете решить добавить собственный."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "How to Create an API key."
+msgstr "Как создать ключ API."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "This helps us identify which page to fetch reviews from"
+msgstr "Так мы сможем определить, с какой страницы получать отзывы"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Find your source's"
+msgstr "Найдите свой источник"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "place ID here"
+msgstr "вставьте ID сюда"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Showing"
+msgstr "Показано"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Facebook Pages"
+msgstr "Страницы Facebook"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "connected to"
+msgstr "подключен к"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Skip"
+msgstr "Пропускать"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Finish"
+msgstr "Готово"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Next"
+msgstr "Далее"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connect with Facebook"
+msgstr "Подключиться к Facebook"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Pages as Source"
+msgstr "Добавить страницы в качестве источника"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Facebook Sources Added"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select one or more sources you would like to add"
+msgstr "Выберите один или несколько источников"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add New"
+msgstr "Добавить"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add"
+msgstr "Добавить"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add another Source"
+msgstr "Добавить еще один источник"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Save and Exit"
+msgstr "Сохранить и выйти"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "API Key Updated"
+msgstr "Ключ API обновлен"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add API Key for "
+msgstr "Добавьте ключ API для "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Currently the "
+msgstr "В настоящее время "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid " API does not allow us to update your feed without you creating an app and adding an API key."
+msgstr " API не позволяет нам обновлять ленту, пока вы не создадите приложение и не добавите ключ API."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Enter or Paste API Key"
+msgstr "Введите или вставьте ключ API"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Learn more about how to create and add an API Key here"
+msgstr "Подробнее о том, как создать и добавить ключ API"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Embed Feed"
+msgstr "Встроить ленту"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add to Page"
+msgstr "Добавить на страницу"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add the unique shortcode to any page, post, or widget:"
+msgstr "Добавляйте уникальный шорткод на любую страницу, в публикацию или виджет:"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Copy"
+msgstr "Копировать"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Or use the built in WordPress block or widget"
+msgstr "Или используйте встроенный блок или виджет WordPress"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add to a Page"
+msgstr "Добавить на страницу"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add to a Widget"
+msgstr "Добавить в виджет"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Page"
+msgstr "Выбрать страницу"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Close Editor"
+msgstr "Закрыть редактор"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Are you Sure?"
+msgstr "Вы уверены?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Are you sure you want to leave this page, all unsaved settings will be lost, please make sure to save before leaving."
+msgstr "Вы действительно хотите покинуть эту страницу? Все несохраненные настройки будут утеряны. Перед выходом не забудьте сохранить их."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Exit without Saving"
+msgstr "Выйти без сохранения"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Help"
+msgstr "Помощь"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Embed"
+msgstr "Встроить"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Save"
+msgstr "Сохранить"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Page"
+msgstr "Страница"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Group"
+msgstr "Группа"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add a Source Manually"
+msgstr "Добавить источник вручную"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Source Type"
+msgstr "Тип источника"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Facebook Page or Group ID"
+msgstr "ID страницы или группы Facebook"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Enter ID"
+msgstr "Введите ID"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Facebook Access Token"
+msgstr "Токен доступа Facebook"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Enter Token"
+msgstr "Введите токен"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "There was a problem connecting this account. Please make sure your access token and ID are correct."
+msgstr "Возникла проблема с подключением этой учетной записи. Убедитесь, что ваш токен доступа и ID верны."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "API Response: Invalid OAuth access token - Cannot parse access token"
+msgstr "Ответ API: неверный токен доступа OAuth. Невозможно проанализировать токен доступа"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Source Added Successfully"
+msgstr "Источник добавлен"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Something went wrong"
+msgstr "Что-то пошло не так"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Docs"
+msgstr "Документация"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Plugins"
+msgstr "Плагины"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "All Access Bundle"
+msgstr "Пакет полного доступа"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrade to the"
+msgstr "Перейдите на"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid " All Access Bundle"
+msgstr " Пакет полного доступа"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid " to get all of our Pro Plugins"
+msgstr " и получите все наши плагины в версии Pro"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Includes all Smash Balloon plugins for one low price: Instagram, Facebook, Twitter, YouTube and Social Wall"
+msgstr "Все плагины Smash Balloon по одной низкой цене: Instagram, Facebook, Twitter, YouTube и Social Wall"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "BONUS"
+msgstr "БОНУС"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Lite users get"
+msgstr "Пользователи Lite получают"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "50% Off"
+msgstr "скидку 50%"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "automatically applied at checkout"
+msgstr "автоматически на этапе оплаты"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Display Reviews<br/>from Facebook"
+msgstr "Показывайте отзывы<br/>с Facebook"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Display Reviews<br/>from TripAdvisor"
+msgstr "Показывайте отзывы<br/>TripAdvisor"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Moderate your<br/>Review Feeds"
+msgstr "Модерируйте свои<br/>ленты отзывов"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Display Images<br/>and Videos"
+msgstr "Показывайте изображения<br/>и видео"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "One-click templates"
+msgstr "готовые шаблоны"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Advanced filtering"
+msgstr "Расширенные фильтры"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Carousel layout"
+msgstr "Разметка в виде карусели"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Mobile design support"
+msgstr "Поддержка мобильного формата"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Custom icons"
+msgstr "Произвольные значки"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Pro support"
+msgstr "Поддержка Pro"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Get more features with Reviews Feed Pro"
+msgstr "Получите больше функций в Reviews Feed Pro"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Get reviews from more platforms, review moderation, carousel layouts, and much more!"
+msgstr "Размещайте отзывы с большего количества платформ, модерируйте отзывы, используйте карусели и многое другое!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Lite Plugin Users get 50% OFF (auto-applied at checkout)"
+msgstr "Пользователи плагина Lite получают скидку 50% (применяется автоматически при оформлении заказа)"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "And much more!"
+msgstr "И многое другое!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Hide Features"
+msgstr "Скрыть функции"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Show Features"
+msgstr "Показать функции"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Made with"
+msgstr "Сделано с"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "by the Smash Balloon Team"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Bulk Actions"
+msgstr "Массовые действия"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete"
+msgstr "Удалить"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Feed Deleted"
+msgstr "Лента удалена"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete \""
+msgstr "Удалить \""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete Feeds?"
+msgstr "Удалить ленты?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You are going to delete this feed. You will lose all the settings. Are you sure you want to continue?"
+msgstr "Вы собираетесь удалить эту ленту. Все настройки будут утеряны. Продолжить?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Feed List Updated"
+msgstr "Список лент обновлен"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Items"
+msgstr "элем."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "of"
+msgstr "из"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Instances"
+msgstr "Экземпляры"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Actions"
+msgstr "Действия"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Copy Shortcode"
+msgstr "Копировать шорткод"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Used in "
+msgstr "Используется в "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "place"
+msgstr "место"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "places"
+msgstr "мест"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Edit"
+msgstr "Редактировать"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Duplicate"
+msgstr "Создать дубликат"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Feed Duplicated"
+msgstr "Лента продублирована"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create your feed"
+msgstr "Создайте ленту"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connect your Google, Facebook, Yelp or Tripadvisor account and choose a feed type"
+msgstr "Подключите учетную запись Google, Facebook, Yelp или Tripadvisor и выберите тип ленты"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Customize your feed type"
+msgstr "Настройте персональный облик ленты"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Choose layouts, color schemes, filters and more"
+msgstr "Выбирайте макеты, цветовые схемы, фильтры и многое другое"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Embed your feed"
+msgstr "Встраивайте свою ленту"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Easily add the feed anywhere on your website"
+msgstr "С легкостью добавляйте ленту в любую часть своего сайта"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Looks like you have not added any source. Use “Add Source” to add a new one."
+msgstr "Похоже, вы не добавили ни одного источника. Добавьте источник с помощью кнопки «Добавить»."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Source"
+msgstr "Добавить источник"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select a Template"
+msgstr "Выберите шаблон"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Back"
+msgstr "Назад"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Review Feed Pro by Smash Balloon"
+msgstr "Reviews Feed Pro от Smash Balloon"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Activate your plugin to get started"
+msgstr "Чтобы начать работу, активируйте плагин"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Paste license key here"
+msgstr "Вставьте лицензионный ключ сюда"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Activate"
+msgstr "Активировать"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "License Activated!"
+msgstr "Лицензия активирована!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Invalid License!"
+msgstr "Недействительная лицензия!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "License Dactivated!"
+msgstr "Лицензия деактивирована!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Don’t have a license key?"
+msgstr "У вас нет лицензионного ключа?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Buy a License"
+msgstr "Купить лицензию"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "After activating your plugin, you can..."
+msgstr "После активации плагина вы сможете..."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collect New Reviews"
+msgstr "Собирайте свежие отзывы"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New reviews and data related to the reviews for your business are collected from external sites. Your license key can be used to access this data using Smash Balloon's API site."
+msgstr "Свежие отзывы и данные, связанные с отзывами о вашей компании, собираются со сторонних сайтов. Ваш лицензионный ключ можно использовать для доступа к этим данным с помощью API Smash Balloon."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Recieve Critical Updates"
+msgstr "Получать важнейшие обновления"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "With constant changes to WordPress and the APIs that your reviews are retrieved from, your plugin needs to stay up to date. Activating your license allows automatic updates from the Plugins page."
+msgstr "Учитывая постоянные изменения в WordPress и API, из которых извлекаются отзывы, плагин необходимо поддерживать в актуальном состоянии. Активация лицензии позволяет выполнять автоматические обновления со страницы «Плагины»."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Receive Technical Support"
+msgstr "Получать техническую поддержку"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Although we pride ourselves on creating reliable, easy-to-use products our expert support team is here to help with any questions. Activating your license key is recommended to receive efficient support."
+msgstr "Мы гордимся тем, что создаем надежные и простые в использовании продукты, и наша экспертная команда службы поддержки всегда готова помочь с любыми вопросами. Для получения эффективной поддержки рекомендуется активировать лицензионный ключ."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Amazing Support Team."
+msgstr "Великолепная служба поддержки."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Having trouble using the plugin?"
+msgstr "Возникли проблемы с плагином?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Contact our friendly support team."
+msgstr "Обратитесь к нашей прекрасной команде поддержки."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Go to Support Form"
+msgstr "Перейти к форме обращения в службу поддержки"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create a feed"
+msgstr "Создать ленту"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create a Review feed"
+msgstr "Создайте ленту отзывов"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Please your "
+msgstr "Пожалуйста, ваш "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "License Key "
+msgstr "Лицензионный ключ "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Your "
+msgstr "Ваша "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid " License is "
+msgstr " лицензия "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Active"
+msgstr "Активна"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Inactive"
+msgstr "Неактивный"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Expired"
+msgstr "Истекший"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Manage License"
+msgstr "Управление лицензией"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Test Connection"
+msgstr "Тест подключения"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connection successful"
+msgstr "Подключение выполнено"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connection Error"
+msgstr "Ошибка подключения"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrade"
+msgstr "Обновить"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Deactivate"
+msgstr "Деактивировать"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete "
+msgstr "Удалить "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "If you delete this source then new posts can no longer be retrieved for feeds using this source."
+msgstr "Если вы удалите этот источник, новые публикации больше не смогут появляться в лентах, использующих его."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Source Deleted!"
+msgstr "Источник удален!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Feed"
+msgstr "Выберите ленту"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Export"
+msgstr "Экспорт"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Original Text"
+msgstr "Исходный текст"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Custom text/translation"
+msgstr "Произвольный текст / перевод"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Context"
+msgstr "Контекст"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New Reviews collected twice daily."
+msgstr "Свежие отзывы собираются дважды в день."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New Reviews collected daily."
+msgstr "Свежие отзывы собираются ежедневно."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Clear All Caches"
+msgstr "Очистить кэш полностью"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Cleared all Caches"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You are using the Lite version of the plugin–no license needed. Enjoy! 🙂 To unlock more features, consider "
+msgstr "У вас установлена версия плагина Lite — лицензия не требуется. Пользуйтесь! 🙂 Чтобы разблокировать дополнительные функции, перейдите на "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrading to Pro"
+msgstr "версию Pro"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "As a valued user of our Lite plugin, you receive 50% OFF - automatically applied at checkout!"
+msgstr "Как бесценный пользователь нашего плагина Lite вы получаете скидку 50%, которая автоматически применяется при оформлении заказа!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Install Pro"
+msgstr "Установить версию Pro"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Settings saved succesfully"
+msgstr "Настройки сохранены"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Plugin Installed"
+msgstr "Плагин установлен"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Unknown Error"
+msgstr "Неизвестная ошибка"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Plugin Activated"
+msgstr "Плагин активирован"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Plugin Deactivated"
+msgstr "Плагин деактивирован"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "About Us"
+msgstr "О нас"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "SmashBalloon Team"
+msgstr "Команда Smash Balloon"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "At Smash Balloon, we build software that helps you create beautiful responsive social media feeds for your website in minutes."
+msgstr "В Smash Balloon мы создаем программное обеспечение, которое всего за несколько минут позволяет создавать красивые отзывчивые ленты социальных сетей для ваших веб-сайтов."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "We're on a mission to make it super simple to add social media feeds in WordPress. No more complicated setup steps, ugly iframe widgets, or negative page speed scores."
+msgstr "Наша цель — сделать добавление лент социальных сетей в WordPress максимально простым. Больше никаких сложных настроек, уродливых виджетов iframe или отрицательных показателей скорости страницы."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Our plugins aren't just easy to use, but completely customizable, reliable, and fast! Which is why over 1.6 million awesome users, just like you, choose to use them on their site."
+msgstr "Наши плагины не просто удобны в использовании — их легко настроить под себя, они надежные и быстрые! Вот почему уже более 1,6 миллиона пользователей, точно таких же, как и вы, предпочитают устанавливать эти плагины на своих сайтах."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Our Other Social Media Feed Plugins"
+msgstr "Другие наши плагины для лент соцсетей"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "We're more than just a Reviews plugin! Check out our other plugins and add more content to your site."
+msgstr "Мы делаем плагины не только для отзывов! Ознакомьтесь со списком других наших плагинов и добавьте еще больше контента на свой сайт."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Facebook Plugin"
+msgstr "Плагин для Facebook"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Install"
+msgstr "Установить"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Installed"
+msgstr "Установлено"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Social Wall"
+msgstr "Стена соцсетей"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Combine feeds from all of our plugins into a single wall"
+msgstr "Соберите ленты со всех наших плагинов на одной стене"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Plugins we recommend"
+msgstr "Рекомендуемые плагины"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "What are they used for?"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Solving an issue in your plugin might sometime require testing API access but with your setup. We do not want to expose your API keys over support messages and hence we use a temporary login link system to securely access it."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "What can a support executive access?"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "A support team member can only access Smash Balloon plugin to make API requests. They can NOT access any other plugins, create posts or in any way modify your WordPress website."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Can I disable or delete the temporary login link?"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "The login link is auto-destroyed in 14 days. You can also manually delete it any time you want."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Temporary Login Links"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Dismiss"
+msgstr "Отклонить"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Search Documentation"
+msgstr "Поиск документации"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Need more support? We're here to help."
+msgstr "Нужна дополнительная поддержка? Всегда рады помочь."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Submit a Support Ticket"
+msgstr "Отправить заявку в службу поддержки"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Get Help in the WordPress.org Forum"
+msgstr "Получите помощь на форуме WordPress.org"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Our fast and friendly support team is always happy to help!"
+msgstr "Наша команда поддержки всегда рада помочь!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "System Info"
+msgstr "Сведения о системе"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collapse"
+msgstr "Свернуть"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Expand"
+msgstr "Развернуть"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Export Settings"
+msgstr "Настройки экспорта"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Share your plugin settings easily with Support"
+msgstr "Отправляйте службе поддержки информацию о настройках плагина"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Temporary Login"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Our team might require temporary login access with limited access to only our plugin to help you test your issues"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create Temporary Login Link"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Temporary User Created"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Temporary Login link for support access created by you. This is auto-destructed 14 days after creation. To create a new link, please delete the old one."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Link"
+msgstr "Ссылка"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Expires in"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Temporary User Deleted"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Copy Link"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "TripAdvisor & Facebook Support"
+msgstr "Поддержка TripAdvisor и Facebook"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Moderate review feeds"
+msgstr "Модерировать ленты отзывов"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Display images and videos"
+msgstr "Отображать изображения и видео"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "<span className=\"sb-reviews-extpp-lite-btn-texts\"> Lite Plugin Users get a 50% OFF <span className=\"sb-reviews-extpp-lite-btn-discount-applied\">auto-applied at checkout</span></span>"
+msgstr "<span className=\"sb-reviews-extpp-lite-btn-texts\"> Пользователи плагина Lite получают скидку 50% <span className=\"sb-reviews-extpp-lite-btn-discount-applied\">, которая автоматически применяется при оформлении заказа</span></span>"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upsell Modal Icon"
+msgstr "Значок модального окна «Допродажа»"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "And get much more!"
+msgstr "И откройте доступ к множеству других функций!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Video Demo"
+msgstr "Демонстрационное видео"
+
+#. Plugin URI of the plugin
+#: sb-reviews.php
+msgid "https://smashballoon.com/reviews-feed"
+msgstr ""
+
+#. Description of the plugin
+#: sb-reviews.php
+msgid "Reviews Feeds allows you to display completely customizable Reviews feeds from many different providers."
+msgstr ""
+
+#. Author URI of the plugin
+#: sb-reviews.php
+msgid "https://smashballoon.com/"
+msgstr ""
+
+#: class/Common/Admin/SBR_Admin_Notice.php:47
+msgid "You have reached the review source limit for (%s). In order to add additional sources you'll need to create and enter an API key. Please add API key %shere%s."
+msgstr ""
+
+#: class/Common/Admin/SBR_Collections_Builder.php:35
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collections"
+msgstr ""
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1249
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1355
+msgid "Please make sure the collection exists"
+msgstr ""
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1526
+msgid "Cannot duplicate Collection, something went wrong!"
+msgstr ""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:152
+#: class/sbr-functions.php:278
+msgid "Over %s Reviews"
+msgstr ""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:153
+msgid "Used for header Reviews number “Over XXX Reviews”, make sure to add %s to be replaced with reviews number."
+msgstr ""
+
+#: class/Common/Util.php:134
+msgid ""
+"Your server could not complete a remote request to Facebook's API. Your host may be blocking access or\n"
+"                    there may be a problem with your server."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Handpick reviews with collections"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select among your reviews and organize them into a collection. Manually create a review for complete control. Once a collection is created, it will appear as a feed source."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create Collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New sources loaded"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collection JSON exported!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add reviews to your collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Organize reviews into collections, embed collections on any page"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collections help you organize your reviews in collections such as “Homepage reviews” or “Product reviews”. You can then use them as a reviews source in any feed."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add your first review to this collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add reviews from Google, Facebook, TrustPilot or Yelp. Collections help you hand-pick reviews and embed them on pages."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Lite Plugin Users get 50% OFF."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "(auto-applied at checkout)"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "How it works"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Handpick reviews"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create handpicked reviews collections to make the best first impression."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add them manually"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add reviews manually"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Your reviews are not on Google, Yelp or Facebook? No problem. You can add reviews manually."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Embed in a feed"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Embed on any feed"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add these collections as source on any feed. These work just like any other sources."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Name your Collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Eg. Homepage Reviews"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "All Collections"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "What are collections?"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Review"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Duplicate "
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "By duplicating this collection, all the reviews created and added to this collection will be duplicated too!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Duplicate Collection "
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collection Duplicated!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "By deleting this collection, all the reviews created and added for it will be deleted too"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collection Deleted!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Empty Collections Icon"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Showcase your best reviews with collections"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create collections of handpicked reviews to showcase them on your website, reviews page or product page"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New Collection created successfully"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Okay, got it"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Search list updated"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Clear Search"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Review deleted from collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "No reviews found!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Manually"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add the review by manually typing it out"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Or Add from existing source"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add the review from an existing source you have already connected"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Reviewer Avatar Image"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Use this media"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Reviews Image"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Image to Review"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You are about to edit this review"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "This review is displayed in"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "feeds. Editing it will change it on both those places. This action is irreversible."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "User Avatar"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Reviewer Image"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Replace Image"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "First Name"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "John"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Last Name"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Dow"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Review Title"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "The review title goes here"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Review Content"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "The content title goes here"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Link to the review (Optional)"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Posted on"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Date"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Review Selected"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews Selected"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Search Source Reviews"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Load More Reviews"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "There are no reviews in this source, please select another source!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Review Updated successfully"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Review"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add to Collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Selected Reviews added to your collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collection Name Updated"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Back to All Collections"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Rename"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Update the Collection Name"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collection Imported!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Invalid JSON file!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Import Review"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create Feed"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Redirecting to Feed Editor"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "We have created a feed and added this collection as a source."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collections Reviews List"
+msgstr ""
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:504
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1783
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1792
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1801
+msgid "JSON file needed. Your file is not in the correct format."
+msgstr ""
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1703
+msgid "Collection imported successfully"
+msgstr ""
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1810
+msgid "Something went wrong. This doesn't look like a collections import file."
+msgstr ""
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:363
+msgid "Number of Rows"
+msgstr ""
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:365
+msgid "1"
+msgstr ""
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:366
+msgid "2"
+msgstr ""
+
+#: class/Common/Services/UsageTrackingService.php:174
+msgid "Once Weekly"
+msgstr ""
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:95
+msgid "Import Collection"
+msgstr ""
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:97
+msgid "You will need a JSON file previously exported from the collections Reviews Feed Plugin"
+msgstr ""
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:100
+msgid "Export Collection"
+msgstr ""
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:102
+msgid "Export collection reviews"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Feeds are updating once a week. To update them more often, add an API key."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "To fetch new reviews, add an API key or Upgrade your plan."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add an API Key."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrade Plan"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Unable to retrieve reviews history for this source. Clear the cache or reconnect the source to try again."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Fetching reviews history in the background!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Google API key"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "How to get a Goole API key"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Yekp API key"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "How to get a Yelp API key"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add API Keys"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Currently the Yelp and Google’s API does not allow us to update your feed without you creating an app and adding an API key."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "The API key is invalid. Please try a new API key."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "API Key added successfully!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Due to API pricing by Google and Yelp, we update your sources once a week. To update them more often, you can add a Google and Yelp API Key."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Due to API pricing by Google and Yelp, we can only fetch the latest 10 reviews in the free plan. To fetch more or fetch again, you can add an API key or upgrade your plan."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Account added successfully"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Okay"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add API key"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You can only add 2 Google and 5 Yelp sources"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You can only add 1 source"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Due to paid API pricing by Yelp and Google, we only offer a limited amount of Google or Yelp source. To add more, you can add an API key for each platform."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Due to paid API pricing by Yelp and Google, we only offer a single Google or Yelp source on the free plan. To add more, you can add an API key or upgrade your plan."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add a Source"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "To add another source, please delete any existing sources."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add an API Key"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrade your Plan"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Please verify your email"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Before you can add a source, we need to make sure it's you. Please verify your email. It takes less than 2 minutes."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Verify Email"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "API Key deleted successfuly"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Remove"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Error Logs"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Clear Log"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Error logs cleared!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Download"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Error ID"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Code"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Message"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Details"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Refresh List"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connect Forms"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Get reviews submissions from your audience"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "With the help of WPForms or Formidable Forms, you can create a form and get submissions straight to a review collection."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Configure Form Submissions"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Get reviews directly from WPForms or Formidable Forms"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create a form, connect it to this collection, and watch reviews collect directly in this collection."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connect a Form"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Install WPForms"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Looks like you do not have any compatible form plugin installed. One click install WPForms and start setting up your form right away."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Purchase WPForms Pro"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connect a form"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Form"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Cannot find a form?"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "To select a form, you need to first create a compatible form from templates"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create from Template"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New Form connect successfully!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "We are importing your form submissions"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connect"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select a rule"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 3 stars or more"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 4 stars or more"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 5 stars or more"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "is longer than"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "is shorter than"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 1 star or less"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 2 stars or less"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 3 stars or less"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 4 stars or less"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 5 stars or less"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connected Forms"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Configure forms that are allowed to add reviews to this collection."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Form"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Disconnect "
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Are you sure you want to disconnect this form?"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Form Disconnected!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Rules"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add rules to auto-approve or auto-delete form submissions"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collection form rules updated!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Apply rules"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Auto Approve"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add posts to collection automatically if..."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "REVIEW"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "AND"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "200"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "chars"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Auto Archive"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Archive form submission automatically if..."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews added from collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews removed from collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews archived from collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add To collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Remove from collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete Submissions"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Loading connected forms submissions..."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Form Submissions"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "When your users submit reviews from a connected form, it will show up here."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Remove from Collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "View"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews Unarchived from collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete Submissions."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Are you sure you want to permanently delete submissions from your collection?"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews Deleted!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Unarchive Submissions"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Loading collections archived submissions..."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Archived Submissions"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "When you archive a submission, it will be displayed here."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Unarchive"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Permanently Delete"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews list updated successfully"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Back to"
+msgstr ""

@@ -1,0 +1,3767 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 637a54ff789a197f3b0df3b99529153f\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sb-reviews\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-12T22:57:20+05:45\n"
+"PO-Revision-Date: 2024-01-12 18:05\n"
+"Language: nl_NL\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: reviews-feed\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 637a54ff789a197f3b0df3b99529153f\n"
+"X-Crowdin-Project-ID: 17\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /[awesomemotive.sb-reviews] master/languages/reviews-feed.pot\n"
+"X-Crowdin-File-ID: 1271\n"
+
+#. Plugin Name of the plugin
+#: sb-reviews.php
+#: class/Common/Admin/MenuService.php:38
+msgid "Reviews Feed"
+msgstr "Beoordelingen feed"
+
+#. Author of the plugin
+#: sb-reviews.php
+msgid "Smash Balloon"
+msgstr "Smash Balloon"
+
+#: class/Common/Admin/MenuService.php:35
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "All Feeds"
+msgstr "Alle feeds"
+
+#: class/Common/Admin/MenuService.php:35
+msgid "Set up Plugin"
+msgstr "Stel plugin in"
+
+#: class/Common/Admin/SBR_New_User.php:302
+#: class/Common/Admin/SBR_Notifications.php:648
+msgid "Are you enjoying the Reviews Feed Plugin?"
+msgstr "Geniet je van de Reviews Feed plugin?"
+
+#: class/Common/Admin/SBR_New_User.php:308
+#: class/Common/Admin/SBR_Notifications.php:636
+#: class/Common/Settings/Tabs/SBR_Feeds_Tab.php:58
+msgid "Yes"
+msgstr "Ja"
+
+#: class/Common/Admin/SBR_New_User.php:314
+#: class/Common/Admin/SBR_Notifications.php:641
+#: class/Common/Settings/Tabs/SBR_Feeds_Tab.php:59
+msgid "No"
+msgstr "Nee"
+
+#: class/Common/Admin/SBR_New_User.php:415
+#: class/Common/Admin/SBR_Notifications.php:669
+msgid "Glad to hear you are enjoying it. Would you consider leaving a positive review?"
+msgstr "Blij te horen dat je ervan geniet. Zou je een positieve beoordeling willen achterlaten?"
+
+#: class/Common/Admin/SBR_New_User.php:417
+msgid "Exclusive Offer! 60% OFF"
+msgstr "Exclusief aanbod! 60% KORTING"
+
+#: class/Common/Admin/SBR_New_User.php:441
+#: class/Common/Admin/SBR_Notifications.php:670
+msgid "It really helps to support the plugin and help others to discover it too!"
+msgstr "Het helpt echt om de plugin te steunen en anderen te helpen het ook te ontdekken!"
+
+#: class/Common/Admin/SBR_New_User.php:443
+msgid "We don’t run promotions very often, but for a limited time we’re offering 60% Off our Pro version to all users of our free Reviews Feed."
+msgstr "We voeren niet vaak promoties uit, maar voor een beperkte tijd bieden we 60% korting op onze Pro versie aan alle gebruikers van onze gratis Reviews Feed."
+
+#: class/Common/Admin/SBR_Notifications.php:708
+msgid "Dismiss this message"
+msgstr "Negeer dit bericht"
+
+#: class/Common/Admin/SBR_Notifications.php:714
+msgid "Previous message"
+msgstr "Vorig bericht"
+
+#: class/Common/Admin/SBR_Notifications.php:715
+msgid "Next message"
+msgstr "Volgend bericht"
+
+#: class/Common/Admin/SBR_Plugin_Insltaller.php:43
+msgid "Could not install addon. Please download from smashballoon.com and install manually."
+msgstr "Kan add-on niet installeren. Download van smashballoon.com en installeer handmatig."
+
+#: class/Common/Admin/SBR_Plugin_Insltaller.php:103
+msgid "Plugin Installed & Activated."
+msgstr "Plugin geïnstalleerd & geactiveerd."
+
+#: class/Common/Admin/SBR_Plugin_Insltaller.php:103
+msgid "Plugin Installed."
+msgstr "Plugin geïnstalleerd."
+
+#: class/Common/Admin/SBR_Plugin_Insltaller.php:134
+msgid "Could not Activate the Plugin. Please Activate from the Plugins page."
+msgstr "Kon de plugin niet activeren. Activeer het op de pagina Plugins."
+
+#: class/Common/Admin/SBR_Plugin_Insltaller.php:162
+msgid "Could not deactivate the Plugin. Please deactivate from the Plugins page."
+msgstr "Kon de plugin niet deactiveren. Deactiveer het op de pagina Plugins."
+
+#: class/Common/Admin/SBR_Support_Builder.php:69
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Getting Started"
+msgstr "Aan de slag"
+
+#: class/Common/Admin/SBR_Support_Builder.php:70
+msgid "Some helpful resources to get you started"
+msgstr "Enkele nuttige hulpbronnen om je op weg te helpen"
+
+#: class/Common/Admin/SBR_Support_Builder.php:74
+msgid "Getting Started with Reviews Feed"
+msgstr "Aan de slag met Reviews Feed"
+
+#: class/Common/Admin/SBR_Support_Builder.php:78
+msgid "How to Create a Yelp API Key"
+msgstr "Hoe maak je een Yelp API-sleutel aan?"
+
+#: class/Common/Admin/SBR_Support_Builder.php:82
+msgid "How to Create a Google API Key"
+msgstr "Hoe maak je een Google API-sleutel aan"
+
+#: class/Common/Admin/SBR_Support_Builder.php:87
+msgid "More help on Getting started"
+msgstr "Meer hulp over aan de slag gaan"
+
+#: class/Common/Admin/SBR_Support_Builder.php:92
+msgid "Docs & Troubleshooting"
+msgstr "Docs & probleemoplossing"
+
+#: class/Common/Admin/SBR_Support_Builder.php:93
+msgid "Run into an issue? Check out our help docs."
+msgstr "Een probleem tegengekomen? Bekijk onze help docs."
+
+#: class/Common/Admin/SBR_Support_Builder.php:97
+msgid "Why do I only see a few reviews?"
+msgstr "Waarom zie ik maar een paar beoordelingen?"
+
+#: class/Common/Admin/SBR_Support_Builder.php:101
+msgid "How to Resolve Error Messages"
+msgstr "Hoe foutmeldingen op te lossen"
+
+#: class/Common/Admin/SBR_Support_Builder.php:105
+msgid "Translating Google Reviews"
+msgstr "Google beoordelingen vertalen"
+
+#: class/Common/Admin/SBR_Support_Builder.php:110
+msgid "View Documentation"
+msgstr "Bekijk documentatie"
+
+#: class/Common/Admin/SBR_Support_Builder.php:115
+msgid "Additional Resources"
+msgstr "Aanvullende gegevensbronnen"
+
+#: class/Common/Admin/SBR_Support_Builder.php:116
+msgid "To help you get the most out of the plugin"
+msgstr "Om je te helpen het meeste uit de plugin te halen"
+
+#: class/Common/Admin/SBR_Support_Builder.php:120
+msgid "Can I Display Multiple Reviews on One Page?"
+msgstr "Kan ik meerdere beoordelingen op één pagina weergeven?"
+
+#: class/Common/Admin/SBR_Support_Builder.php:124
+msgid "License Tiers Explained (additional review providers)"
+msgstr "Uitleg licensies (extra beoordeling aanbieders)"
+
+#: class/Common/Admin/SBR_Support_Builder.php:128
+msgid "How do I Embed My Feed Directly in a Template?"
+msgstr "Hoe kan ik mijn feed direct in een template insluiten?"
+
+#: class/Common/Admin/SBR_Support_Builder.php:133
+msgid "View Blog"
+msgstr "Bekijk blog"
+
+#: class/Common/Admin/SBR_Support_Tool.php:432
+#: class/Common/Admin/SBR_Support_Tool.php:433
+msgid "Support API tool"
+msgstr ""
+
+#: class/Common/Admin/SBR_Support_Tool.php:500
+msgid "Cannot get info"
+msgstr ""
+
+#: class/Common/Builder/SBR_Feed_Builder.php:146
+msgid "Default"
+msgstr "Standaard"
+
+#: class/Common/Builder/SBR_Feed_Builder.php:150
+msgid "Simple Cards"
+msgstr "Eenvoudige kaarten"
+
+#: class/Common/Builder/SBR_Feed_Builder.php:155
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:165
+msgid "Masonry"
+msgstr "Masonry"
+
+#: class/Common/Builder/SBR_Feed_Builder.php:166
+msgid "Single Review"
+msgstr "Enkele beoordeling"
+
+#: class/Common/Builder/SBR_Feed_Builder.php:171
+msgid "Showcase Carousel"
+msgstr "Weergave carrousel"
+
+#: class/Common/Builder/SBR_Feed_Builder.php:176
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:170
+msgid "Carousel"
+msgstr "Carrousel"
+
+#: class/Common/Builder/SBR_Feed_Builder.php:181
+msgid "Grid Carousel"
+msgstr "Raster carrousel"
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:509
+msgid "Don't have file, Please try again"
+msgstr "Heb geen bestand, probeer het opnieuw"
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:967
+msgid "No feed source is included. Cannot upload feed."
+msgstr "Er is geen feed bron opgenomen. Kan feed niet uploaden."
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:979
+msgid "Feed settings imported successfully."
+msgstr "Feed instellingen succesvol geïmporteerd."
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:984
+msgid "Could not import feed. Please try again"
+msgstr "Kon feed niet importeren. Probeer opnieuw"
+
+#: class/Common/Customizer/DB.php:451
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:77
+#: class/Common/Feed_Locator.php:368
+msgid "Header"
+msgstr "Header"
+
+#: class/Common/Customizer/DB.php:453
+#: class/Common/Feed_Locator.php:378
+msgid "Footer"
+msgstr "Footer"
+
+#: class/Common/Customizer/DB.php:455
+#: class/Common/Feed_Locator.php:373
+msgid "Sidebar"
+msgstr "Zijbalk"
+
+#: class/Common/Customizer/DB.php:457
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:603
+#: class/Common/Feed_Locator.php:364
+msgid "Content"
+msgstr "Inhoud"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:30
+msgid "Customize"
+msgstr "Aanpassen"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:44
+msgid "Templates"
+msgstr "Templates"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:58
+msgid "Layout"
+msgstr "Lay-out"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:83
+#: class/Common/FeedDisplay.php:105
+#: class/Common/FeedDisplay.php:113
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews"
+msgstr "Beoordelingen"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:89
+msgid "Load More Button"
+msgstr "Laad meer knop"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:92
+msgid "Upgrade to Pro to Load posts asynchronously with Load more button. %sLearn More%s"
+msgstr "Upgrade naar Pro om berichten asynchroon te laden met de knop Meer laden. %sMeer informatie%s"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:153
+msgid "List"
+msgstr "Lijst"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:178
+msgid "Spacing"
+msgstr "Afstand"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:183
+msgid "Vertical"
+msgstr "Verticaal"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:191
+msgid "Horizontal"
+msgstr "Horizontaal"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:208
+msgid "Number of reviews to display"
+msgstr "Aantal beoordelingen om te tonen"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:244
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:284
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:333
+msgid "Columns"
+msgstr "Kolommen"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:324
+msgid "Columns and Rows"
+msgstr "Kolommen en rijen"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:437
+msgid "Pagination"
+msgstr "Paginering"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:450
+msgid "Loop Type"
+msgstr "Looptype"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:452
+msgid "Rewind"
+msgstr "Terugspoelen"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:453
+msgid "Infinity"
+msgstr "Oneindigheid"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:462
+msgid "Interval Time"
+msgstr "Intervaltijd"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:468
+msgid "Show Navigation Arrows"
+msgstr "Navigatie pijlen tonen"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:478
+msgid "Show Pagination"
+msgstr "Toon paginering"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:488
+msgid "Enable Autoplay"
+msgstr "Schakel autoplay in"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:500
+msgid "Content Length"
+msgstr "Inhoud breedte"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:505
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:338
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:349
+msgid "characters"
+msgstr "karakters"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:528
+msgid "Inherit from Theme"
+msgstr "Overnemen van thema"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:533
+msgid "Light"
+msgstr "Licht"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:538
+msgid "Dark"
+msgstr "Donker"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:543
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1580
+msgid "Custom"
+msgstr "Aangepast"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:578
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:949
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:376
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:588
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1212
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1324
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Name"
+msgstr "Naam"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:595
+msgid "Heading"
+msgstr "Koptekst"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:620
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:717
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:815
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1003
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1230
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1280
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Color"
+msgstr "Kleur"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:625
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:705
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:725
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:972
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:984
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1015
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1028
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1287
+msgid "Text"
+msgstr "Tekst"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:641
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:761
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:849
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1065
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1185
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1240
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1295
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1347
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1392
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1463
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1512
+msgid "Element Spacing"
+msgstr "Element afstanden"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:649
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:767
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:855
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:888
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1075
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1191
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1246
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1301
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1353
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1469
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1518
+msgid "Padding"
+msgstr "Padding"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:656
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:774
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:862
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:898
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1086
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1253
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1308
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1360
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1398
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1476
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1525
+msgid "Margin"
+msgstr "Marge"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:662
+msgid "Button"
+msgstr "Knop"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:669
+msgid "Link to"
+msgstr "Link naar"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:677
+msgid "Google (Write a Review)"
+msgstr "Google (Schrijf een beoordeling)"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:678
+msgid "External Link"
+msgstr "Externe link"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:734
+msgid "Background"
+msgstr "Achtergrond"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:743
+msgid "Text/ Hover"
+msgstr "Tekst/hoveren"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:752
+msgid "Bg/ Hover"
+msgstr "Achtergrond/hoveren"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:783
+msgid "Average Review Rating"
+msgstr "Gemiddelde beoordeling waardering"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:791
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:832
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1217
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Rating"
+msgstr "Waardering"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:803
+msgid "Rating Subtext"
+msgstr "Waardering subtekst"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:823
+msgid "Rating Icon"
+msgstr "Waardering pictogram"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:841
+msgid "Subtext"
+msgstr "Subtekst"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:876
+msgid "Element Header Spacing"
+msgstr "Element header afstand"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:919
+msgid "Post Style"
+msgstr "Bericht stijl"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:927
+msgid "Edit Individual Elements"
+msgstr "Individuele elementen bewerken"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:928
+msgid "Hide or Show individual elements of a post or edit their options"
+msgstr "Verberg of toon individuele elementen van een bericht of bewerk hun opties"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1041
+msgid "Text / Hover"
+msgstr "Tekst/hoveren"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1054
+msgid "Bg / Hover"
+msgstr "Achtergrond/hoveren"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1114
+msgid "Boxed"
+msgstr "Boxed"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1120
+msgid "Regular"
+msgstr "Normaal"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1130
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1489
+msgid "Colors"
+msgstr "Kleuren"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1135
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1150
+msgid "Properties"
+msgstr "Eigenschappen"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1158
+msgid "Box Shadow"
+msgstr "Vak schaduw"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1167
+msgid "Corner Radius"
+msgstr "Hoek radius"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1173
+msgid "Stroke"
+msgstr "Stroke"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1224
+msgid "Icon Color"
+msgstr "Pictogram kleur"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1261
+msgid "Review Paragraph"
+msgstr "Beoordeling paragraaf"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1268
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1335
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1413
+msgid "Font"
+msgstr "Lettertype"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1316
+msgid "Author and Date"
+msgstr "Auteur en datum"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1328
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1496
+msgid "Author Name"
+msgstr "Auteursnaam"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1368
+msgid "Author Image"
+msgstr "Auteur afbeelding"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1381
+msgid "Border Radius"
+msgstr "Rand radius"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1406
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1504
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Date"
+msgstr "Datum"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1425
+msgid "Format"
+msgstr "Format"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1444
+msgid "Add text before date"
+msgstr "Tekst voor datum toevoegen"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1452
+msgid "Add text after date"
+msgstr "Tekst na datum toevoegen"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1533
+msgid "Images or Videos"
+msgstr "Afbeeldingen of video's"
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:1560
+msgid "2 days ago"
+msgstr "2 dagen gelden"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:29
+#: class/sbr-functions.php:452
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Settings"
+msgstr "Instellingen"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:43
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Sources"
+msgstr "Bronnen"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:48
+msgid "Sort"
+msgstr "Sorteren"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:53
+msgid "Filters"
+msgstr "Filters"
+
+#. translators: %s: Opening and closing anchor HTML tags
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:58
+msgid "Upgrade to Pro to apply filters to your reviews feed. %sLearn More%s"
+msgstr "Upgrade naar Pro om filters toe te passen op je beoordelingen feed. %sLeer meer%s"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:66
+msgid "Moderation"
+msgstr "Moderatie"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:73
+msgid "Upgrade to Pro to moderate your feed. %sLearn More%s"
+msgstr "Upgrade naar Pro om je feed te modereren. %sLeer meer%s"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:88
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:47
+msgid "Language"
+msgstr "Taal"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:89
+msgid "Change language of what posts are displayed in"
+msgstr "Wijzig de taal waarin berichten worden getoond"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:136
+msgid "By Date"
+msgstr "Op datum"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:154
+msgid "Latest Reviews First"
+msgstr "Nieuwste beoordelingen eerst"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:155
+msgid "Oldest Reviews First"
+msgstr "Oudste beoordelingen eerst"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:175
+msgid "By Rating"
+msgstr "Op waardering"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:193
+msgid "Highest Rated First"
+msgstr "Hoogst gewaardeerd eerst"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:194
+msgid "Lowest Rated First"
+msgstr "Laagst gewaardeerd eerst"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:212
+msgid "Randomize"
+msgstr "Willekeurig"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:213
+msgid "This will disable “By date” and “By rating” and randomly choose among the filtered reviews"
+msgstr "Dit schakelt 'Op datum' en 'Op waardering' uit en kiest willekeurig uit de gefilterde beoordelingen"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:273
+msgid "By Words"
+msgstr "Op woorden"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:281
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:282
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:292
+msgid "Only show reviews containing"
+msgstr "Geef alleen beoordelingen weer die bevatten"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:283
+msgid "Add words here to only show posts containing these words"
+msgstr "Voeg hier woorden toe om berichten alleen te tonen die deze woorden bevatten"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:291
+msgid "Do not show reviews containing"
+msgstr "Toon geen beoordelingen die bevatten"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:293
+msgid "Add words here to hide any posts containing these words"
+msgstr "Voeg hier woorden toe om berichten te verbergen die deze woorden bevatten"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:327
+msgid "By Character Count"
+msgstr "Op aantal karakters"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:337
+msgid "Minimum"
+msgstr "Minimum"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:348
+msgid "Maxiumum"
+msgstr "Maximum"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:350
+msgid "Unset"
+msgstr "Uitgeschakeld"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:393
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:430
+msgid "Allow List"
+msgstr "Toestaan lijst"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:394
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:432
+msgid "Hides post by default so you can select the ones you want to show"
+msgstr "Verberg standaard alle berichten, zodat je kan selecteren die je wil tonen"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:398
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:436
+msgid "Block List"
+msgstr "Blokkeer lijst"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:399
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:438
+msgid "Show all posts by default so you can select the ones you want to hide"
+msgstr "Toon standaard alle berichten, zodat je kan selecteren die je wil verbergen"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:415
+msgid "You can only view and filter through the last 100 reviews"
+msgstr "Je kunt alleen de laatste 100 beoordelingen bekijken en filteren"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:416
+msgid "Due to platform API limitations, we cannot store and provide you with a complete repository of your reviews."
+msgstr "Vanwege beperkingen van het API platform kunnen we geen volledig overzicht van je beoordelingen opslaan en leveren."
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:461
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:29
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:495
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:53
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reset"
+msgstr "Resetten"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:503
+msgid "Limited Support"
+msgstr "Beperkte ondersteuning"
+
+#: class/Common/Customizer/Tabs/SBR_Settings_Tab.php:504
+msgid "Only Google supports different languages. Reviews from other providers will still show up in English or the language they were submitted in."
+msgstr "Alleen Google ondersteunt verschillende talen. Beoordelingen van andere aanbieders worden nog steeds weergegeven in het Engels of in de taal waarin ze zijn ingediend."
+
+#: class/Common/Error_Reporter.php:433
+msgid "Your access token could not be decrypted on this website. Reconnect this account or go to our website to learn how to prevent this."
+msgstr "Je toegang token kon niet worden ontcijferd op deze site. Verbind dit account opnieuw of ga naar onze site om te leren hoe je dit kan voorkomen."
+
+#: class/Common/Error_Reporter.php:437
+msgid "API Error %s:"
+msgstr "API fout %s:"
+
+#: class/Common/Error_Reporter.php:438
+msgid "Error connecting to the Facebook API."
+msgstr "Fout bij het verbinden met de Facebook API."
+
+#: class/Common/Error_Reporter.php:446
+#: class/Common/Error_Reporter.php:447
+#: class/Common/Error_Reporter.php:450
+#: class/Common/Error_Reporter.php:451
+msgid "Directions on How to Resolve This Issue"
+msgstr "Aanwijzingen voor het oplossen van dit probleem"
+
+#: class/Common/Error_Reporter.php:455
+msgid "An unknown error has occurred."
+msgstr "Er is een onbekende fout opgetreden."
+
+#: class/Common/Error_Reporter.php:495
+msgid "There's an Issue with a Reviews Feed on Your Website"
+msgstr ""
+
+#: class/Common/Error_Reporter.php:496
+msgid "A Custom Reviews Feed on your website is currently unable to connect to Facebook to retrieve new posts. Don't worry, your feed is still being displayed using a cached version, but is no longer able to display new posts."
+msgstr ""
+
+#: class/Common/Error_Reporter.php:497
+msgid "This is caused by an issue with your Facebook account connecting to the Facebook API. For information on the exact issue and directions on how to resolve it, please visit the %sCustom Facebook Feed settings page%s on your website."
+msgstr "Dit wordt veroorzaakt door een probleem met de verbinding van je Facebook-account met de Facebook-API. Ga voor informatie over het exacte probleem en aanwijzingen over hoe je dit kunt oplossen naar de pagina %sCustom Facebook Feed-instellingen%s op je site."
+
+#: class/Common/Error_Reporter.php:526
+msgid "All Facebook Data has Been Remove."
+msgstr ""
+
+#: class/Common/Error_Reporter.php:527
+msgid "An account admin has deauthorized the Smash Balloon app used to power the Facebook Feed plugin. The page was not reconnected within the 7 day limit and all Facebook data was automatically deleted on your website due to Facebook data privacy rules.<br/><br/>Due to API limitations your feeds will not show new reviews until you enter an API key on the settings page."
+msgstr ""
+
+#: class/Common/Error_Reporter.php:534
+msgid "Action Required Within 7 Days:"
+msgstr "Actie vereist binnen 7 dagen:"
+
+#: class/Common/Error_Reporter.php:535
+msgid "Your Facebook Reviews feed has been not viewed in the last 14 days. Due to Facebook data privacy rules, all data for this feed will be deleted in 7 days time. To avoid automated data deletion, simply view the Facebook feed on your website within the next 7 days."
+msgstr ""
+
+#: class/Common/Error_Reporter.php:552
+#: class/Pro/Platform_Data.php:315
+#: class/Pro/Platform_Data.php:333
+msgid "Action Required Within 7 Days"
+msgstr "Actie vereist binnen 7 dagen"
+
+#: class/Common/Error_Reporter.php:554
+#: class/Pro/Platform_Data.php:350
+msgid "An account admin has deauthorized the Smash Balloon app used to power the Facebook Feed plugin."
+msgstr ""
+
+#: class/Common/Error_Reporter.php:556
+msgid "Facebook Feed related data for the account(s) %s was removed due to permission for the Smash Balloon App on Facebook being revoked."
+msgstr ""
+
+#: class/Common/Error_Reporter.php:559
+msgid "To prevent the automated data deletion for the account, please reconnect your account within 7 days."
+msgstr ""
+
+#: class/Common/Error_Reporter.php:560
+#: class/Pro/Platform_Data.php:320
+msgid "More Information"
+msgstr "Meer informatie"
+
+#: class/Common/Feed.php:72
+#: class/Pro/Feed.php:17
+msgid "No feed with the ID %d found."
+msgstr "Geen feed met het ID %d gevonden."
+
+#. translators: %s: Opening and closing anchor HTML tags
+#: class/Common/Feed.php:72
+#: class/Pro/Feed.php:18
+msgid "Please go to the %sReviews Feed%s settings page to create a feed."
+msgstr "Ga naar de %sReviews Feed%s instellingen pagina om een feed aan te maken."
+
+#: class/Common/Feed.php:76
+#: class/Pro/Feed.php:22
+msgid "No sources available for this feed."
+msgstr "Geen bronnen beschikbaar voor deze feed."
+
+#: class/Common/Feed.php:76
+#: class/Pro/Feed.php:22
+msgid "Please go to the %sReviews Feed%s settings page add sources for this feed to use."
+msgstr "Ga naar de %sReviews Feed%s instellingen pagina en voeg bronnen toe om deze feed te gebruiken."
+
+#: class/Common/Feed.php:196
+msgid "No Posts Found."
+msgstr "Geen berichten gevonden."
+
+#: class/Common/Feed.php:198
+msgid "There were no posts that fit your filters. Try modifying the filters set or add more sources with reviews that fit the filter by %sediting your feed%s"
+msgstr "Er waren geen berichten die aan je filters voldeden. Probeer de ingestelde filters aan te passen of voeg meer bronnen toe met beoordelingen die in het filter passen door %sje feed te bewerken%s"
+
+#: class/Common/Feed.php:200
+msgid "There were no posts found for the sources selected. Make sure reviews are available for this source or change the source by %sediting your feed%s"
+msgstr "Er zijn geen berichten gevonden voor de geselecteerde bronnen. Controleer of er beoordelingen beschikbaar zijn voor deze bron of wijzig de bron door %sje feed te bewerken%s"
+
+#: class/Common/Feed.php:399
+msgid "This is affecting the source %s for %s. New reviews will not be fetched until this is resolved."
+msgstr "Dit heeft invloed op de bron %s voor %s. Nieuwe beoordelingen worden pas opgehaald wanneer dit is opgelost."
+
+#: class/Common/Feed.php:401
+msgid "Troubleshoot by visiting %serror message reference page%s."
+msgstr "Los het probleem op door de %sfoutmelding referentiepagina%s te bezoeken."
+
+#: class/Common/FeedDisplay.php:117
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:72
+#: class/sbr-functions.php:277
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Write a Review"
+msgstr "Schrijf een beoordeling"
+
+#: class/Common/FeedDisplay.php:238
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:77
+#: class/sbr-functions.php:262
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "second"
+msgstr "seconde"
+
+#: class/Common/FeedDisplay.php:239
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:82
+#: class/sbr-functions.php:263
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "seconds"
+msgstr "seconden"
+
+#: class/Common/FeedDisplay.php:240
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:87
+#: class/sbr-functions.php:264
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "minute"
+msgstr "minuut"
+
+#: class/Common/FeedDisplay.php:241
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:92
+#: class/sbr-functions.php:265
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "minutes"
+msgstr "minuten"
+
+#: class/Common/FeedDisplay.php:242
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:97
+#: class/sbr-functions.php:266
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "hour"
+msgstr "uur"
+
+#: class/Common/FeedDisplay.php:243
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:102
+#: class/sbr-functions.php:267
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "hours"
+msgstr "uren"
+
+#: class/Common/FeedDisplay.php:244
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:107
+#: class/sbr-functions.php:268
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "day"
+msgstr "dag"
+
+#: class/Common/FeedDisplay.php:245
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:112
+#: class/sbr-functions.php:269
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "days"
+msgstr "dagen"
+
+#: class/Common/FeedDisplay.php:246
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:117
+#: class/sbr-functions.php:270
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "week"
+msgstr "week"
+
+#: class/Common/FeedDisplay.php:247
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:122
+#: class/sbr-functions.php:271
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "weeks"
+msgstr "weken"
+
+#: class/Common/FeedDisplay.php:248
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:127
+#: class/sbr-functions.php:272
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "month"
+msgstr "maand"
+
+#: class/Common/FeedDisplay.php:249
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:132
+#: class/sbr-functions.php:273
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "months"
+msgstr "maanden"
+
+#: class/Common/FeedDisplay.php:250
+#: class/Common/FeedDisplay.php:251
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:142
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "years"
+msgstr "jaren"
+
+#: class/Common/FeedDisplay.php:252
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:147
+#: class/sbr-functions.php:276
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "ago"
+msgstr "geleden"
+
+#: class/Common/FeedDisplay.php:393
+#: class/Pro/FeedDisplay.php:158
+msgid "This error message is only visible to WordPress admins"
+msgstr "Dit foutbericht is alleen zichtbaar voor de WordPress admins"
+
+#: class/Common/SBR_Blocks.php:111
+msgid "Add Settings"
+msgstr "Instelling toevoegen"
+
+#: class/Common/SBR_Blocks.php:112
+msgid "Shortcode Settings"
+msgstr "Shortcode instellingen"
+
+#: class/Common/SBR_Blocks.php:113
+msgid "Example"
+msgstr "Voorbeeld"
+
+#: class/Common/SBR_Blocks.php:114
+msgid "Apply Changes"
+msgstr "Wijzigingen toepassen"
+
+#: class/Common/SBR_Blocks.php:207
+msgid "Only Visible to WordPress Admins"
+msgstr "Alleen zichtbaar voor WordPress beheerders"
+
+#: class/Common/SBR_Blocks.php:213
+msgid "Your license key is inactive. Activate it to enable Pro features."
+msgstr "Je licentiesleutel is inactief. Activeer deze om Pro functies in te schakelen."
+
+#: class/Common/SBR_Blocks.php:215
+msgid "Your license has expired! Renew it to reactivate Pro features."
+msgstr "Je licentie is verlopen! Verleng deze om Pro functies opnieuw te activeren."
+
+#: class/Common/SBR_Blocks.php:219
+msgid "Resolve Now"
+msgstr "Nu oplossen"
+
+#: class/Common/SBR_Blocks.php:269
+msgid "Create a Reviews Feed"
+msgstr "Maak een Reviews Feed aan"
+
+#: class/Common/SBR_Education.php:48
+msgid "Bring Your Feeds to Life with Media Content"
+msgstr ""
+
+#: class/Common/SBR_Education.php:49
+msgid "You've done the hard work of getting a visitor onto your site, now keep them there by displaying your Facebook photos and videos directly on your site, rather than sending your visitors away to Facebook."
+msgstr ""
+
+#: class/Common/SBR_Education.php:54
+#: class/Common/SBR_Education.php:81
+msgid "Use Facebook Reviews to Boost Conversions"
+msgstr ""
+
+#: class/Common/SBR_Education.php:55
+#: class/Common/SBR_Education.php:82
+msgid "Reviews for your product or service are the best way to give users the confidence to take action. With the Reviews extension, easily add 5 star reviews and recommendations from Facebook to your website help increase conversions."
+msgstr ""
+
+#: class/Common/SBR_Education.php:60
+msgid "Bring the Conversation to Your Website"
+msgstr ""
+
+#: class/Common/SBR_Education.php:61
+msgid "Include the Facebook comments with each of your posts to engage your website viewers, keep them on your site for longer, and encourage them to interact with your content."
+msgstr ""
+
+#: class/Common/SBR_Education.php:66
+msgid "Automatically Feed Facebook Events to Your Website"
+msgstr ""
+
+#: class/Common/SBR_Education.php:67
+msgid "Save yourself the time and effort of posting events both to Facebook and your website by using the Custom Facebook Feed Pro plugin to automatically feeds events right to your site."
+msgstr ""
+
+#: class/Common/SBR_Education.php:75
+msgid "Automated YouTube Live Streaming"
+msgstr "Geautomatiseerde YouTube live streaming"
+
+#: class/Common/SBR_Education.php:76
+msgid "You can automatically feed live YouTube videos to your website using our Feeds For YouTube Pro plugin. It takes all the hassle out of publishing live videos to your site by automating the process."
+msgstr "Je kan automatisch live YouTube video's naar je site met behulp van onze Feeds For YouTube Pro plugin. Het neemt al het gedoe uit van het publiceren van live video's op je site door het automatiseren van het proces."
+
+#: class/Common/SBR_Education.php:87
+msgid "Adding Social Proof with Twitter Feeds"
+msgstr "Sociaal bewijs toevoegen met Twitter feeds"
+
+#: class/Common/SBR_Education.php:88
+msgid "Twitter testimonials are one of the best ways to add verifiable social proof to your website. They add credibility to your brand, product, or service by displaying reviews from real people to your site, helping to convert more visitors into customers. Our free Custom Twitter Feeds plugin makes displaying Tweets on your website a breeze."
+msgstr "Twitter getuigenissen zijn een van de beste manieren om controleerbaar sociaal bewijs aan je site toe te voegen. Zij voegen geloofwaardigheid aan je merk, product, of dienst toe door beoordelingen van echte mensen aan je plaats weer te geven, helpend om meer bezoekers in klanten om te zetten. Onze gratis aangepaste Twitter Feeds plugin maakt het weergeven van Tweets op je site een koud kunstje."
+
+#: class/Common/SBR_Education.php:93
+msgid "Run Promotions with Instagram Hashtags"
+msgstr ""
+
+#: class/Common/SBR_Education.php:94
+msgid "You can use hashtags on Instagram for so many things; but one of the most effective is for targeted promotions or competitions which engage with your audience and boost your exposure. Our Instagram Feed Pro plugin allows you to bring your hashtagged content into your website and display it in one centralized location."
+msgstr ""
+
+#: class/Common/Services/SBR_Upgrader.php:109
+msgid "You are not allowed to install plugins."
+msgstr "Je hebt geen toestemming om plugins te activeren."
+
+#: class/Common/Services/SBR_Upgrader.php:121
+#: class/Common/Services/SBR_Upgrader.php:287
+#: class/Common/Services/SBR_Upgrader.php:312
+msgid "You are not licensed."
+msgstr "Je hebt geen licentie."
+
+#: class/Common/Services/SBR_Upgrader.php:227
+msgid "Could not connect."
+msgstr "Kon niet verbinden."
+
+#: class/Common/Services/SBR_Upgrader.php:236
+msgid "Could not install upgrade. Please download from smashballoon.com and install manually."
+msgstr "Kan upgrade niet installeren. Download van smashballoon.com en installeer handmatig."
+
+#: class/Common/Services/SBR_Upgrader.php:272
+#: class/Common/Services/SBR_Upgrader.php:331
+msgid "Plugin installed & activated."
+msgstr "Plugin geïnstalleerd & geactiveerd."
+
+#: class/Common/Services/SBR_Upgrader.php:335
+msgid "Pro version installed but needs to be activated from the Plugins page inside your WordPress admin."
+msgstr "Pro versie geïnstalleerd, maar moet geactiveerd worden via de plugin pagina in je WordPress dashboard beheer."
+
+#: class/Common/Services/SBR_Upgrader.php:408
+msgid "This license is expired."
+msgstr "De licentie is verlopen."
+
+#: class/Common/Services/SBR_Upgrader.php:411
+msgid "We encountered a problem unlocking the PRO features. Please install the PRO version manually."
+msgstr "We hebben een probleem ondervonden bij het ontgrendelen van de PRO functies. Installeer de PRO versie handmatig."
+
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:45
+msgid "Optimize Images"
+msgstr "Optimaliseer afbeeldingen"
+
+#. translators: "It" refers to the optimize images feature
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:46
+msgid "It will create multiple local copies of images in different sizes and use smallest size based on where the image is being displayed"
+msgstr "Het zal meerdere lokale kopieën van afbeeldingen maken in verschillende formaten en de kleinste grootte gebruiken op basis van waar de afbeelding wordt getoond"
+
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:58
+msgid "Images Cleared"
+msgstr "Afbeeldingen gewist"
+
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:84
+msgid "Usage Tracking"
+msgstr "Gebruik bijhouden"
+
+#. translators: %s: Opening and closing anchor HTML tags
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:87
+msgid "This helps us prevent plugin and theme conflicts by sending a report in the background once per week about your settings and relevant site stats. It does not send sensitive information like access tokens, email addresses, or user info. This will not affect your site performace as well. %sLearn More%s"
+msgstr "Dit helpt ons plugin en thema conflicten te voorkomen door wekelijks een rapport in de achtergrond te verzenden over je instellingen en relevante site statistieken. Het verzendt geen gevoelige informatie zoals toegang tokens, e-mailadressen of gebruikersinformatie. Dit heeft ook geen invloed op de prestaties van je site. %sMeer informatie%s"
+
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:99
+msgid "Enqueue JavaScript in head"
+msgstr "Activeer JavaScript in head"
+
+#: class/Common/Settings/Tabs/SBR_Advanced_Tab.php:100
+msgid "Add the JavaScript file for the plugin in the header instead of the footer"
+msgstr "Voeg het JavaScript bestand voor de plugin toe aan de header in plaats van de footer"
+
+#: class/Common/Settings/Tabs/SBR_Feeds_Tab.php:29
+msgid "Feeds"
+msgstr "Feeds"
+
+#: class/Common/Settings/Tabs/SBR_Feeds_Tab.php:44
+msgid "Caching"
+msgstr "Caching"
+
+#: class/Common/Settings/Tabs/SBR_Feeds_Tab.php:49
+msgid "GDPR"
+msgstr "AVG/GDPR"
+
+#. translators: %s: Opening and closing anchor HTML tags
+#: class/Common/Settings/Tabs/SBR_Feeds_Tab.php:52
+msgid "We will automatically enable GDPR compliance if we detect a supported privacy consent plugin.%sLearn more%s."
+msgstr "We zullen automatisch AVG/GDPR naleving inschakelen als we een ondersteunde privacy toestemming plugin detecteren.%sMeer informatie%s."
+
+#: class/Common/Settings/Tabs/SBR_Feeds_Tab.php:57
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:29
+msgid "General"
+msgstr "Algemeen"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:44
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:52
+msgid "License Key"
+msgstr "Licentiesleutel"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:46
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:54
+msgid "Your license key provides access to updates and support"
+msgstr "Je licentiesleutel biedt toegang tot updates en ondersteuning"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:59
+msgid "Manage Sources"
+msgstr "Bronnen beheren"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:60
+msgid "Add or remove connected accounts"
+msgstr "Toevoegen of verwijderen van verbonden accounts"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:64
+msgid "Manage API Keys"
+msgstr "Beheren van API-sleutels"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:66
+msgid "Update or modify an API key"
+msgstr "Updaten of aanpassen van een API-sleutel"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:73
+msgid "Preserve settings if plugin is removed"
+msgstr "Instellingen behouden als plugin wordt verwijderd"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:74
+msgid "This will make sure that all of your feeds and settings are still saved even if the plugin is uninstalled"
+msgstr "Dit zal ervoor zorgen dat al je feeds en instellingen opgeslagen blijven, zelfs als de plugin verwijderd wordt"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:83
+msgid "Import Feed Settings"
+msgstr "Importeer feed instellingen"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:85
+msgid "You will need a JSON file previously exported from the Reviews Feed Plugin"
+msgstr "Je hebt een JSON bestand nodig dat eerder is geëxporteerd vanuit de Reviews Feed plugin"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:88
+msgid "Export Feed Settings"
+msgstr "Exporteer feed instellingen"
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:90
+msgid "Export settings for one or more of your feeds"
+msgstr "Instellingen exporteren voor een of meer van je feeds"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:31
+msgid "Language & Translation"
+msgstr "Taal & vertaling"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:49
+msgid ""
+"Change the displayed language for all feeds and its displayed reviews. You can override this for each feed from the individual feed settings.%sLearn more%s <br/>\n"
+"                    %sNote: Currently only Google support translated reviews.%s"
+msgstr ""
+"Verander de weergegeven taal voor alle feeds en de weergegeven beoordelingen. Je kunt dit overschrijven voor elke feed vanuit de individuele feed instellingen.%sMeer informatie%s <br/>\n"
+"                    %sLet op: Op dit moment biedt alleen Google ondersteuning voor vertaalde beoordelingen.%s"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:64
+msgid "Custom Text/Translate"
+msgstr "Aangepaste tekst/vertaling"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:65
+msgid "Enter custom text for the words below, or translate it into the language you would like to use."
+msgstr "Voer aangepaste tekst in voor de onderstaande woorden of vertaal deze in de taal die je wil gebruiken."
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:68
+msgid "Dates"
+msgstr "Datums"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:73
+msgid "Used for header “Write a Review” button"
+msgstr "Gebruikt voor header \"Schrijf een beoordeling\" knop"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:78
+msgid "Used for “Posted a second ago”"
+msgstr "Gebruikt voor \"Geplaatst een seconde geleden\""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:83
+msgid "Used for “Posted a seconds ago”"
+msgstr "Gebruikt voor \"Geplaatst een paar seconden geleden\""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:88
+msgid "Used for “Posted a minute ago”"
+msgstr "Gebruikt voor \"Geplaatst een minuut geleden\""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:93
+msgid "Used for “Posted a minutes ago”"
+msgstr "Gebruikt voor \"Geplaatst een paar minuten geleden\""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:98
+msgid "Used for “Posted a hour ago”"
+msgstr "Gebruikt voor \"Geplaatst een uur geleden\""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:103
+msgid "Used for “Posted a hours ago”"
+msgstr "Gebruikt voor \"Geplaatst een uur geleden\""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:108
+msgid "Used for “Posted a day ago”"
+msgstr "Gebruikt voor \"Een dag geleden geplaatst\""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:113
+msgid "Used for “Posted a days ago”"
+msgstr "Gebruikt voor \"Geplaatst een dag geleden\""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:118
+msgid "Used for “Posted a week ago”"
+msgstr "Gebruikt voor \"een week geleden geplaatst\""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:123
+msgid "Used for “Posted a weeks ago”"
+msgstr "Gebruikt voor \"Geplaatst een week geleden\""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:128
+msgid "Used for “Posted a month ago”"
+msgstr "Gebruikt voor \"Geplaatst een maand geleden\""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:133
+msgid "Used for “Posted a months ago”"
+msgstr "Gebruikt voor \"Geplaatst een maand geleden\""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:137
+#: class/sbr-functions.php:274
+#: class/sbr-functions.php:275
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "year"
+msgstr "jaar"
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:138
+msgid "Used for “Posted a year ago”"
+msgstr "Gebruikt voor \"Geplaatst een jaar geleden\""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:143
+msgid "Used for “Posted a years ago”"
+msgstr "Gebruikt voor \"Geplaatst een jaar geleden\""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:148
+msgid "Used for “Posted a XXX ago”"
+msgstr "Gebruikt voor \"Geplaatst een XXX geleden\""
+
+#: class/Common/Tooltip_Wizard.php:122
+msgid "Add a Block"
+msgstr "Een blok toevoegen"
+
+#: class/Common/Tooltip_Wizard.php:125
+msgid "Click the plus button, search for Reviews Feed"
+msgstr "Klik op de plus knop, zoek naar Reviews Feed"
+
+#: class/Common/Tooltip_Wizard.php:127
+msgid "and click the block to embed it."
+msgstr "en klik op het blok om het in te sluiten."
+
+#: class/Common/Tooltip_Wizard.php:130
+#: templates/email.php:63
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Learn More"
+msgstr "Lees meer"
+
+#: class/Common/Tooltip_Wizard.php:135
+msgid "Done"
+msgstr "Klaar"
+
+#: class/Common/Util.php:23
+msgid "Place ID"
+msgstr "Plaats ID"
+
+#: class/Common/Util.php:24
+msgid "Enter Place ID"
+msgstr "Voer plaats ID in"
+
+#: class/Common/Util.php:36
+#: class/Common/Util.php:45
+#: class/Common/Util.php:53
+#: class/Common/Util.php:60
+msgid "Page URL"
+msgstr "Pagina URL"
+
+#: class/Common/Util.php:37
+msgid "https://tripadvisor.com/..."
+msgstr "https://tripadvisor.com/..."
+
+#: class/Common/Util.php:46
+msgid "https://yelp.com/..."
+msgstr "https://yelp.com/..."
+
+#: class/Common/Util.php:54
+msgid "https://trustpilot.com/review/..."
+msgstr "https://trustpilot.com/review/..."
+
+#: class/Common/Util.php:61
+msgid "https://wordpress.org/..."
+msgstr "https://wordpress.org/..."
+
+#: class/Common/Util.php:94
+msgid "Unable to connect to Facebook to retrieve account information."
+msgstr "Kan geen verbinding maken met Facebook om accountinformatie op te halen."
+
+#: class/Common/Util.php:184
+msgid "New reviews will not display until an API key is entered for your sources."
+msgstr "Nieuwe beoordelingen worden pas weergegeven wanneer je een API-sleutel invoert voor je bronnen."
+
+#: class/Common/Util.php:185
+msgid "Due to API limitations your feeds will not show new reviews until you enter an API key on the settings page."
+msgstr "Vanwege API beperkingen worden je feeds geen nieuwe beoordelingen weergegeven totdat je een API-sleutel invoert op de instellingenpagina."
+
+#: class/Common/Util.php:189
+msgid "How to create an API key"
+msgstr "Hoe maak je een API-sleutel aan"
+
+#: class/Common/Util.php:194
+msgid "Go to Settings page"
+msgstr "Ga naar de instellingenpagina"
+
+#: class/Common/Util.php:207
+msgid "You have reached the number of allowed sources."
+msgstr "Je hebt het aantal toegestane bronnen bereikt."
+
+#: class/Common/Util.php:208
+msgid "Due to API limitations your feeds will not show new reviews because you have reached the number of allowed sources."
+msgstr "Vanwege API beperkingen zullen je feeds geen nieuwe beoordelingen weergeven omdat je het aantal toegestane bronnen hebt bereikt."
+
+#: class/Common/Util.php:266
+msgid "Custom Facebook Feed"
+msgstr "Custom Facebook Feed"
+
+#: class/Common/Util.php:267
+msgid "Add Facebook posts from your timeline, albums and much more."
+msgstr "Facebook berichten toevoegen van je tijdlijn, albums en nog veel meer."
+
+#: class/Common/Util.php:276
+msgid "Instagram Feed"
+msgstr "Instagram Feed"
+
+#: class/Common/Util.php:277
+msgid "A quick and elegant way to add your Instagram posts to your website. "
+msgstr "Een snelle en elegante manier om je Instagram berichten aan je site toe te voegen. "
+
+#: class/Common/Util.php:286
+msgid "Custom Twitter Feeds"
+msgstr "Aangepaste Twitter feeds"
+
+#: class/Common/Util.php:287
+msgid "A customizable way to display tweets from your Twitter account. "
+msgstr "Een aanpasbare manier om tweets van je Twitter account te tonen. "
+
+#: class/Common/Util.php:296
+msgid "Feeds for YouTube"
+msgstr "Feeds voor YouTube"
+
+#: class/Common/Util.php:297
+msgid "A simple yet powerful way to display videos from YouTube. "
+msgstr "Een eenvoudige, maar krachtige manier om video's van YouTube te tonen. "
+
+#: class/Common/Util.php:317
+msgid "WPForms"
+msgstr "WPForms"
+
+#: class/Common/Util.php:318
+msgid "The most beginner friendly drag & drop WordPress forms plugin allowing you to create beautiful contact forms, subscription forms, payment forms, and more in minutes, not hours!"
+msgstr "De meest beginnersvriendelijke plugin voor het slepen en neerzetten van WordPress-formulieren waarmee je prachtige contactformulieren, abonnementsformulieren, betalingsformulieren en meer kan maken in minuten, niet in uren!"
+
+#: class/Common/Util.php:326
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: class/Common/Util.php:327
+msgid "MonsterInsights makes it “effortless” to properly connect your WordPress site with Google Analytics, so you can start making data-driven decisions to grow your business."
+msgstr "MonsterInsights maakt het \"moeiteloos\" om je WordPress site goed te verbinden met Google Analytics, zodat je kunt beginnen met het maken van gegevens gestuurde beslissingen om je bedrijf te laten groeien."
+
+#: class/Common/Util.php:335
+msgid "OptinMonster"
+msgstr "OptinMonster"
+
+#: class/Common/Util.php:336
+msgid "Our high-converting optin forms like Exit-Intent® popups, Fullscreen Welcome Mats, and Scroll boxes help you dramatically boost conversions and get more email subscribers."
+msgstr "Onze hoog converterende opt-in formulieren zoals Exit-Intent® pop-ups, Fullscreen Welcome Mats en Scroll Boxes helpen je de conversies drastisch te verhogen en meer e-mailabonnees te krijgen."
+
+#: class/Common/Util.php:344
+msgid "WP Mail SMTP"
+msgstr "WP Mail SMTP"
+
+#: class/Common/Util.php:345
+msgid "Make sure your website's emails reach the inbox. Our goal is to make email deliverability easy and reliable. Trusted by over 1 million websites."
+msgstr "Zorg ervoor dat de e-mails van je site de inbox bereiken. Ons doel is om e-mail leverbaarheid gemakkelijk en betrouwbaar te maken. Vertrouwd door meer dan 1 miljoen sites."
+
+#: class/Common/Util.php:353
+msgid "RafflePress"
+msgstr "RafflePress"
+
+#: class/Common/Util.php:354
+msgid "Turn your visitors into brand ambassadors! Easily grow your email list, website traffic, and social media followers with powerful viral giveaways & contests."
+msgstr "Verander je bezoekers in merk ambassadeurs! Laat je e-maillijst, siteverkeer en volgers op sociale media groeien met krachtige virale giveaways & wedstrijden."
+
+#: class/Common/Util.php:362
+msgid "All in One SEO Pack"
+msgstr "All in One SEO pakket"
+
+#: class/Common/Util.php:363
+msgid "Out-of-the-box SEO for WordPress. Features like XML Sitemaps, SEO for custom post types, SEO for blogs, business sites, or ecommerce sites, and much more."
+msgstr "Direct toepasbare SEO voor WordPress. Functies zoals XML Sitemaps, SEO voor aangepaste berichttypen, SEO voor blogs, zakelijke sites of e-commerce sites, en nog veel meer."
+
+#: class/Common/Util.php:890
+msgid "Upgrade to Pro to display Facebook reviews"
+msgstr "Upgrade om Facebook beoordelingen weer te geven"
+
+#: class/Common/Util.php:891
+msgid "Upgrade to our \"Plus\" tier to display reviews from the well known social media platform."
+msgstr "Upgrade naar ons 'Plus' niveau om beoordelingen weer te geven van het bekende sociale media platform."
+
+#: class/Common/Util.php:902
+msgid "Upgrade to Pro to display TrustPilot reviews"
+msgstr "Upgrade naar Pro om TrustPilot beoordelingen te tonen"
+
+#: class/Common/Util.php:903
+msgid "Upgrade to our \"Plus\" tier to display reviews from the well known business review site."
+msgstr "Upgrade naar ons \"Plus\" niveau om beoordelingen weer te geven van de bekende bedrijf beoordelingssite."
+
+#: class/Common/Util.php:912
+msgid "Upgrade to Pro to display TripAdvisor reviews"
+msgstr "Upgrade naar Pro om TripAdvisor beoordelingen weer te geven"
+
+#: class/Common/Util.php:913
+msgid "Upgrade to our \"Elite\" tier to display reviews from the well known travel advice site."
+msgstr "Upgrade naar ons 'Elite' niveau om beoordelingen te tonen van de bekende reisadvies site."
+
+#: class/Common/Util.php:922
+msgid "Upgrade to Pro to display WordPress.org reviews"
+msgstr "Upgrade naar Pro om WordPress.org beoordelingen te tonen"
+
+#: class/Common/Util.php:923
+msgid "Upgrade to our \"Elite\" tier to display reviews for plugins and themes."
+msgstr "Upgrade naar ons \"Elite\" niveau om beoordelingen voor plugins en thema's te tonen."
+
+#: class/Common/Util.php:932
+msgid "Upgrade to Pro to get Carousel layout"
+msgstr "Upgrade naar Pro om de carrousel lay-out te krijgen"
+
+#: class/Common/Util.php:933
+msgid "An eye-catching rotating slider of your videos to add extra content in minimal space on your website."
+msgstr "Een opvallende roterende slider van je video's om extra inhoud toe te voegen in minimale ruimte op je site"
+
+#: class/Common/Util.php:942
+msgid "Upgrade to Pro to display more reviews"
+msgstr "Upgrade naar Pro om meer beoordelingen te tonen"
+
+#: class/Common/Util.php:943
+msgid "More layout settings to customize the look and feel of your reviews even more."
+msgstr "Meer lay-out instellingen om het uiterlijk en de uitstraling van je beoordelingen nog meer aan te passen."
+
+#: class/Common/Util.php:952
+msgid "Upgrade to Pro to display average rating"
+msgstr "Upgrade naar Pro om de gemiddelde waardering te tonen"
+
+#: class/Common/Util.php:953
+msgid "Boost social proof to make more sales conversions with the number of ratings and an average rating."
+msgstr "Verhoog het sociale bewijs om meer verkoop conversies te genereren met het aantal waarderingen en een gemiddelde waardering."
+
+#: class/Common/Util.php:962
+msgid "Upgrade to Pro to add load more functionality"
+msgstr "Upgrade naar Pro om functionaliteit voor 'Meer laden' toe te voegen"
+
+#: class/Common/Util.php:963
+msgid "Overwhelm (in a good way) your visitors with additional reviews loaded on the page with a click."
+msgstr "Overlaad (op een goede manier) je bezoekers met extra beoordelingen die met één klik worden geladen."
+
+#: class/Common/Util.php:972
+msgid "Upgrade to Pro to add images"
+msgstr "Upgrade naar Pro om afbeeldingen toe te voegen"
+
+#: class/Common/Util.php:973
+msgid "Display images from Yelp and Tripadvisor reviews."
+msgstr "Toon afbeeldingen van Yelp en Tripadvisor beoordelingen."
+
+#: class/Common/Util.php:982
+msgid "Upgrade to Pro to display author images"
+msgstr "Upgrade naar Pro om auteur afbeeldingen weer te geven"
+
+#: class/Common/Util.php:983
+msgid "Build brand trust with positive reviews from real customers."
+msgstr "Bouw merk vertrouwen op met positieve beoordelingen van echte klanten."
+
+#: class/Common/Util.php:992
+msgid "Upgrade to Pro to filter your reviews"
+msgstr "Upgrade naar Pro om je beoordelingen te filteren"
+
+#: class/Common/Util.php:993
+msgid "Show only the most positive reviews and build brand trust with review filtering."
+msgstr "Toon alleen de meest positieve beoordelingen en bouw merk vertrouwen op met beoordeling filters."
+
+#: class/Common/Util.php:1002
+msgid "Upgrade to Pro to moderate your reviews"
+msgstr "Upgrade naar Pro om je beoordelingen te modereren"
+
+#: class/Common/Util.php:1003
+msgid "Take complete control of what reviews show in the feed using keyword filters and a visual moderation system."
+msgstr "Neem volledige controle over wat er in de feed wordt getoond met behulp van keyword filters en een visueel moderatie systeem."
+
+#: class/Common/Util.php:1012
+msgid "Upgrade to Pro to get one-click templates!"
+msgstr "Upgrade naar Pro om één-klik templates te krijgen!"
+
+#: class/Common/Util.php:1013
+msgid "Quickly create and preview new feeds with pre-configured options based on popular feed types."
+msgstr "Maak snel en bekijk nieuwe feeds met vooraf geconfigureerde opties op basis van populaire feed typen."
+
+#: class/Common/Util.php:1022
+msgid "Upgrade to Pro for responsive layouts"
+msgstr "Upgrade naar Pro voor responsive lay-outs"
+
+#: class/Common/Util.php:1023
+msgid "Take control of your feed layouts by customizing number of reviews & columns"
+msgstr "Neem controle over je feed lay-outs door het aanpassen van het aantal beoordelingen & kolommen"
+
+#: class/Common/Util.php:1048
+msgid "Display images"
+msgstr "Toon afbeeldingen"
+
+#: class/Common/Util.php:1049
+msgid "With the Pro version enable images like avatars and review  photos"
+msgstr "Met de Pro versie kunnen afbeeldingen zoals avatars en beoordeling foto's worden ingeschakeld"
+
+#: class/Common/Util.php:1054
+msgid "Get carousel layout"
+msgstr "Ontvang carrousel lay-out"
+
+#: class/Common/Util.php:1055
+msgid "Show your reviews in a neat carousel with Review Feed Pro"
+msgstr "Toon je beoordelingen in een nette carrousel met Review Feed Pro"
+
+#: class/Common/Util.php:1060
+msgid "Change your feed style with one-click templates!"
+msgstr "Verander je feed stijl met één-klik templates!"
+
+#: class/Common/Util.php:1061
+msgid "Over 12 templates to choose from"
+msgstr "Meer dan 12 templates om uit te kiezen"
+
+#: class/Common/Util.php:1066
+msgid "Only show selected reviews with Moderation mode"
+msgstr "Toon alleen geselecteerde beoordelingen met moderation modus"
+
+#: class/Common/Util.php:1067
+msgid "Hide or show only certain reviews"
+msgstr "Verberg of toon alleen bepaalde beoordelingen"
+
+#: class/Pro/FeedDisplay.php:74
+#: class/Pro/FeedDisplay.php:82
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Load More"
+msgstr "Meer laden"
+
+#: class/Pro/Platform_Data.php:156
+msgid "An account admin has deauthorized the Smash Balloon app used to power the Facebook Feed plugin. The page was not reconnected within the 7 day limit and all Facebook data was automatically deleted on your website due to Facebook data privacy rules."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:252
+msgid "Your Facebook feed has been not viewed in the last 14 days. Due to Facebook data privacy rules, all data for this feed will be deleted in 7 days time. To avoid automated data deletion, simply view the Facebook feed on your website within the next 7 days."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:287
+msgid "Success! Your Facebook Feeds will continue to work normally."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:314
+#: class/Pro/Platform_Data.php:332
+msgid "There has been a problem with your Facebook Feed."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:316
+#: class/Pro/Platform_Data.php:334
+#: class/Pro/Platform_Data.php:351
+msgid "your website"
+msgstr "je site"
+
+#: class/Pro/Platform_Data.php:317
+msgid "An account admin has deauthorized the Smash Balloon app used to power the Facebook Feed plugin on %s. If the Facebook source is not reconnected within 7 days then all Facebook data will be automatically deleted on your website due to Facebook data privacy rules."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:318
+#: class/Pro/Platform_Data.php:353
+msgid "Settings Page"
+msgstr "Instellingen pagina"
+
+#: class/Pro/Platform_Data.php:319
+msgid "To prevent the automated deletion of data for the source, please reconnect your source for the Facebook Feed plugin %s within 7 days."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:335
+msgid "An Facebook feed on %s has been not viewed in the last 14 days. Due to Facebook data privacy rules, all data for this feed will be deleted in 7 days time."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:336
+msgid "To avoid automated data deletion, simply view the Facebook feed on your website within the next 7 days."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:349
+msgid "All Facebook Data has Been Removed"
+msgstr ""
+
+#: class/Pro/Platform_Data.php:352
+msgid "The page was not reconnected within the 7 day limit and all Facebook data was automatically deleted on %s due to Facebook data privacy rules."
+msgstr ""
+
+#: class/Pro/Platform_Data.php:354
+msgid "To fix your feeds, reconnect all accounts that were in use on the Settings page."
+msgstr "Om je feeds te herstellen, koppel je alle accounts die in gebruik waren opnieuw op de Instellingen pagina."
+
+#: class/sbr-functions.php:458
+#: class/sbr-functions.php:506
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrade to Pro"
+msgstr "Upgraden naar Pro"
+
+#: class/sbr-functions.php:465
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: class/sbr-functions.php:507
+msgid "<div class=\"sb-pro-upgradelink-bg\"></div><strong class=\"sb-pro-upgradelink\">Upgrade to Pro</strong>"
+msgstr "<div class=\"sb-pro-upgradelink-bg\"></div><strong class=\"sb-pro-upgradelink\">Upgrade naar Pro</strong>"
+
+#. translators: the plugin name.
+#: EDD_SL_Plugin_Updater.php:232
+msgid "There is a new version of %1$s available."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:238
+msgid "Contact your network administrator to install the update."
+msgstr ""
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: EDD_SL_Plugin_Updater.php:243
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sBekijk versie%2$sdetails%3$s."
+
+#: EDD_SL_Plugin_Updater.php:251
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$s>Bekijk versie %2$s details%3$s of %4$supdate nu%5$s."
+
+#: EDD_SL_Plugin_Updater.php:262
+msgid "Update now."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:494
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:494
+msgid "Error"
+msgstr "Fout"
+
+#. translators: %s - link to a site.
+#: templates/email.php:82
+msgid "This is a courtesy email sent from the Smash Balloon Custom Facebook Feed plugin on your website to alert you when there is an issue with one of your Facebook feeds."
+msgstr ""
+
+#: templates/email.php:89
+msgid "Sent from %s"
+msgstr "Verzonden van %s"
+
+#: templates/email.php:93
+msgid "%sLog in and disable these emails%s"
+msgstr "%sMeld aan en schakel deze e-mails uit%s"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Unsported Format"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Copied to Clipboard"
+msgstr "Gekopieerd naar klembord"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You need to add an API key to fetch new reviews"
+msgstr "Je moet een API-sleutel toevoegen om nieuwe beoordelingen op te halen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add API Key"
+msgstr "API-sleutel toevoegen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You're using Reviews Feed Lite. To unlock more features consider"
+msgstr "Je gebruikt Reviews Feed Lite. Om meer functies te ontgrendelen kun je overwegen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "upgrading to Pro"
+msgstr "upgraden naar Pro"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Preview updated successfully"
+msgstr "Voorvertoning succesvol geüpdatet"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Feed saved succesfully"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Facebook reviews are only based upon a positive or negative recommendation"
+msgstr "Facebook beoordelingen zijn alleen gebaseerd op een positieve of negatieve aanbeveling"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Filter"
+msgstr "Filter"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Search Reviews"
+msgstr "Zoek beoordelingen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Show All"
+msgstr "Alles weergeven"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Show Selected"
+msgstr "Toon geselecteerde"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Provider"
+msgstr "Provider"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "From"
+msgstr "Van"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "To"
+msgstr "Naar"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Apply"
+msgstr "Toepassen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Filters Applied"
+msgstr "Toegepaste filters"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Moderation Mode Started"
+msgstr "Moderation modus gestart"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Weight"
+msgstr "Gewicht"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "400 (Regular)"
+msgstr "400 (Regular)"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Size"
+msgstr "Grootte"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Inherit"
+msgstr "Erven"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Height"
+msgstr "Hoogte"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Edit Stroke"
+msgstr "Bewerk stroke"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Thickness"
+msgstr "Dikte"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Edit Box Shadow"
+msgstr "Bewerk box schaduw"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Blur"
+msgstr "Vervagen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Spread"
+msgstr "Spreiden"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Edit Corner Radius"
+msgstr "Bewerk hoekradius"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Radius"
+msgstr "Radius"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select another template"
+msgstr "Selecteer een ander template"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Templates updated"
+msgstr "Templates geüpdatet"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Update"
+msgstr "Update"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Changing a template will override your layout, header and button settings"
+msgstr "Het wijzigen van een template zal je lay-out, header en knopinstellingen overschrijven"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Change"
+msgstr "Wijzigen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Changing a template might override your customizations"
+msgstr "Het wijzigen van een template kan je aanpassingen overschrijven"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You can also skip this step, but you will need to add an API key later to keep the reviews updated."
+msgstr "Je kunt deze stap ook overslaan, maar je zult later een API-sleutel moeten toevoegen om de beoordelingen te updaten."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You have reached the maximum sources limit, Please enter a valid API key to retrieve new sources."
+msgstr "Je hebt de maximale limiet van bronnen bereikt, Voer een geldige API-sleutel in om nieuwe bronnen op te halen."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Are you using a local host? API keys may be required for all review retrieving."
+msgstr "Gebruik je een lokale host? API-sleutels kunnen vereist zijn voor het ophalen van alle beoordelingen."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Source Type"
+msgstr "Selecteer bron type"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Source Details"
+msgstr "Bron details toevoegen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Your URL must contain \"/themes/\" or \"/plugins/\". Examples: <a href=\"#\">https://wordpress.org/plugins/instagram-feed/</a>, <a href=\"#\">https://wordpress.org/themes/twentytwentythree/</a>"
+msgstr "Je URL moet \"/thema's/\" of \"/plugins/\" bevatten. Voorbeelden: <a href=\"#\">https://wordpress.org/plugins/instagram-feed/</a>, <a href=\"#\">https://wordpress.org/thema's/twentytwentythree/</a>"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Unknown error occured!"
+msgstr "Er is een onbekende fout opgetreden!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Source Limit Exceeded. Please enter API Key."
+msgstr "Limiet bron overschreden. Voer een API-sleutel in."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Source Limit Exceeded."
+msgstr "Limiet bron overschreden."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "API Key Added"
+msgstr "API-sleutel toegevoegd"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Invalid API Key"
+msgstr "Ongeldige API-sleutel"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Invalid Location ID or URL"
+msgstr "Ongeldige locatie ID of URL"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Source added successfully"
+msgstr "Bron succesvol toegevoegd"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "\"Elite\""
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "\"Plus\" and \"Elite\""
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "reviews are available for the"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "license tiers only, please upgrade your license on "
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "in order to connect a "
+msgstr "om te verbinden een "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "source."
+msgstr "bron."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Sources"
+msgstr "Voeg bronnen toe"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "ADVANCED SOURCES"
+msgstr "GEAVANCEERDE BRONNEN"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You have reached the allowed the number of sources for "
+msgstr "Je hebt het toegestane aantal bronnen bereikt voor "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add an API Key for "
+msgstr "Voeg een API-sleutel toe voor "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "API key gives us permission to fetch data from "
+msgstr "API-sleutel geeft ons toestemming om gegevens op te halen van "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid ". You only need to add this once. For any future "
+msgstr ". Je hoeft dit slechts één keer toe te voegen. Voor eventuele "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid " accounts, we will use the same API key."
+msgstr " accounts zullen we dezelfde API-sleutel gebruiken."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "The TripAdvisor API has a significant monthly cost. Your feeds will still update without entering an API key but you can choose to add your own."
+msgstr "De TripAdvisor API heeft aanzienlijke maandelijkse kosten. Je feeds zullen nog steeds worden geüpdatet zonder het invoeren van een API-sleutel, maar je kunt ervoor kiezen om je eigen toe te voegen."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "How to Create an API key."
+msgstr "Hoe maak je een API-sleutel aan."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "This helps us identify which page to fetch reviews from"
+msgstr "Dit helpt ons om te identificeren van welke pagina we beoordelingen moeten ophalen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Find your source's"
+msgstr "Vind je bronnen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "place ID here"
+msgstr "plaats hier ID"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Showing"
+msgstr "Tonen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Facebook Pages"
+msgstr "Facebook pagina's"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "connected to"
+msgstr "verbonden met"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Skip"
+msgstr "Overslaan"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Finish"
+msgstr "Beëindigen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Next"
+msgstr "Volgende"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connect with Facebook"
+msgstr "Verbinden met Facebook"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Pages as Source"
+msgstr "Voeg pagina's toe als bron"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Facebook Sources Added"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select one or more sources you would like to add"
+msgstr "Selecteer één of meer bronnen die je wilt toevoegen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add"
+msgstr "Toevoegen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add another Source"
+msgstr "Nieuwe bron toevoegen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Save and Exit"
+msgstr "Opslaan en afsluiten"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "API Key Updated"
+msgstr "API-sleutel geüpdatet"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add API Key for "
+msgstr "Voeg een API-sleutel toe voor "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Currently the "
+msgstr "Op dit moment is de "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid " API does not allow us to update your feed without you creating an app and adding an API key."
+msgstr " API staat ons niet toe om je feed te updaten zonder dat je een app maakt en een API-sleutel toevoegt."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Enter or Paste API Key"
+msgstr "API-sleutel invoeren of plakken"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Learn more about how to create and add an API Key here"
+msgstr "Lees hier meer over hoe je een API-sleutel kunt maken en toevoegen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Embed Feed"
+msgstr "Feed insluiten"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add to Page"
+msgstr "Toevoegen aan pagina"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add the unique shortcode to any page, post, or widget:"
+msgstr "Voeg de unieke shortcode toe aan elke pagina, bericht, of widget:"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Copy"
+msgstr "Kopieer"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Or use the built in WordPress block or widget"
+msgstr "Of gebruik de ingebouwde WordPress blok of widget"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add to a Page"
+msgstr "Aan een pagina toevoegen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add to a Widget"
+msgstr "Aan een widget toevoegen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Page"
+msgstr "Selecteer pagina"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Close Editor"
+msgstr "Sluit editor"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Are you Sure?"
+msgstr "Weet je het zeker?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Are you sure you want to leave this page, all unsaved settings will be lost, please make sure to save before leaving."
+msgstr "Weet je zeker dat je deze pagina wil verlaten, alle niet opgeslagen instellingen zullen verloren gaan, zorg ervoor dat je ze opslaat voordat je weggaat."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Exit without Saving"
+msgstr "Afsluiten zonder op te slaan"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Help"
+msgstr "Hulp"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Embed"
+msgstr "Insluiten"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Save"
+msgstr "Opslaan"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Page"
+msgstr "Pagina"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Group"
+msgstr "Groep"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add a Source Manually"
+msgstr "Bron manueel toevoegen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Source Type"
+msgstr "Brontype"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Facebook Page or Group ID"
+msgstr "Facebookpagina of groep ID"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Enter ID"
+msgstr "ID invoeren"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Facebook Access Token"
+msgstr "Facebook access token"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Enter Token"
+msgstr "Token ingeven"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "There was a problem connecting this account. Please make sure your access token and ID are correct."
+msgstr "Er is een probleem met het verbinden van dit account. Zorg ervoor dat je toegang token en ID correct zijn."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "API Response: Invalid OAuth access token - Cannot parse access token"
+msgstr "API reactie: ongeldig OAuth toegang token - kan toegang token niet parsen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Source Added Successfully"
+msgstr "Bron succesvol toegevoegd"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Something went wrong"
+msgstr "Er is iets misgegaan"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Docs"
+msgstr "Docs"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Plugins"
+msgstr "Plugins"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "All Access Bundle"
+msgstr "All Access bundel"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrade to the"
+msgstr "upgrade naar PRO"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid " All Access Bundle"
+msgstr " All Access bundel"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid " to get all of our Pro Plugins"
+msgstr " om al onze Pro plugins te krijgen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Includes all Smash Balloon plugins for one low price: Instagram, Facebook, Twitter, YouTube and Social Wall"
+msgstr "Inclusief alle Smash Balloon plugins voor één lage prijs: Instagram, Facebook, Twitter, YouTube en Social Wall"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "BONUS"
+msgstr "BONUS"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Lite users get"
+msgstr "Lite gebruikers krijgen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "50% Off"
+msgstr "50% KORTING"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "automatically applied at checkout"
+msgstr "automatisch toegepast bij het afrekenen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Display Reviews<br/>from Facebook"
+msgstr "Toon beoordelingen<br/>van Facebook"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Display Reviews<br/>from TripAdvisor"
+msgstr "Toon beoordelingen<br/>van TripAdvisor"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Moderate your<br/>Review Feeds"
+msgstr "Modereer je<br/>beoordeling feeds"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Display Images<br/>and Videos"
+msgstr "Toon afbeeldingen<br/>en video's"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "One-click templates"
+msgstr "Eén-klik templates"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Advanced filtering"
+msgstr "Geavanceerd filteren"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Carousel layout"
+msgstr "Carousel lay-out"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Mobile design support"
+msgstr "Ondersteuning voor mobiel ontwerp"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Custom icons"
+msgstr "Aangepaste pictogrammen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Pro support"
+msgstr "Pro ondersteuning"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Get more features with Reviews Feed Pro"
+msgstr "Krijg meer functies met Reviews Feed Pro"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Get reviews from more platforms, review moderation, carousel layouts, and much more!"
+msgstr "Krijg recensies van meer platforms, beoordeling moderatie, carrousel lay-outs en nog veel meer!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Lite Plugin Users get 50% OFF (auto-applied at checkout)"
+msgstr "Lite plugin gebruikers krijgen 50% KORTING (automatisch toegepast bij het afrekenen)"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "And much more!"
+msgstr "En veel meer!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Hide Features"
+msgstr "Functies verbergen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Show Features"
+msgstr "Functies tonen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Made with"
+msgstr "Gemaakt met"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "by the Smash Balloon Team"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Bulk Actions"
+msgstr "Bulkacties"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete"
+msgstr "Verwijder"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Feed Deleted"
+msgstr "Feed verwijderd"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete \""
+msgstr "Verwijder \""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete Feeds?"
+msgstr "Feeds verwijderen?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You are going to delete this feed. You will lose all the settings. Are you sure you want to continue?"
+msgstr "Je gaat deze feeds verwijderen. Je zult alle instellingen verliezen. Weet je zeker dat je wil doorgaan?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Feed List Updated"
+msgstr "Feed lijst geüpdatet"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Items"
+msgstr "Items"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "of"
+msgstr "of"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Instances"
+msgstr "Instanties"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Actions"
+msgstr "Acties"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Copy Shortcode"
+msgstr "Kopieer shortcode"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Used in "
+msgstr "Gebruikt in "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "place"
+msgstr "plaats"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "places"
+msgstr "plaatsen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Edit"
+msgstr "Bewerken"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Duplicate"
+msgstr "Dupliceren"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Feed Duplicated"
+msgstr "Feed gedupliceerd"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create your feed"
+msgstr "Maak je feed"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connect your Google, Facebook, Yelp or Tripadvisor account and choose a feed type"
+msgstr "Verbind je Google, Facebook, Yelp of Tripadvisor account en kies een feed type"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Customize your feed type"
+msgstr "Je feed type personaliseren"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Choose layouts, color schemes, filters and more"
+msgstr "Kies lay-outs, kleurenschema's, filters en meer"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Embed your feed"
+msgstr "Je feed insluiten"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Easily add the feed anywhere on your website"
+msgstr "Voeg de feed eenvoudig overal op je site toe"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Looks like you have not added any source. Use “Add Source” to add a new one."
+msgstr "Het lijkt erop dat je geen bron hebt toegevoegd. Gebruik 'Bron toevoegen' om er een nieuwe toe te voegen."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Source"
+msgstr "Bron toevoegen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select a Template"
+msgstr "Selecteer een template"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Back"
+msgstr "Terug"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Review Feed Pro by Smash Balloon"
+msgstr "Review Feed Pro door Smash Balloon"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Activate your plugin to get started"
+msgstr "Activeer je plugin om aan de slag te gaan"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Paste license key here"
+msgstr "Plak licentiesleutel hier"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Activate"
+msgstr "Activeer"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "License Activated!"
+msgstr "Licentie geactiveerd!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Invalid License!"
+msgstr "Ongeldige licentie!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "License Dactivated!"
+msgstr "Licentiesleutel gedeactiveerd!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Don’t have a license key?"
+msgstr "Heb je geen licentiesleutel?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Buy a License"
+msgstr "Koop een licentie"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "After activating your plugin, you can..."
+msgstr "Na het activeren van je plugin, kun je..."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collect New Reviews"
+msgstr "Verzamel nieuwe beoordelingen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New reviews and data related to the reviews for your business are collected from external sites. Your license key can be used to access this data using Smash Balloon's API site."
+msgstr "Nieuwe beoordelingen en gegevens met betrekking tot de beoordelingen voor je bedrijf worden verzameld van externe sites. Je licentiesleutel kan worden gebruikt om toegang te krijgen tot deze gegevens via de API-site van Smash Balloon."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Recieve Critical Updates"
+msgstr "Ontvang kritieke updates"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "With constant changes to WordPress and the APIs that your reviews are retrieved from, your plugin needs to stay up to date. Activating your license allows automatic updates from the Plugins page."
+msgstr "Met constante wijzigingen aan WordPress en de API's waarvandaan je beoordelingen worden opgehaald, moet je plugin up-to-date blijven. Het activeren van je licentiesleutel maakt automatische updates vanaf de pagina Plugins mogelijk."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Receive Technical Support"
+msgstr "Ontvang technische ondersteuning"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Although we pride ourselves on creating reliable, easy-to-use products our expert support team is here to help with any questions. Activating your license key is recommended to receive efficient support."
+msgstr "Hoewel we trots zijn op het creëren van betrouwbare, gebruiksvriendelijke producten, staat ons deskundige ondersteuningsteam klaar om te helpen bij eventuele vragen. Het activeren van je licentiesleutel wordt aanbevolen om efficiënte ondersteuning te ontvangen."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Amazing Support Team."
+msgstr "Geweldig ondersteuningsteam."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Having trouble using the plugin?"
+msgstr "Problemen met het gebruik van de plugin?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Contact our friendly support team."
+msgstr "Neem contact op met ons vriendelijke ondersteuningsteam."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Go to Support Form"
+msgstr "Ga naar het ondersteuningsformulier"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create a feed"
+msgstr "Maak een feed"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create a Review feed"
+msgstr "Maak een beoordelingen feed"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Confirm"
+msgstr "Bevestigen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Please your "
+msgstr "Alstublieft je "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "License Key "
+msgstr "Licentiesleutel "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Your "
+msgstr "Je "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid " License is "
+msgstr " Licentie is "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Active"
+msgstr "Actief"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Inactive"
+msgstr "Inactief"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Expired"
+msgstr "Verlopen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Manage License"
+msgstr "Beheer licentie"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Test Connection"
+msgstr "Test verbinding"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connection successful"
+msgstr "Verbinding succesvol"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connection Error"
+msgstr "Verbindingsfout"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete "
+msgstr "Verwijder "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "If you delete this source then new posts can no longer be retrieved for feeds using this source."
+msgstr "Als je deze bron verwijdert, kunnen er geen nieuwe berichten meer worden opgehaald voor feeds die deze bron gebruiken."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Source Deleted!"
+msgstr "Bron verwijderd!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Feed"
+msgstr "Selecteer feed"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Export"
+msgstr "Export"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Original Text"
+msgstr "Originele tekst"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Custom text/translation"
+msgstr "Aangepaste tekst/vertaling"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Context"
+msgstr "Context"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New Reviews collected twice daily."
+msgstr "Nieuwe beoordelingen worden twee keer per dag verzameld."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New Reviews collected daily."
+msgstr "Nieuwe beoordelingen worden dagelijks verzameld."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Clear All Caches"
+msgstr "Alle caches legen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Cleared all Caches"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You are using the Lite version of the plugin–no license needed. Enjoy! 🙂 To unlock more features, consider "
+msgstr "Je gebruikt de Lite versie van de plugin - geen licentie nodig. Geniet ervan! 🙂 Om meer functies te ontgrendelen, overweeg "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrading to Pro"
+msgstr "Upgraden naar Pro"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "As a valued user of our Lite plugin, you receive 50% OFF - automatically applied at checkout!"
+msgstr "Als een gewaardeerde gebruiker van onze Lite plugin, ontvang je 50% KORTING - automatisch toegepast bij het afrekenen!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Install Pro"
+msgstr "Installeer Pro"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Settings saved succesfully"
+msgstr "Instellingen succesvol opgeslagen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Plugin Installed"
+msgstr "Plugin geïnstalleerd"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Unknown Error"
+msgstr "Onbekende fout"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Plugin Activated"
+msgstr "Plugin geactiveerd"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Plugin Deactivated"
+msgstr "Plugin gedeactiveerd"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "About Us"
+msgstr "Over ons"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "SmashBalloon Team"
+msgstr "SmashBalloon team"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "At Smash Balloon, we build software that helps you create beautiful responsive social media feeds for your website in minutes."
+msgstr "Bij Smash Balloon bouwen we software waarmee je in enkele minuten prachtige responsive sociale media feeds voor je site kan maken."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "We're on a mission to make it super simple to add social media feeds in WordPress. No more complicated setup steps, ugly iframe widgets, or negative page speed scores."
+msgstr "We zijn op een missie om het supereenvoudig te maken om sociale media feeds toe te voegen in WordPress. Geen ingewikkelde installatiestappen meer, lelijke iFrame widgets, of negatieve pagina snelheid scores."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Our plugins aren't just easy to use, but completely customizable, reliable, and fast! Which is why over 1.6 million awesome users, just like you, choose to use them on their site."
+msgstr "Onze plugins zijn niet alleen gemakkelijk te gebruiken, maar ook volledig aanpasbaar, betrouwbaar en snel! Daarom kiezen meer dan 1,6 miljoen geweldige gebruikers, net als je, ervoor om ze op hun site te gebruiken."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Our Other Social Media Feed Plugins"
+msgstr "Onze andere plugins voor sociale media feeds"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "We're more than just a Reviews plugin! Check out our other plugins and add more content to your site."
+msgstr "We zijn meer dan alleen een beoordelingen plugin! Bekijk onze andere plugins en voeg meer inhoud toe aan je site."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Facebook Plugin"
+msgstr "Facebook plugin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Install"
+msgstr "Installeer"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Installed"
+msgstr "Geïnstalleerd"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Social Wall"
+msgstr "Social Wall"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Combine feeds from all of our plugins into a single wall"
+msgstr "Combineer feeds van al onze plugins in een enkele wall"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Plugins we recommend"
+msgstr "Plugins die we aanbevelen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "What are they used for?"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Solving an issue in your plugin might sometime require testing API access but with your setup. We do not want to expose your API keys over support messages and hence we use a temporary login link system to securely access it."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "What can a support executive access?"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "A support team member can only access Smash Balloon plugin to make API requests. They can NOT access any other plugins, create posts or in any way modify your WordPress website."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Can I disable or delete the temporary login link?"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "The login link is auto-destroyed in 14 days. You can also manually delete it any time you want."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Temporary Login Links"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Dismiss"
+msgstr "Negeren"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Search Documentation"
+msgstr "Documentatie zoeken"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Need more support? We're here to help."
+msgstr "Meer ondersteuning nodig? Wij zijn er om je te helpen."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Submit a Support Ticket"
+msgstr "Dien een ondersteuning ticket in"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Get Help in the WordPress.org Forum"
+msgstr "Krijg hulp in het WordPress.org forum"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Our fast and friendly support team is always happy to help!"
+msgstr "Ons snelle en vriendelijke ondersteuningsteam staat altijd klaar om te helpen!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "System Info"
+msgstr "Systeem info"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collapse"
+msgstr "Samenvouwen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Expand"
+msgstr "Uitvouwen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Export Settings"
+msgstr "Export instellingen"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Share your plugin settings easily with Support"
+msgstr "Deel je plugin instellingen eenvoudig met de ondersteuning"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Temporary Login"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Our team might require temporary login access with limited access to only our plugin to help you test your issues"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create Temporary Login Link"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Temporary User Created"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Temporary Login link for support access created by you. This is auto-destructed 14 days after creation. To create a new link, please delete the old one."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Link"
+msgstr "Link"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Expires in"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Temporary User Deleted"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Copy Link"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "TripAdvisor & Facebook Support"
+msgstr "TripAdvisor & Facebook ondersteuning"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Moderate review feeds"
+msgstr "Beoordeling feeds modereren"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Display images and videos"
+msgstr "Toon afbeeldingen en video's"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "<span className=\"sb-reviews-extpp-lite-btn-texts\"> Lite Plugin Users get a 50% OFF <span className=\"sb-reviews-extpp-lite-btn-discount-applied\">auto-applied at checkout</span></span>"
+msgstr "<span className=\"sb-reviews-extpp-lite-btn-texts\"> Lite plugin gebruikers krijgen 50% KORTING <span className=\"sb-reviews-extpp-lite-btn-discount-applied\">automatisch toegepast bij het afrekenen</span></span>"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upsell Modal Icon"
+msgstr "Upsell modal pictogram"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "And get much more!"
+msgstr "En krijg zoveel meer!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Video Demo"
+msgstr "Video demo"
+
+#. Plugin URI of the plugin
+#: sb-reviews.php
+msgid "https://smashballoon.com/reviews-feed"
+msgstr ""
+
+#. Description of the plugin
+#: sb-reviews.php
+msgid "Reviews Feeds allows you to display completely customizable Reviews feeds from many different providers."
+msgstr ""
+
+#. Author URI of the plugin
+#: sb-reviews.php
+msgid "https://smashballoon.com/"
+msgstr ""
+
+#: class/Common/Admin/SBR_Admin_Notice.php:47
+msgid "You have reached the review source limit for (%s). In order to add additional sources you'll need to create and enter an API key. Please add API key %shere%s."
+msgstr ""
+
+#: class/Common/Admin/SBR_Collections_Builder.php:35
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collections"
+msgstr ""
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1249
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1355
+msgid "Please make sure the collection exists"
+msgstr ""
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1526
+msgid "Cannot duplicate Collection, something went wrong!"
+msgstr ""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:152
+#: class/sbr-functions.php:278
+msgid "Over %s Reviews"
+msgstr ""
+
+#: class/Common/Settings/Tabs/SBR_Translation_Tab.php:153
+msgid "Used for header Reviews number “Over XXX Reviews”, make sure to add %s to be replaced with reviews number."
+msgstr ""
+
+#: class/Common/Util.php:134
+msgid ""
+"Your server could not complete a remote request to Facebook's API. Your host may be blocking access or\n"
+"                    there may be a problem with your server."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Handpick reviews with collections"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select among your reviews and organize them into a collection. Manually create a review for complete control. Once a collection is created, it will appear as a feed source."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create Collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New sources loaded"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collection JSON exported!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add reviews to your collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Organize reviews into collections, embed collections on any page"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collections help you organize your reviews in collections such as “Homepage reviews” or “Product reviews”. You can then use them as a reviews source in any feed."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add your first review to this collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add reviews from Google, Facebook, TrustPilot or Yelp. Collections help you hand-pick reviews and embed them on pages."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Lite Plugin Users get 50% OFF."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "(auto-applied at checkout)"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "How it works"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Handpick reviews"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create handpicked reviews collections to make the best first impression."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add them manually"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add reviews manually"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Your reviews are not on Google, Yelp or Facebook? No problem. You can add reviews manually."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Embed in a feed"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Embed on any feed"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add these collections as source on any feed. These work just like any other sources."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Name your Collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Eg. Homepage Reviews"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "All Collections"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "What are collections?"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Review"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Duplicate "
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "By duplicating this collection, all the reviews created and added to this collection will be duplicated too!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Duplicate Collection "
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collection Duplicated!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "By deleting this collection, all the reviews created and added for it will be deleted too"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collection Deleted!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Empty Collections Icon"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Showcase your best reviews with collections"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create collections of handpicked reviews to showcase them on your website, reviews page or product page"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New Collection created successfully"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Okay, got it"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Search list updated"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Clear Search"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Review deleted from collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "No reviews found!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Manually"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add the review by manually typing it out"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Or Add from existing source"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add the review from an existing source you have already connected"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Reviewer Avatar Image"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Use this media"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Reviews Image"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Image to Review"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You are about to edit this review"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "This review is displayed in"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "feeds. Editing it will change it on both those places. This action is irreversible."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "User Avatar"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Reviewer Image"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Replace Image"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "First Name"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "John"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Last Name"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Dow"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Review Title"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "The review title goes here"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Review Content"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "The content title goes here"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Link to the review (Optional)"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Posted on"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Date"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Review Selected"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews Selected"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Search Source Reviews"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Load More Reviews"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "There are no reviews in this source, please select another source!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Review Updated successfully"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Review"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add to Collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Selected Reviews added to your collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collection Name Updated"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Back to All Collections"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Rename"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Update the Collection Name"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collection Imported!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Invalid JSON file!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Import Review"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create Feed"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Redirecting to Feed Editor"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "We have created a feed and added this collection as a source."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collections Reviews List"
+msgstr ""
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:504
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1783
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1792
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1801
+msgid "JSON file needed. Your file is not in the correct format."
+msgstr ""
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1703
+msgid "Collection imported successfully"
+msgstr ""
+
+#: class/Common/Builder/SBR_Feed_Saver_Manager.php:1810
+msgid "Something went wrong. This doesn't look like a collections import file."
+msgstr ""
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:363
+msgid "Number of Rows"
+msgstr ""
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:365
+msgid "1"
+msgstr ""
+
+#: class/Common/Customizer/Tabs/SBR_Customize_Tab.php:366
+msgid "2"
+msgstr ""
+
+#: class/Common/Services/UsageTrackingService.php:174
+msgid "Once Weekly"
+msgstr ""
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:95
+msgid "Import Collection"
+msgstr ""
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:97
+msgid "You will need a JSON file previously exported from the collections Reviews Feed Plugin"
+msgstr ""
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:100
+msgid "Export Collection"
+msgstr ""
+
+#: class/Common/Settings/Tabs/SBR_General_Tab.php:102
+msgid "Export collection reviews"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Feeds are updating once a week. To update them more often, add an API key."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "To fetch new reviews, add an API key or Upgrade your plan."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add an API Key."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrade Plan"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Unable to retrieve reviews history for this source. Clear the cache or reconnect the source to try again."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Fetching reviews history in the background!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Google API key"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "How to get a Goole API key"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Yekp API key"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "How to get a Yelp API key"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add API Keys"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Currently the Yelp and Google’s API does not allow us to update your feed without you creating an app and adding an API key."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "The API key is invalid. Please try a new API key."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "API Key added successfully!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Due to API pricing by Google and Yelp, we update your sources once a week. To update them more often, you can add a Google and Yelp API Key."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Due to API pricing by Google and Yelp, we can only fetch the latest 10 reviews in the free plan. To fetch more or fetch again, you can add an API key or upgrade your plan."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Account added successfully"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Okay"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add API key"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You can only add 2 Google and 5 Yelp sources"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You can only add 1 source"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Due to paid API pricing by Yelp and Google, we only offer a limited amount of Google or Yelp source. To add more, you can add an API key for each platform."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Due to paid API pricing by Yelp and Google, we only offer a single Google or Yelp source on the free plan. To add more, you can add an API key or upgrade your plan."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add a Source"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "To add another source, please delete any existing sources."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add an API Key"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrade your Plan"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Please verify your email"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Before you can add a source, we need to make sure it's you. Please verify your email. It takes less than 2 minutes."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Verify Email"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "API Key deleted successfuly"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Remove"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Error Logs"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Clear Log"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Error logs cleared!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Download"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Error ID"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Code"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Message"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Details"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Refresh List"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connect Forms"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Get reviews submissions from your audience"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "With the help of WPForms or Formidable Forms, you can create a form and get submissions straight to a review collection."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Configure Form Submissions"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Get reviews directly from WPForms or Formidable Forms"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create a form, connect it to this collection, and watch reviews collect directly in this collection."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connect a Form"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Install WPForms"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Looks like you do not have any compatible form plugin installed. One click install WPForms and start setting up your form right away."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Purchase WPForms Pro"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connect a form"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Form"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Cannot find a form?"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "To select a form, you need to first create a compatible form from templates"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create from Template"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New Form connect successfully!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "We are importing your form submissions"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connect"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select a rule"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 3 stars or more"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 4 stars or more"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 5 stars or more"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "is longer than"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "is shorter than"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 1 star or less"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 2 stars or less"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 3 stars or less"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 4 stars or less"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "has 5 stars or less"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connected Forms"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Configure forms that are allowed to add reviews to this collection."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Form"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Disconnect "
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Are you sure you want to disconnect this form?"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Form Disconnected!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Rules"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add rules to auto-approve or auto-delete form submissions"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collection form rules updated!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Apply rules"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Auto Approve"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add posts to collection automatically if..."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "REVIEW"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "AND"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "200"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "chars"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Auto Archive"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Archive form submission automatically if..."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews added from collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews removed from collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews archived from collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add To collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Remove from collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete Submissions"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Loading connected forms submissions..."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Form Submissions"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "When your users submit reviews from a connected form, it will show up here."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Remove from Collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "View"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews Unarchived from collection"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete Submissions."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Are you sure you want to permanently delete submissions from your collection?"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews Deleted!"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Unarchive Submissions"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Loading collections archived submissions..."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Archived Submissions"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "When you archive a submission, it will be displayed here."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Unarchive"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Permanently Delete"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reviews list updated successfully"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Back to"
+msgstr ""

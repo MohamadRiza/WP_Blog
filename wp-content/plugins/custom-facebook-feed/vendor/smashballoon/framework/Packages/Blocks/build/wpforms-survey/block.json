@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "am/faux-wp-forms-survey",
+  "title": "WP Forms Survey",
+  "description": "A simple survey form",
+  "version": "0.1.0",
+  "category": "widgets",
+  "icon": "admin-plugins",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "wpforms-lite",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "attributes": {},
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  }
+}

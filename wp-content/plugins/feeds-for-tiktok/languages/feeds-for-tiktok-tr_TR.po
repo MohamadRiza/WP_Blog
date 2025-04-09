@@ -1,0 +1,2043 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 637a54ff789a197f3b0df3b99529153f\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tiktok-feeds\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-28T16:37:42+05:45\n"
+"PO-Revision-Date: 2024-06-12 20:43\n"
+"Language: tr_TR\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: feeds-for-tiktok\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 637a54ff789a197f3b0df3b99529153f\n"
+"X-Crowdin-Project-ID: 17\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /[awesomemotive.tiktok-feeds] master/languages/feeds-for-tiktok.pot\n"
+"X-Crowdin-File-ID: 2738\n"
+
+#. Plugin URI of the plugin
+#: tiktok-feeds-pro.php
+msgid "https://smashballoon.com/tiktok-feeds/"
+msgstr "https://smashballoon.com/tiktok-feeds/"
+
+#. Description of the plugin
+#: tiktok-feeds-pro.php
+msgid "Add TikTok feeds to your website."
+msgstr "TikTok akışlarını web sitenize ekleyin."
+
+#. Author of the plugin
+#: tiktok-feeds-pro.php
+msgid "Smash Balloon"
+msgstr "Smash Balloon"
+
+#. Author URI of the plugin
+#: tiktok-feeds-pro.php
+msgid "https://smashballoon.com/"
+msgstr "https://smashballoon.com/"
+
+#. translators: the plugin name.
+#: EDD_SL_Plugin_Updater.php:237
+msgid "There is a new version of %1$s available."
+msgstr "%1$s eklentisinin yeni bir sürümü mevcut."
+
+#: EDD_SL_Plugin_Updater.php:243
+msgid "Contact your network administrator to install the update."
+msgstr "Güncellemeyi yüklemek için ağ yöneticinize başvurun."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: EDD_SL_Plugin_Updater.php:248
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sSürümün %2$s ayrıntılarını görüntüle%3$s."
+
+#: EDD_SL_Plugin_Updater.php:256
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sSürüm %2$s ayrıntılarını görüntüle%3$s veya %4$sşimdi güncelle%5$s."
+
+#: EDD_SL_Plugin_Updater.php:267
+msgid "Update now."
+msgstr "Şimdi güncelle."
+
+#: EDD_SL_Plugin_Updater.php:501
+msgid "You do not have permission to install plugin updates"
+msgstr "Eklenti güncellemelerini yüklemek için izniniz yok"
+
+#: EDD_SL_Plugin_Updater.php:501
+msgid "Error"
+msgstr "Hata"
+
+#: inc/Common/Admin/MenuService.php:30
+#: inc/Common/Utils/Utils.php:796
+#: vendor/smashballoon/customizer/app/V3/Feed_Builder.php:58
+#: vendor/smashballoon/customizer/app/V3/Feed_Builder.php:59
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "All Feeds"
+msgstr "Tüm Akışlar"
+
+#: inc/Common/Admin/MenuService.php:40
+msgid "TikTok Feeds"
+msgstr "TikTok Feeds"
+
+#: inc/Common/Admin/MenuService.php:70
+#: inc/Common/Customizer/Tabs/SettingsTab.php:28
+#: inc/Common/Utils/Utils.php:797
+#: vendor/smashballoon/customizer/app/V3/Settings_Builder.php:59
+#: vendor/smashballoon/customizer/app/V3/Settings_Builder.php:60
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: inc/Common/Admin/SupportBuilder.php:101
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Getting Started"
+msgstr "Başlarken"
+
+#: inc/Common/Admin/SupportBuilder.php:102
+msgid "Some helpful resources to get you started"
+msgstr "Başlamanıza yardımcı olacak bazı kaynaklar"
+
+#: inc/Common/Admin/SupportBuilder.php:106
+msgid "Getting Started with TikTok Feeds"
+msgstr "TikTok Feeds'e Başlarken"
+
+#: inc/Common/Admin/SupportBuilder.php:110
+msgid "How Do I Show a Feed from Another Account"
+msgstr "Başka Bir Hesaptan Bir Akışı Nasıl Gösterebilirim"
+
+#: inc/Common/Admin/SupportBuilder.php:114
+msgid "How to Keep My Account Connected"
+msgstr "Hesabımı Nasıl Bağlantılı Tutabilirim"
+
+#: inc/Common/Admin/SupportBuilder.php:119
+msgid "More Help Getting started"
+msgstr "Daha Fazla Yardım başlatılıyor"
+
+#: inc/Common/Admin/SupportBuilder.php:124
+msgid "Docs & Troubleshooting"
+msgstr "Dokümanlar ve Sorun Giderme"
+
+#: inc/Common/Admin/SupportBuilder.php:125
+msgid "Run into an issue? Check out our help docs."
+msgstr "Bir sorunla mı karşılaştınız? Yardım dokümanlarımıza göz atın."
+
+#: inc/Common/Admin/SupportBuilder.php:129
+msgid "Error Message Reference"
+msgstr "Hata Mesajı Yönlendirme"
+
+#: inc/Common/Admin/SupportBuilder.php:133
+msgid "My Feed is Not Displaying"
+msgstr "Akışım Görüntülenmiyor"
+
+#: inc/Common/Admin/SupportBuilder.php:137
+msgid "My Feed is Not Updating"
+msgstr "Akışım Güncellenmiyor"
+
+#: inc/Common/Admin/SupportBuilder.php:142
+msgid "View Documentation"
+msgstr "Belgeleri Görüntüle"
+
+#: inc/Common/Admin/SupportBuilder.php:147
+msgid "Additional Resources"
+msgstr "Ek Kaynaklar"
+
+#: inc/Common/Admin/SupportBuilder.php:148
+msgid "To help you get the most out of the plugin"
+msgstr "Eklentiden en iyi şekilde yararlanmanıza yardımcı olmak için"
+
+#: inc/Common/Admin/SupportBuilder.php:152
+msgid "Video Filtering Guide?"
+msgstr "Video Filtreleme Kılavuzu?"
+
+#: inc/Common/Admin/SupportBuilder.php:156
+msgid "Can I Display Multiple Feeds on One Page?"
+msgstr "Tek Sayfada Birden Fazla Akış Görüntüleyebilir Miyim?"
+
+#: inc/Common/Admin/SupportBuilder.php:160
+msgid "How Do I Embed a Feed Directly In a Template?"
+msgstr "Bir Akışı Nasıl Doğrudan Şablona Yerleştiririm?"
+
+#: inc/Common/Admin/SupportBuilder.php:165
+msgid "View Blog"
+msgstr "Blogu Görüntüle"
+
+#: inc/Common/Customizer/FeedBuilder.php:178
+msgid "Default"
+msgstr "Varsayılan"
+
+#: inc/Common/Customizer/FeedBuilder.php:182
+msgid "Cards"
+msgstr "Kartlar"
+
+#: inc/Common/Customizer/FeedBuilder.php:187
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:127
+msgid "List"
+msgstr "Liste"
+
+#: inc/Common/Customizer/FeedBuilder.php:192
+msgid "Latest Video"
+msgstr "En Son Video"
+
+#: inc/Common/Customizer/FeedBuilder.php:197
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:139
+msgid "Carousel"
+msgstr "Karusel"
+
+#: inc/Common/Customizer/FeedBuilder.php:202
+msgid "Showcase Carousel"
+msgstr "Vitrin Karusel"
+
+#: inc/Common/Customizer/FeedBuilder.php:230
+msgid "My Timeline"
+msgstr "Zaman Çizelgem"
+
+#: inc/Common/Customizer/FeedBuilder.php:231
+msgid "Create a feed from your own TikTok posts"
+msgstr "Kendi TikTok gönderilerinizden bir akış oluşturun"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:27
+msgid "Customize"
+msgstr "Özelleştir"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:42
+msgid "Template"
+msgstr "Şablon"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:47
+msgid "Layout"
+msgstr "Yerleşim"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:54
+msgid "Header"
+msgstr "Başlık"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:60
+msgid "TikToks"
+msgstr "TikTok'lar"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:66
+msgid "Video Player Experience"
+msgstr "Video Oynatıcı Deneyimi"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:72
+msgid "Load More Button"
+msgstr "Daha Fazla Tuş Yükle"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:75
+msgid "Upgrade to Pro to Load posts asynchronously with Load more button. %1$sLearn More%2$s"
+msgstr "Daha fazla yükle butonuyla gönderileri eşzamansız olarak yüklemek için Pro'ya yükseltin. %1$sDaha Fazla Bilgi Edinin%2$s"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:122
+msgid "Grid"
+msgstr "Izgara"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:133
+msgid "Masonry"
+msgstr "Yığma"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:153
+msgid "Spacing"
+msgstr "Aralık"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:158
+msgid "Vertical"
+msgstr "Dikey"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:166
+msgid "Horizontal"
+msgstr "Yatay"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:183
+msgid "Number of posts to display"
+msgstr "Görüntülenecek gönderi sayısı"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:217
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:255
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:302
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:395
+msgid "Columns"
+msgstr "Sütunlar"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:293
+msgid "Columns and Rows"
+msgstr "Sütunlar ve Satırlar"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:332
+msgid "Pagination"
+msgstr "Sayfalama"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:345
+msgid "Loop Type"
+msgstr "Döngü Türü"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:347
+msgid "Rewind"
+msgstr "Geri yükle"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:348
+msgid "Infinity"
+msgstr "Sonsuzluk"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:357
+msgid "Interval Time"
+msgstr "Zaman aralığı"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:363
+msgid "Show Navigation Arrows"
+msgstr "Gezinme Oklarını Göster"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:373
+msgid "Show Pagination"
+msgstr "Sayfalandırmayı Göster"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:383
+msgid "Enable Autoplay"
+msgstr "Otomatik Oynatmayı Etkinleştir"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:433
+msgid "Content Length"
+msgstr "İçerik Uzunluğu"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:438
+msgid "characters"
+msgstr "karakter"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:459
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1177
+msgid "Enable"
+msgstr "Etkinleştir"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:469
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:521
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1043
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Name"
+msgstr "Ad"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:476
+msgid "Profile Picture"
+msgstr "Profil Resmi"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:483
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Size"
+msgstr "Boyut"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:490
+msgid "Small"
+msgstr "Küçük"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:491
+msgid "Medium"
+msgstr "Orta"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:492
+msgid "Large"
+msgstr "Büyük"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:500
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:556
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:612
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:669
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:747
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:839
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1015
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1110
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1280
+msgid "Element Spacing"
+msgstr "Öğe Aralığı"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:506
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:562
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:618
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:675
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:753
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:845
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:878
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1021
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1116
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1290
+msgid "Padding"
+msgstr "Dolgu"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:513
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:569
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:625
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:682
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:760
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:852
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:888
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1123
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1301
+msgid "Margin"
+msgstr "Boşluk"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:528
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:548
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:584
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:604
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:641
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:661
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:775
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:804
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1102
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1187
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1230
+msgid "Text"
+msgstr "Metin"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:540
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:596
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:653
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:722
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:796
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:960
+msgid "Colors"
+msgstr "Renkler"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:577
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:633
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:710
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:739
+msgid "Description"
+msgstr "Açıklama"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:690
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:698
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:730
+msgid "Stats"
+msgstr "İstatistikler"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:768
+msgid "Button"
+msgstr "Tuş"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:781
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1199
+msgid "Content"
+msgstr "İçerik"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:813
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1243
+msgid "Background"
+msgstr "Arka plan"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:822
+msgid "Text/ Hover"
+msgstr "Metin/ Üzerine Gelince"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:831
+msgid "Bg/ Hover"
+msgstr "Arka Plan/ Üzerine Gelince"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:866
+msgid "Header Spacing"
+msgstr "Başlık Aralığı"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:909
+msgid "TikTok Style"
+msgstr "TikTok Biçemi"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:917
+msgid "Edit Individual Elements"
+msgstr "Ayrı Öğeleri Düzenle"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:918
+msgid "Hide or Show individual elements of a post or edit their options"
+msgstr "Bir gönderinin ayrı öğelerini Gizleyin veya Gösterin veya seçeneklerini düzenleyin"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:944
+msgid "Regular"
+msgstr "Normal"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:949
+msgid "Boxed"
+msgstr "Sınırlandırılmış"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:965
+msgid "Background Color"
+msgstr "Arka Plan Rengi"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:980
+msgid "Properties"
+msgstr "Özellikler"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:988
+msgid "Box Shadow"
+msgstr "Kutu Gölgesi"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:997
+msgid "Corner Radius"
+msgstr "Köşe Yarıçapı"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1003
+msgid "Stroke"
+msgstr "Vurgu"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1047
+msgid "Author Info"
+msgstr "Yazar Bilgileri"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1053
+msgid "Video Thumbnail"
+msgstr "Video Küçük Resmi"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1058
+msgid "Play Icon"
+msgstr "Oynat Simgesi"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1063
+msgid "Views"
+msgstr "Görüntüleme"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1069
+#: templates/lite/feed-header.php:72
+#: templates/pro/feed-header.php:72
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "Likes"
+msgstr "Beğeniler"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1075
+msgid "Caption"
+msgstr "Başlık"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1083
+msgid "Font"
+msgstr "Yazı Tipi"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1095
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1218
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Color"
+msgstr "Renk"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1151
+msgid "In a lightbox"
+msgstr "Bir ışık kutusunda"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1256
+msgid "Text / Hover"
+msgstr "Metin / Üzerine Gelince"
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1269
+msgid "Bg / Hover"
+msgstr "Arka Plan / Üzerine Gelince"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:43
+msgid "Sources"
+msgstr "Kaynaklar"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:48
+msgid "Sort"
+msgstr "Sıralama"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:54
+msgid "Filters"
+msgstr "Filtreler"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:58
+msgid "Upgrade to Pro to apply filters to your TikTok Feeds. %1$sLearn More%2$s"
+msgstr "TikTok Akışlarınıza filtre uygulamak için Pro'ya yükseltin. %1$sDaha Fazla Bilgi Edinin%2$s"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:101
+msgid "Recent First"
+msgstr "Önce En Yeni"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:102
+msgid "Oldest First"
+msgstr "Önce En Eski"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:106
+msgid "Most Views First"
+msgstr "Önce En Çok Görüntülenenler"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:107
+msgid "Most Likes First"
+msgstr "Önce En Çok Beğenilenler"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:119
+msgid "Sort By"
+msgstr "Sırala"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:143
+msgid "Randomize"
+msgstr "Rastgele"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:144
+msgid "This will disable “By date” and “By views/likes” and randomly choose among the filtered feeds"
+msgstr "Böylece \"Tarihe göre\" ve \"Görüntülemelere/beğenilere göre\" seçenekleri devre dışı bırakılacak ve filtrelenen akışlar arasından rastgele seçim yapılacaktır"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:168
+msgid "By Words"
+msgstr "Sözcüklere Göre"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:176
+#: inc/Common/Customizer/Tabs/SettingsTab.php:177
+#: inc/Common/Customizer/Tabs/SettingsTab.php:187
+msgid "Only show posts containing"
+msgstr "Yalnızca şunu içeren gönderileri göster:"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:178
+msgid "Add words here to only show posts containing these words"
+msgstr "Yalnızca bu kelimeleri içeren gönderileri göstermek için buraya kelimeler ekleyin"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:186
+msgid "Do not show posts containing"
+msgstr "Şunu içeren gönderileri gösterme:"
+
+#: inc/Common/Customizer/Tabs/SettingsTab.php:188
+msgid "Add words here to hide any posts containing these words"
+msgstr "Bu kelimeleri içeren gönderileri gizlemek için buraya kelimeler ekleyin"
+
+#: inc/Common/Feed.php:120
+#: inc/Common/Services/ShortcodeService.php:40
+msgid "No feed with the ID %d found."
+msgstr "%d kimliğine sahip hiçbir akış bulunamadı."
+
+#: inc/Common/Feed.php:121
+#: inc/Common/Services/ShortcodeService.php:41
+msgid "Please go to %1$sTikTok Feeds%2$s settings page to create a feed."
+msgstr "Bir akış oluşturmak için lütfen %1$sTikTok Feeds%2$s ayarlar sayfasına gidin."
+
+#: inc/Common/Feed.php:128
+#: inc/Common/Feed.php:755
+msgid "No sources available for this feed."
+msgstr "Bu akış için hiçbir kaynak yok."
+
+#: inc/Common/Feed.php:129
+#: inc/Common/Feed.php:756
+msgid "Please go to %1$sTikTok Feeds%2$s settings page and add sources for this feed to use."
+msgstr "Lütfen %1$sTikTok Feed%2$s ayarlar sayfasına gidin ve bu akışın kullanacağı kaynakları ekleyin."
+
+#: inc/Common/Feed.php:290
+msgid "Source Error."
+msgstr "Kaynak Hatası."
+
+#: inc/Common/Feed.php:291
+msgid "This is a saved backup feed. Please try reconnecting the source."
+msgstr "Bu kayıtlı bir akış yedeklemesidir. Lütfen kaynağa yeniden bağlanmayı deneyin."
+
+#: inc/Common/Feed.php:302
+#: inc/Common/Feed.php:309
+#: inc/Common/Feed.php:314
+msgid "No posts found."
+msgstr "Hiç yazı bulunamadı."
+
+#: inc/Common/Feed.php:303
+msgid "There were no posts that fit your filters. Please check your filters and try again."
+msgstr "Filtrelerinize uyan hiçbir gönderi bulunamadı. Lütfen filtrelerinizi kontrol edip tekrar deneyin."
+
+#: inc/Common/Feed.php:310
+msgid "There is no saved backup feed. Please try reconnecting the source."
+msgstr "Kaydedilmiş bir akış yedeklemesi yok. Lütfen kaynağa yeniden bağlanmayı deneyin."
+
+#: inc/Common/Feed.php:315
+msgid "There were no posts found for the sources selected. Please make sure there are posts for the sources added and try again."
+msgstr "Seçilen kaynaklara ait hiçbir gönderi bulunamadı. Lütfen eklenen kaynaklara ilişkin gönderilerin olduğundan emin olun ve tekrar deneyin."
+
+#: inc/Common/Services/AjaxHandlerService.php:265
+msgid "Supports only JSON file"
+msgstr "Yalnızca JSON dosyasını destekler"
+
+#: inc/Common/Services/AjaxHandlerService.php:270
+#: inc/Common/Services/AjaxHandlerService.php:275
+msgid "Don't have file, Please try again"
+msgstr "Dosya bulunamadı, lütfen tekrar deneyin"
+
+#: inc/Common/Services/AjaxHandlerService.php:280
+msgid "No feed source is included. Cannot upload feed."
+msgstr "Hiçbir akış kaynağı dahil edilmemişti. Akışı karşıya yükleyemiyor."
+
+#: inc/Common/Services/AjaxHandlerService.php:304
+msgid "Feed settings imported successfully"
+msgstr "Akış ayarları başarıyla içe aktarıldı"
+
+#: inc/Common/Services/AjaxHandlerService.php:308
+msgid "Could not import feed, Please try again"
+msgstr "Akış içe aktarılamadı. Lütfen tekrar deneyin"
+
+#: inc/Common/Services/PluginInstallerService.php:52
+msgid "Could not install addon. Please download from smashballoon.com and install manually."
+msgstr "Modül yüklenemedi. Lütfen smashballoon.com adresinden indirin ve manuel olarak yükleyin."
+
+#: inc/Common/Services/PluginInstallerService.php:112
+msgid "Plugin Installed & Activated."
+msgstr "Eklenti Yüklendi ve Etkinleştirildi."
+
+#: inc/Common/Services/PluginInstallerService.php:112
+msgid "Plugin Installed."
+msgstr "Eklenti Yüklendi."
+
+#: inc/Common/Services/PluginInstallerService.php:147
+msgid "Could not Activate the Plugin. Please Activate from the Plugins page."
+msgstr "Eklenti Etkinleştirilemedi. Lütfen Eklentiler sayfasından Etkinleştirin."
+
+#: inc/Common/Services/PluginInstallerService.php:178
+msgid "Could not deactivate the Plugin. Please deactivate from the Plugins page."
+msgstr "Eklenti devre dışı bırakılamadı. Lütfen Eklentiler sayfasından devre dışı bırakın."
+
+#: inc/Common/Services/PluginUpgraderService.php:122
+msgid "You are not allowed to install plugins."
+msgstr "Eklenti kurma izniniz yok."
+
+#: inc/Common/Services/PluginUpgraderService.php:135
+#: inc/Common/Services/PluginUpgraderService.php:301
+#: inc/Common/Services/PluginUpgraderService.php:324
+msgid "You are not licensed."
+msgstr "Lisansınız yok."
+
+#: inc/Common/Services/PluginUpgraderService.php:237
+msgid "Could not connect."
+msgstr "Bağlanamadı."
+
+#: inc/Common/Services/PluginUpgraderService.php:247
+msgid "Could not install upgrade. Please download from smashballoon.com and install manually."
+msgstr "Yükseltme yüklenemedi. Lütfen smashballoon.com adresinden indirin ve manuel olarak yükleyin."
+
+#: inc/Common/Services/PluginUpgraderService.php:283
+#: inc/Common/Services/PluginUpgraderService.php:342
+msgid "Plugin installed & activated."
+msgstr "Eklenti yüklendi ve etkinleştirildi."
+
+#: inc/Common/Services/PluginUpgraderService.php:346
+msgid "Pro version installed but needs to be activated from the Plugins page inside your WordPress admin."
+msgstr "Pro sürümü yüklüdür ancak WordPress yönetici sayfanızın içindeki Eklentiler sayfasından etkinleştirilmesi gerekir."
+
+#: inc/Common/Services/PluginUpgraderService.php:418
+msgid "This license is expired."
+msgstr "Bu lisansın süresi dolmuştur."
+
+#: inc/Common/Services/PluginUpgraderService.php:421
+msgid "We encountered a problem unlocking the PRO features. Please install the PRO version manually."
+msgstr "PRO özelliklerinin kilidini açarken bir sorunla karşılaştık. Lütfen PRO sürümünü manuel olarak yükleyin."
+
+#: inc/Common/Services/ShortcodeService.php:106
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "This error message is only visible to WordPress admins."
+msgstr "Bu hata mesajını yalnızca WordPress yöneticileri görebilir."
+
+#: inc/Common/Settings/Tabs/AdvancedTab.php:24
+msgid "Advanced"
+msgstr "İleri"
+
+#: inc/Common/Settings/Tabs/AdvancedTab.php:41
+msgid "Optimize Images"
+msgstr "Görselleri Optimize Et"
+
+#: inc/Common/Settings/Tabs/AdvancedTab.php:42
+msgid "It will create multiple local copies of images in different sizes and use smallest size based on where the image is being displayed"
+msgstr "Görsellerin farklı boyutlarda birden fazla yerel kopyasını oluşturacak ve görsel görüntülendiği yere bağlı olarak en küçük boyutta kullanacaktır"
+
+#: inc/Common/Settings/Tabs/AdvancedTab.php:49
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: inc/Common/Settings/Tabs/AdvancedTab.php:54
+msgid "Images Cleared"
+msgstr "Görseller Temizlendi"
+
+#: inc/Common/Settings/Tabs/AdvancedTab.php:63
+msgid "Usage Tracking"
+msgstr "Kullanım Takibi"
+
+#: inc/Common/Settings/Tabs/AdvancedTab.php:65
+msgid "This helps us prevent plugin and theme conflicts by sending a report in the background once per week about your settings and relevant site stats. It does not send sensitive information like access tokens, email addresses, or user info. This will not affect your site performace as well. %1$sLearn More%2$s"
+msgstr "Ayarlarınız ve ilgili site istatistikleriniz hakkında haftada bir kez arka planda bir rapor göndererek eklenti ve tema çakışmalarını önlememize yardımcı olur. Erişim token'leri, e-posta adresleri veya kullanıcı bilgileri gibi hassas bilgileri göndermez. Ayrıca sitenizin performansını da etkilemeyecektir. %1$sDaha Fazla Bilgi Edinin%2$s"
+
+#: inc/Common/Settings/Tabs/FeedsTab.php:24
+msgid "Feeds"
+msgstr "Akışlar"
+
+#: inc/Common/Settings/Tabs/FeedsTab.php:40
+msgid "Caching"
+msgstr "Önbellekleme"
+
+#: inc/Common/Settings/Tabs/FeedsTab.php:45
+msgid "GDPR"
+msgstr "GDPR"
+
+#: inc/Common/Settings/Tabs/FeedsTab.php:47
+msgid "We will automatically enable GDPR compliance if we detect a supported privacy consent plugin. %1$sLearn more%2$s."
+msgstr "Desteklenen bir gizlilik izni eklentisi tespit edersek GDPR uyumluluğunu otomatik olarak etkinleştireceğiz. %1$sDaha fazla bilgi edinin%2$s."
+
+#: inc/Common/Settings/Tabs/FeedsTab.php:52
+msgid "Automatic"
+msgstr "Otomatik"
+
+#: inc/Common/Services/NotificationService.php:535
+#: inc/Common/Settings/Tabs/FeedsTab.php:53
+msgid "Yes"
+msgstr "Evet"
+
+#: inc/Common/Services/NotificationService.php:537
+#: inc/Common/Settings/Tabs/FeedsTab.php:54
+msgid "No"
+msgstr "Hayır"
+
+#: inc/Common/Settings/Tabs/GeneralTab.php:24
+msgid "General"
+msgstr "Genel"
+
+#: inc/Common/Settings/Tabs/GeneralTab.php:40
+#: inc/Common/Settings/Tabs/GeneralTab.php:48
+msgid "License Key"
+msgstr "Lisans Anahtarı"
+
+#: inc/Common/Settings/Tabs/GeneralTab.php:42
+#: inc/Common/Settings/Tabs/GeneralTab.php:50
+msgid "Your license key provides access to updates and support"
+msgstr "Lisans anahtarınız, güncellemelere ve desteğe erişim sağlar"
+
+#: inc/Common/Settings/Tabs/GeneralTab.php:55
+msgid "Manage Sources"
+msgstr "Kaynakları Yönet"
+
+#: inc/Common/Settings/Tabs/GeneralTab.php:56
+msgid "Add or remove connected TikTok accounts"
+msgstr "Bağlı TikTok hesaplarını ekleyin veya kaldırın"
+
+#: inc/Common/Settings/Tabs/GeneralTab.php:64
+msgid "Preserve settings if plugin is removed"
+msgstr "Eklenti kaldırıldığında ayarları koru"
+
+#: inc/Common/Settings/Tabs/GeneralTab.php:65
+msgid "This will make sure that all of your feeds and settings are still saved even if the plugin is uninstalled"
+msgstr "Eklenti kaldırılsa bile tüm akışlarınızın ve ayarlarınızın kaydedildiğinden emin olmanızı sağlayacaktır"
+
+#: inc/Common/Settings/Tabs/GeneralTab.php:74
+msgid "Import Feed Settings"
+msgstr "Akış Ayarlarını İçe Aktar"
+
+#: inc/Common/Settings/Tabs/GeneralTab.php:76
+msgid "You will need a JSON file previously exported from the TikTok Feeds Plugin"
+msgstr "Daha önce TikTok Feeds Eklentisinden dışa aktarılmış bir JSON dosyasına ihtiyacınız olacak"
+
+#: inc/Common/Settings/Tabs/GeneralTab.php:79
+msgid "Export Feed Settings"
+msgstr "Akış Ayarlarını Dışa Aktar"
+
+#: inc/Common/Settings/Tabs/GeneralTab.php:81
+msgid "Export settings for one or more of your feeds"
+msgstr "Bir veya daha fazla akışınız için ayarları dışa aktarın"
+
+#: inc/Common/Utils/SbttFunctions.php:129
+msgid "Follow on TikTok"
+msgstr "TikTok'ta Takip Et"
+
+#: inc/Common/Utils/SbttFunctions.php:175
+msgid "Load More"
+msgstr "Daha fazla yükle"
+
+#: inc/Common/Utils/SbttFunctions.php:443
+#: inc/Common/Utils/SbttFunctions.php:447
+msgid "Invalid Access Token. Please reconnect the source."
+msgstr "Geçersiz Erişim Token'i. Lütfen kaynağa yeniden bağlanın."
+
+#: inc/Common/Utils/SbttFunctions.php:444
+#: inc/Common/Utils/SbttFunctions.php:448
+msgid "Please go to %1$sTikTok Feeds%2$s settings page to reconnect the source."
+msgstr "Kaynağa yeniden bağlanmak için lütfen %1$sTikTok Feeds%2$s ayarlar sayfasına gidin."
+
+#: inc/Common/Utils/Utils.php:655
+msgid "Upgrade to TikTok Pro plans to add multiple feeds"
+msgstr "Birden fazla akış eklemek için TikTok Pro planlarına yükseltin"
+
+#: inc/Common/Utils/Utils.php:656
+msgid "Boost leads and conversions by displaying custom feeds all over your website to show fresh, relevant content."
+msgstr "Yeni, alakalı içerikleri göstermek için web sitenizin her yerinde özel akışlar görüntüleyerek potansiyel müşterilerinizi ve dönüşümleri artırın."
+
+#: inc/Common/Utils/Utils.php:660
+msgid "Upgrade to TikTok Pro plans to add multiple sources"
+msgstr "Birden fazla kaynak eklemek için TikTok Pro planlarına yükseltin"
+
+#: inc/Common/Utils/Utils.php:661
+msgid "Do you have multiple TikTok accounts? Use them all in different feeds or combine them into one."
+msgstr "Birden fazla TikTok hesabınız mı var? Hepsini farklı akışlarda kullanın veya tek bir akışta birleştirin."
+
+#: inc/Common/Utils/Utils.php:665
+msgid "Upgrade to TikTok Pro plans to update your feed more often"
+msgstr "Akışınızı daha sık güncellemek için TikTok Pro planlarına yükseltin"
+
+#: inc/Common/Utils/Utils.php:666
+msgid "Keep your feed content ultra-fresh with more frequent feed updates in the Pro version."
+msgstr "Pro sürümünde daha sık akış güncellemeleriyle akış içeriğinizi son derece taze tutun."
+
+#: inc/Common/Utils/Utils.php:670
+msgid "Upgrade to TikTok Pro to add load more functionality"
+msgstr "Daha fazla işlevsellik eklemek için TikTok Pro planlarına yükseltin"
+
+#: inc/Common/Utils/Utils.php:671
+msgid "Add a Load More button to your feed to allow users to load more posts."
+msgstr "Kullanıcıların daha fazla gönderi yüklemesine olanak sağlamak için akışınıza Daha Fazla Yükle butonu ekleyin."
+
+#: inc/Common/Utils/Utils.php:675
+#: inc/Common/Utils/Utils.php:680
+#: inc/Common/Utils/Utils.php:685
+#: inc/Common/Utils/Utils.php:690
+msgid "Upgrade to TikTok Pro plans to get advanced layouts"
+msgstr "Gelişmiş yerleşim düzenleri almak için TikTok Pro planlarına yükseltin"
+
+#: inc/Common/Utils/Utils.php:676
+#: inc/Common/Utils/Utils.php:681
+#: inc/Common/Utils/Utils.php:686
+#: inc/Common/Utils/Utils.php:691
+msgid "Display your videos in a list or carousel to provide your content wherever it fits best on your site."
+msgstr "İçeriğinizi sitenizde en uygun yerde sunmak için videolarınızı bir listede veya karuselde görüntüleyin."
+
+#: inc/Common/Utils/Utils.php:695
+#: inc/Common/Utils/Utils.php:700
+msgid "Upgrade to TikTok Pro plans to get one-click templates!"
+msgstr "Tek tıklamayla şablonlar almak için TikTok Pro planlarına yükseltin!"
+
+#: inc/Common/Utils/Utils.php:696
+#: inc/Common/Utils/Utils.php:701
+msgid "Choose from our expertly designed templates to make feed creation simple no matter the situation."
+msgstr "Durum ne olursa olsun akış oluşturmayı kolaylaştırmak için ustalıkla tasarlanmış şablonlarımızdan birini seçin."
+
+#: inc/Common/Utils/Utils.php:705
+msgid "Upgrade to TikTok Pro plans to display stats & description."
+msgstr "İstatistikleri ve açıklamaları görüntülemek için TikTok Pro planlarına yükseltin."
+
+#: inc/Common/Utils/Utils.php:706
+msgid "Provide rich content to boost visitor engagement and encourage them to follow your account."
+msgstr "Ziyaretçi katılımını artırmak ve onları hesabınızı takip etmeye teşvik etmek için zengin içerik sağlayın."
+
+#: inc/Common/Utils/Utils.php:710
+msgid "Upgrade to TikTok Pro plans for more video elements"
+msgstr "Daha fazla video öğesi için TikTok Pro planlarına yükseltin"
+
+#: inc/Common/Utils/Utils.php:711
+msgid "Show descriptions, view and like counts and author info to provide more rich content to engage your visitors."
+msgstr "Ziyaretçilerinizin ilgisini çekecek daha zengin içerik sağlamak için açıklamaları, görüntülemeleri, beğeni sayılarını ve yazar bilgilerini gösterin."
+
+#: inc/Common/Utils/Utils.php:715
+msgid "Upgrade to TikTok Pro plans for custom sorting"
+msgstr "Özel sıralama için TikTok Pro planlarına yükseltin"
+
+#: inc/Common/Utils/Utils.php:716
+msgid "Sort videos randomly for a unique visitor experience or show off your most viewed or most liked videos first."
+msgstr "Eşsiz bir ziyaretçi deneyimi için videoları rastgele sıralayın veya en çok görüntülenen veya en çok beğenilen videolarınızı ilk önce gösterin."
+
+#: inc/Common/Utils/Utils.php:720
+msgid "Upgrade to TikTok Pro plans to get word & hashtag filters"
+msgstr "Sözcük ve hashtag filtreleri almak için TikTok Pro planlarına yükseltin"
+
+#: inc/Common/Utils/Utils.php:721
+msgid "Filter by words and hashtags found in the caption. Curate content to target specific kinds of visitors."
+msgstr "Başlıkta bulunan kelimelere ve etiketlere göre filtreleyin. Belirli ziyaretçi türlerini hedef alacak içerikler sergileyin."
+
+#: inc/Common/Utils/Utils.php:725
+msgid "Upgrade to TikTok Pro plans to sort by likes & views"
+msgstr "Beğenilere ve görüntülemelere göre sıralama yapmak için TikTok Pro planlarına yükseltin"
+
+#: inc/Common/Utils/Utils.php:726
+msgid "Show off your best content first to boost conversions of site visitors to TikTok followers."
+msgstr "Site ziyaretçilerinin TikTok takipçilerine dönüşümünü artırmak için önce en iyi içeriğinizi gösterin."
+
+#: inc/Common/Utils/Utils.php:730
+msgid "Upgrade to TikTok Pro plans to get card layouts!"
+msgstr "Kart yerleşim düzenleri almak için TikTok Pro planlarına yükseltin!"
+
+#: inc/Common/Utils/Utils.php:731
+msgid "Display your videos in an attractive, modern card layout. Help your content standout to engage visitors."
+msgstr "Videolarınızı çekici, modern bir kart yerleşim düzeninde görüntüleyin. Ziyaretçilerin ilgisini çekmek için içeriğinizin öne çıkmasına yardımcı olun."
+
+#: inc/Common/Utils/Utils.php:768
+msgid "Sort by likes or views"
+msgstr "Beğenilere veya görüntülemelere göre sırala"
+
+#: inc/Common/Utils/Utils.php:769
+msgid "Show most liked or most viewed videos first with a TikTok Pro plan"
+msgstr "TikTok Pro planıyla en çok sevilen veya en çok görüntülenen videoları ilk önce gösterin"
+
+#: inc/Common/Utils/Utils.php:798
+#: vendor/smashballoon/customizer/app/V3/About_Builder.php:59
+#: vendor/smashballoon/customizer/app/V3/About_Builder.php:60
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "About Us"
+msgstr "Hakkımızda"
+
+#: inc/Common/Utils/Utils.php:799
+#: vendor/smashballoon/customizer/app/V3/Support_Builder.php:59
+#: vendor/smashballoon/customizer/app/V3/Support_Builder.php:60
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Support"
+msgstr "Destek"
+
+#: templates/lite/feed-header.php:21
+#: templates/pro/feed-header.php:21
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "Header Logo"
+msgstr "Başlık Logosu"
+
+#: templates/lite/feed-header.php:54
+#: templates/pro/feed-header.php:54
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "Following"
+msgstr "Takip ediliyor"
+
+#: templates/lite/feed-header.php:63
+#: templates/pro/feed-header.php:63
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "Followers"
+msgstr "Takipçiler"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "second"
+msgstr "saniye"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "minute"
+msgstr "dakika"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "hour"
+msgstr "saat"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "day"
+msgstr "gün"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "week"
+msgstr "hafta"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "month"
+msgstr "ay"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "year"
+msgstr "yıl"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "seconds"
+msgstr "saniye"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "minutes"
+msgstr "dakika"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "hours"
+msgstr "saat"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "days"
+msgstr "gün"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "weeks"
+msgstr "hafta"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "months"
+msgstr "ay"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "years"
+msgstr "yıl"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "ago"
+msgstr "önce"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "Unsported Format"
+msgstr "Sportif Olmayan Biçim"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "Copied to Clipboard"
+msgstr "Panoya Kopyalandı"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "You're using TikTok Feeds Lite. To unlock more features consider"
+msgstr "TikTok Feeds Lite kullanıyorsunuz. Daha fazla özelliğin kilidini açmak için"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "upgrading to Pro"
+msgstr "Pro’ya yükseltmeyi değerlendirin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "Once you are done creating the TikTok Feed, you can go back to Social plugin."
+msgstr "TikTok akışını oluşturmayı tamamladığınızda Social eklentisine geri dönebilirsiniz."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "Go to Social Wall"
+msgstr "Sosyal Duvara Git"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "TikTok feed successfully created!"
+msgstr "TikTok akışı başarıyla oluşturuldu!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "Preview updated successfully"
+msgstr "Ön izleme başarıyla güncellendi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/tikTokFeed.js:2
+msgid "Feed saved succesfully"
+msgstr "Akış başarıyla kaydedildi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Preview"
+msgstr "Ön izleme"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Moderation Mode Started"
+msgstr "Denetleme Modu Başlatıldı"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Weight"
+msgstr "Ağırlık"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "400 (Regular)"
+msgstr "400 (Normal)"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Inherit"
+msgstr "Al"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Height"
+msgstr "Yükseklik"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Edit Stroke"
+msgstr "Vurguyu Düzenle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Thickness"
+msgstr "Kalınlık"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Edit Box Shadow"
+msgstr "Kutu Gölgesini Düzenle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Blur"
+msgstr "Bulanıklaştır"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Spread"
+msgstr "Yay"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Edit Corner Radius"
+msgstr "Köşe Yarıçapını Düzenle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Radius"
+msgstr "Yarıçap"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select another template"
+msgstr "Başka bir şablon seçin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Cancel"
+msgstr "İptal"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Templates updated"
+msgstr "Şablonlar güncellendi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Update"
+msgstr "Güncelle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Changing a template will override your layout, header and button settings"
+msgstr "Bir şablonu değiştirmek görünüm, düzen, başlık ve buton ayarlarını geçersiz kılacaktır"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Change"
+msgstr "Değiştirin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Changing a template might override your customizations"
+msgstr "Bir şablonu değiştirmek, özelleştirmelerinizi geçersiz kılabilir"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Used in 0 Feeds"
+msgstr "0 Akışta kullanıldı"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Redirecting to connect.smashballoon.com"
+msgstr "connect.smashballoon.com adresine yönlendiriliyor"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You will be redirected to our app so you can connect your account in 5 seconds"
+msgstr "Hesabınızı 5 saniye içinde bağlayabilmeniz için uygulamamıza yönlendirileceksiniz"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Sources"
+msgstr "Kaynakları Ekle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select one or more sources you would like to add"
+msgstr "Eklemek istediğiniz bir veya birden fazla kaynağı seçin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add"
+msgstr "Ekle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add another Source"
+msgstr "Başka Bir Kaynak Ekle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Save and Exit"
+msgstr "Kaydet Ve Çık"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Learn More"
+msgstr "Daha Fazla Öğren"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "API Key Updated"
+msgstr "API Anahtarı Güncellendi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Invalid API Key"
+msgstr "Geçersiz API Anahtarı"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add API Key for "
+msgstr "Şu amaçla API Anahtarı ekleyin "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Currently the "
+msgstr "Şu anda "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid " API does not allow us to update your feed without you creating an app and adding an API key."
+msgstr " API, siz bir uygulama oluşturmadan ve bir API anahtarı eklemeden akışınızı güncellemenize izin vermez."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Enter or Paste API Key"
+msgstr "API Anahtarını Girin veya Yapıştırın"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Unknown error occured!"
+msgstr "Bilinmeyen hata oluştu!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Learn more about how to create and add an API Key here"
+msgstr "API Anahtarının nasıl oluşturulacağı ve ekleneceği hakkında daha fazla bilgiyi burada bulabilirsiniz"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Embed Feed"
+msgstr "Akışı Gömün"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add to Page"
+msgstr "Sayfaya Ekle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add the unique shortcode to any page, post, or widget:"
+msgstr "Benzersiz kısa kodu herhangi bir sayfaya, gönderiye veya widget'a ekleyin:"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Copy"
+msgstr "Kopyala"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Or use the built in WordPress block or widget"
+msgstr "Veya yerleşik WordPress bloğunu veya widget'ını kullanın"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add to a Page"
+msgstr "Bir Sayfaya Ekle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add to a Widget"
+msgstr "Bir Widget'a Ekle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Page"
+msgstr "Sayfa Seçin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Close Editor"
+msgstr "Editörü Kapat"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Are you Sure?"
+msgstr "Emin misiniz?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Are you sure you want to leave this page, all unsaved settings will be lost, please make sure to save before leaving."
+msgstr "Bu sayfadan ayrılmak istediğinizden emin misiniz? Kaydedilmemiş tüm ayarlar kaybolacaktır, lütfen ayrılmadan önce kaydettiğinizden emin olun."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Exit without Saving"
+msgstr "Kaydetmeden Çık"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Help"
+msgstr "Yardım"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Embed"
+msgstr "Göm"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Save"
+msgstr "Kaydet"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "All Access Bundle"
+msgstr "Tam Erişim Planı"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrade to the"
+msgstr "Şimdi yükseltin:"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid " All Access Bundle"
+msgstr " Tam Erişim Planı"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid " to get all of our Pro Plugins"
+msgstr " böylece tüm Pro Eklentilerimizi edinin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Includes all Smash Balloon plugins for one low price: Instagram, Facebook, Twitter, YouTube and Social Wall"
+msgstr "Tüm Smash Balloon eklentilerini düşük bir fiyat karşılığında içerir: Instagram, Facebook, Twitter, YouTube ve Social Wall"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "BONUS"
+msgstr "BONUS"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Lite users get"
+msgstr "Lite kullanıcılar şunları elde eder:"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "50% Off"
+msgstr "%50 İndirim"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "automatically applied at checkout"
+msgstr "ödeme sırasında otomatik olarak uygulanır"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connect multiple<br/>accounts"
+msgstr "Birden fazla <br/> hesabı bağlayın"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "All new layouts: Carousel,<br/>List and Card"
+msgstr "Tüm yeni yerleşim düzenleri: Karusel, <br/> Liste ve Kart"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "In-depth Word and<br/>Hashtag Filtering"
+msgstr "Derinlemesine Sözcük ve <br/>Hashtag Filtreleme"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Display Video Likes<br/>& Description"
+msgstr "Video Beğenilerilerini <br/>ve Açıklamasını Görüntüle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Sort by Random"
+msgstr "Rastgele Sırala"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Video descriptions and stats"
+msgstr "Video açıklamaları ve istatistikler"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Sort by views or likes"
+msgstr "Görüntülemelere veya beğenilere göre sıralayın"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Infinitely load more"
+msgstr "Sınırsız şekilde daha fazlasını yükleyin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "One Click Templates"
+msgstr "Tek Tıklamalı Şablonlar"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Carousel and List layouts"
+msgstr "Karusel ve Liste yerleşim düzenleri"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Get more features with TikTok Feeds Pro"
+msgstr "TikTok Feeds Pro ile daha fazla özellik edinin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Lite Plugin Users get 50% OFF (auto-applied at checkout)"
+msgstr "Lite Eklenti Kullanıcıları %50 İNDİRİM alır (ödeme sırasında otomatik olarak uygulanır)"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Get Started"
+msgstr "Başlayın"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "And much more!"
+msgstr "Ve çok daha fazlası!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Hide Features"
+msgstr "Özellikleri Gizle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Show Features"
+msgstr "Özellikleri Göster"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Bulk Actions"
+msgstr "Toplu Eylemler"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete"
+msgstr "Sil"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete \""
+msgstr "Sil \""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete Feeds?"
+msgstr "Feeds Silinsin Mi?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You are going to delete this feed. You will lose all the settings. Are you sure you want to continue?"
+msgstr "Bu akışı siliyorsunuz. Tüm ayarları kaybedeceksiniz. Devam etmek istediğinizden emin misiniz?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Feed Deleted"
+msgstr "Akış Silindi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Apply"
+msgstr "Uygula"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Items"
+msgstr "Öğe"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "of"
+msgstr "/"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Shortcode"
+msgstr "Kısa kod"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Actions"
+msgstr "Eylemler"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "User Timeline"
+msgstr "Kullanıcı Zaman Çizelgesi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Copy Shortcode"
+msgstr "Kısa Kodu Kopyala"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Edit"
+msgstr "Düzenle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Duplicate"
+msgstr "Kopya Oluştur"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Feed Duplicated"
+msgstr "Akış Kopyalandı"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create your feed"
+msgstr "Akışınızı oluşturun"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connect your TikTok account and choose a feed type"
+msgstr "TikTok hesabınızı bağlayın ve bir akış türü seçin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Customize your feed type"
+msgstr "Akış türünüzü özelleştirin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Choose layouts, color schemes, filters and more"
+msgstr "Düzenleri, renk şemalarını, filtreleri ve daha fazlasını seçin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Embed your feed"
+msgstr "Akışınızı gömülü hale getirip yerleştirin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Easily add the feed anywhere on your website"
+msgstr "Akışı web sitenizin herhangi bir yerine kolayca ekleyin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Add Source"
+msgstr "Kaynak Ekle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Looks like you have not added any source. Use “Add Source” to add a new one."
+msgstr "Görünüşe göre herhangi bir kaynak eklememişsiniz. Yeni bir kaynak eklemek için \"Kaynak Ekle\"yi kullanın."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Feed Type"
+msgstr "Akış Türü Seçin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select one or more feed types. You can add or remove them later."
+msgstr "Bir veya daha fazla akış türü seçin. Bunları daha sonra ekleyebilir veya kaldırabilirsiniz."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select a Template"
+msgstr "Bir Şablon Seçin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "What do you want your feed to look like? Don’t worry, you can always change this or further customize it later."
+msgstr "Akışınızın nasıl görünmesini istiyorsunuz? Endişelenmeyin, bunu istediğiniz zaman değiştirebilir veya daha sonra özelleştirebilirsiniz."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Next"
+msgstr "İleri"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Back"
+msgstr "Geri"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "TikTok Feeds Pro by Smash Balloon"
+msgstr "Smash Balloon'dan TikTok Feeds Pro"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Activate your plugin to get started"
+msgstr "Başlamak için eklentinizi etkinleştirin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Paste license key here"
+msgstr "Lisans anahtarını buraya yapıştırın"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Activate"
+msgstr "Etkinleştir"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "License Activated!"
+msgstr "Lisans Etkinleştirildi!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Invalid License!"
+msgstr "Geçersiz Lisans!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "License Dactivated!"
+msgstr "Lisans Devre Dışı Bırakıldı!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "License limit exceeded. No activations left!"
+msgstr "Lisans sınırı aşıldı. Aktivasyon kalmadı!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Don’t have a license key?"
+msgstr "Lisans anahtarınız yok mu?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Buy a License"
+msgstr "Lisans Satın Al"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "After activating your plugin, you can..."
+msgstr "Eklentinizi etkinleştirdikten sonra şunları yapabilirsiniz:"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collect New Videos"
+msgstr "Yeni Videolar Toplayın"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New TikTok videos and data related to the TikToks videos for your business are collected from external sites. Your license key can be used to access this data using Smash Balloon's API site."
+msgstr "İşletmenize yönelik yeni TikTok videoları ve TikToks videolarıyla ilgili veriler harici sitelerden toplanır. Lisans anahtarınız, Smash Balloon'un API sitesini kullanarak bu verilere erişmek amacıyla kullanılabilir."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Recieve Critical Updates"
+msgstr "Kritik Güncellemeleri Alın"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "With constant changes to WordPress and the APIs that your videos are retrieved from, your plugin needs to stay up to date. Activating your license allows automatic updates from the Plugins page."
+msgstr "WordPress ve videolarınızın alındığı API'lerde sürekli değişiklikler yapılması nedeniyle eklentinizin güncel kalması gerekir. Lisansınızı etkinleştirdiğinizde Eklentiler sayfasından otomatik güncellemeler yapılabilir."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Receive Technical Support"
+msgstr "Teknik Destek Alın"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Although we pride ourselves on creating reliable, easy-to-use products our expert support team is here to help with any questions. Activating your license key is recommended to receive efficient support."
+msgstr "Güvenilir, kullanımı kolay ürünler yaratmaktan gurur duysak da uzman destek ekibi her türlü sorunuza yardımcı olmak için burada. Etkili destek alabilmeniz için lisans anahtarınızı etkinleştirmeniz önerilir."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Amazing Support Team."
+msgstr "Harika Destek Ekibi."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Having trouble using the plugin?"
+msgstr "Eklentiyi kullanırken sorun mu yaşıyorsunuz?"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Contact our friendly support team."
+msgstr "Dost canlısı destek ekibimizle iletişime geçin."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Go to Support Form"
+msgstr "Destek Formuna Git"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create a feed"
+msgstr "Bir akış oluşturun"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Dashboard"
+msgstr "Pano"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Create a TikTok feed"
+msgstr "Bir TikTok akışı oluşturun"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Confirm"
+msgstr "Onayla"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Please add your "
+msgstr "Lütfen ekleyin "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "License Key "
+msgstr "Lisans Anahtarı "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Your "
+msgstr "İşte "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid " License is "
+msgstr " Lisansınız "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Active"
+msgstr "Etkin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Inactive"
+msgstr "Devre dışı"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Expired"
+msgstr "Süresi sona ermiş"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Manage License"
+msgstr "Lisansı Yönet"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Test Connection"
+msgstr "Bağlantıyı Test Et"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connection successful"
+msgstr "Bağlantı başarılı"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Connection Error"
+msgstr "Bağlantı Hatası"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrade"
+msgstr "Yükselt"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Deactivate"
+msgstr "Etkisizleştir"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "License Deactivated!"
+msgstr "Lisans Devre Dışı Bırakıldı!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Delete "
+msgstr "Sil "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "If you delete this source then new posts can no longer be retrieved for feeds using this source."
+msgstr "Bu kaynağı silerseniz artık bu kaynağı kullanan akışlar için yeni gönderiler alınamaz."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Source Deleted!"
+msgstr "Kaynak Silindi!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Select Feed"
+msgstr "Akışı Seçin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Export"
+msgstr "Dışa Aktar"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Original Text"
+msgstr "Orjinal Metin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Custom text/translation"
+msgstr "Özel metin/çeviri"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Context"
+msgstr "İçerik"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New TikTok posts collected twice daily."
+msgstr "Yeni TikTok gönderileri günde iki kez toplanıyor."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "New TikTok posts collected daily."
+msgstr "Günlük olarak toplanan yeni TikTok gönderileri."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Clear All Caches"
+msgstr "Tüm Önbellekleri Temizle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Cleared all Caches"
+msgstr "Tüm Önbellekler temizlendi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Check for TikToks more often by upgrading to Pro"
+msgstr "Pro'ya yükselterek TikTok'ları daha sık kontrol edin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "You are using the Lite version of the plugin–no license needed. Enjoy! 🙂 To unlock more features, consider "
+msgstr "Eklentinin Lite sürümünü kullanıyorsunuz-lisans gerekmiyor. Keyfini çıkarın! 🙂 Daha fazla özelliğin kilidini açmak için "
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrading to Pro"
+msgstr "Pro sürümüne yükseltmeyi değerlendirin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "As a valued user of our Lite plugin, you receive 50% OFF - automatically applied at checkout!"
+msgstr "Lite eklenti sürümünün değerli bir kullanıcısı olarak, ödeme sırasında otomatik olarak uygulanan %50 İNDİRİM alırsınız!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Install Pro"
+msgstr "Pro'yu Yükle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upgrade to Pro"
+msgstr "Pro'ya Yükselt"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Settings saved succesfully"
+msgstr "Ayarlar başarıyla kaydedildi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Plugin Installed"
+msgstr "Eklenti Yüklendi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Unknown Error"
+msgstr "Bilinmeyen Hata"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Plugin Activated"
+msgstr "Eklenti Etkinleştirildi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Plugin Deactivated"
+msgstr "Eklenti Devre Dışı Bırakıldı"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "SmashBalloon Team"
+msgstr "SmashBalloon Ekibi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "At Smash Balloon, we build software that helps you create beautiful responsive social media feeds for your website in minutes."
+msgstr "Smash Balloon'da, web siteniz için dakikalar içinde güzel ve duyarlı sosyal medya akışları oluşturmanıza yardımcı olan yazılımlar geliştiriyoruz."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "We're on a mission to make it super simple to add social media feeds in WordPress. No more complicated setup steps, ugly iframe widgets, or negative page speed scores."
+msgstr "WordPress'e sosyal medya akışları eklemeyi süper basit hale getirmeyi kendimize görev bildik. Artık karmaşık kurulum adımları, çirkin iframe widget'ları veya negatif sayfa hızı puanları yok."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Our plugins aren't just easy to use, but completely customizable, reliable, and fast! Which is why over 1.6 million awesome users, just like you, choose to use them on their site."
+msgstr "Eklentilerimiz sadece kullanımı kolay değil, aynı zamanda tamamen özelleştirilebilir, güvenilir ve hızlı! İşte bu yüzden halihazırda tıpkı sizin gibi 1,6 milyondan fazla harika kullanıcı, bu eklentileri sitelerinde kullanmayı tercih etmiş bulunmaktadır."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Our Other Social Media Feed Plugins"
+msgstr "Diğer Sosyal Medya Akış Eklentilerimiz"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "We're more than just a TikTok plugin! Check out our other plugins and add more content to your site."
+msgstr "Biz bir TikTok eklentisinden daha fazlasıyız! Diğer eklentilerimize göz atın ve sitenize daha fazla içerik ekleyin."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Facebook Plugin"
+msgstr "Facebook Eklentisi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Install"
+msgstr "Yükle"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Installed"
+msgstr "Yüklendi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Social Wall"
+msgstr "Sosyal Duvar"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Combine feeds from all of our plugins into a single wall"
+msgstr "Tüm eklentilerimizden gelen akışları tek bir duvarda birleştirin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Search Documentation"
+msgstr "Belge Ara"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Need more support? We're here to help."
+msgstr "Daha fazla desteğe mi ihtiyacınız var? Yardım etmek için buradayız."
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Submit a Support Ticket"
+msgstr "Bir Destek Bileti Gönderin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Our fast and friendly support team is always happy to help!"
+msgstr "Hızlı ve güler yüzlü destek ekibimiz her zaman yardımcı olmaktan mutluluk duyar!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "System Info"
+msgstr "Sistem Bilgisi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Collapse"
+msgstr "Daralt"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Expand"
+msgstr "Genişlet"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Export Settings"
+msgstr "Ayarları Dışarı Aktar"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Share your plugin settings easily with Support"
+msgstr "Eklenti ayarlarınızı Destek ile kolayca paylaşın"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Use multiple TikTok accounts"
+msgstr "Birden fazla TikTok hesabı kullanın"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Moderate and filter feeds"
+msgstr "Akışları yönetin ve filtreleyin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Show like and view counts"
+msgstr "Beğen ve görüntüleme sayılarını gösterin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "More frequent updates"
+msgstr "Daha sık güncellemeler alın"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Sort by likes and views"
+msgstr "Beğenilere ve görüntülemelere göre sıralayın"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Infinitely load more videos"
+msgstr "Sınırsız olarak daha fazla video yükleyin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "List and carousel layouts"
+msgstr "Liste ve karusel yerleşim düzenleri"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Show captions"
+msgstr "Alt başlıkları gösterin"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Pro support"
+msgstr "Pro destek"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Lite Plugin Users get 50% OFF"
+msgstr "Lite Eklenti Kullanıcıları %50 İNDİRİM alır"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "auto-applied at checkout"
+msgstr "ödeme sırasında otomatik olarak uygulanır"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Upsell Modal Icon"
+msgstr "Satış Yükseltme Modal Simgesi"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "And get much more!"
+msgstr "Ve çok daha fazlasını elde edin!"
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Video Demo"
+msgstr "Video Demosu"
+
+#. Plugin Name of the plugin
+#: tiktok-feeds-pro.php
+msgid "TikTok Feeds Pro"
+msgstr ""
+
+#: inc/Common/Services/UsageTrackingService.php:166
+msgid "Once Weekly"
+msgstr ""
+
+#: inc/Common/Customizer/FeedBuilder.php:207
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:145
+msgid "Gallery"
+msgstr ""
+
+#: inc/Common/Customizer/FeedBuilder.php:212
+msgid "Widget"
+msgstr ""
+
+#: inc/Common/Customizer/Tabs/CustomizeTab.php:1155
+msgid "Inline"
+msgstr ""
+
+#: inc/Common/Settings/Tabs/CodeSnippetsTab.php:24
+msgid "Code Snippets"
+msgstr ""
+
+#: inc/Common/Settings/Tabs/CodeSnippetsTab.php:40
+msgid "WPCode Snippets"
+msgstr ""
+
+#: inc/Common/Utils/Utils.php:735
+msgid "Upgrade to TikTok Pro plans to get inline playback"
+msgstr ""
+
+#: inc/Common/Utils/Utils.php:736
+msgid "Play videos directly on the page without the lightbox. Provide a seamless experience for visitors."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Activate WPCode to use Smash Balloon Snippet library"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Install WPCode to use Smash Balloon Snippet library"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Activate WPCode"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "One-click Install WPCode"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Using WPCode you can install Smash Balloon code snippets with 1-click directly from this page or the WPCode library inside the WordPress admin."
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Edit Snippet"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "Use Snippet"
+msgstr ""
+
+#: vendor/smashballoon/customizer/sb-common/sb-customizer/build/static/js/main.js:2
+msgid "No snippets found"
+msgstr ""
+
+#: inc/Common/Services/NewUserService.php:177
+msgid "Access denied"
+msgstr ""
+
+#: inc/Common/Services/NewUserService.php:222
+msgid "Glad to hear you are enjoying it. Would you consider leaving a positive review?"
+msgstr ""
+
+#: inc/Common/Services/NewUserService.php:223
+msgid "It really helps to support the plugin and help others to discover it too!"
+msgstr ""
+
+#: inc/Common/Services/NewUserService.php:226
+msgid "Exclusive offer - 60% off!"
+msgstr ""
+
+#: inc/Common/Services/NewUserService.php:227
+msgid "We don’t run promotions very often, but for a limited time we’re offering 60% Off our Pro version to all users of our free TikTok Feeds."
+msgstr ""
+
+#: inc/Common/Services/NotificationService.php:534
+msgid "Are you enjoying the TikTok Feeds Plugin?"
+msgstr ""
+
+#: inc/Common/Services/NotificationService.php:785
+msgid "Previous message"
+msgstr ""
+
+#: inc/Common/Services/NotificationService.php:789
+msgid "Next message"
+msgstr ""
+
+#: inc/Common/Services/NotificationService.php:817
+msgid "Dismiss this message"
+msgstr ""
+
+#: inc/Common/Services/NotificationService.php:818
+msgid "Dismiss"
+msgstr ""

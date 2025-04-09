@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "am/faux-feeds-for-youtube",
+  "title": "Youtube Feed",
+  "description": "Select and display any of your Youtube feeds.",
+  "version": "0.1.0",
+  "category": "widgets",
+  "icon": "admin-plugins",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "feeds-for-youtube",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "attributes": {},
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  }
+}

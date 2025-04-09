@@ -1,0 +1,953 @@
+/* Review notice */
+.sby_notice{
+    position: relative;
+    clear: right;
+    overflow: hidden;
+    padding: 20px 70px 23px 82px;
+    box-sizing: border-box;
+    margin: 40px 20px 10px 0;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 5%), 0px 4px 5px rgb(0 0 0 / 5%);
+    border-radius: 2px;
+}
+.sby_review_notice,
+.sby_discount_notice,
+.sby_review_notice_step_1 {
+    width: 100%;
+    border-top: 2px solid #0068A0;
+}
+.sby_notice .sby_thumb{
+    position: absolute;
+    display: inline-block;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin: 0;
+    top: 20px;
+    left: 24px;
+    width: 34px;
+    height: 44px;
+}
+.sby_notice .sby_thumb {
+    width: 42px;
+    height: 42px;
+    top: 11px;
+}
+.sby_notice.sby_review_notice .sby_thumb {
+    top: 16px;
+}
+.sby_notice.sby_review_notice_step_1 {
+    padding: 18px 120px 18px 82px;
+}
+.sby_notice.sby_review_notice_step_1 .sby-notice-text .sby-notice-text-p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.sby_notice .sby_thumb .img-overlay {
+    position: absolute;
+    bottom: 4px;
+    padding: 6px 7px 6px 5px;
+    font-size: 13px;
+    font-weight: bold;
+    background: #fff;
+    background: rgba(255,255,255,0.85);
+    line-height: 1;
+    color: #333;
+    box-shadow: 1px -1px 3px 0 rgba(0,0,0,0.15);
+}
+.sby_notice .sby_thumb img {
+    max-width: 100%;
+}
+.sby_notice .sby-notice-text{
+    float: left;
+    clear: none;
+    width: 100%;
+    padding: 0;
+}
+
+.sby_notice.sby_review_notice_step_1 .sby-notice-text {
+    width: auto;
+}
+.sby_notice .sby-notice-text .sby-notice-text-p {
+    margin-bottom: 15px;
+}
+
+.sby_notice .sby-notice-text .sby-notice-text-header {
+    font-size: 16px;
+    margin: 0 0 10px;
+    color: #141B38;
+}
+@media (min-width: 1170px ) {
+    .sby_notice_op.sby_discount_notice .sby-notice-text  {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .sby_notice_op.sby_discount_notice .sby-notice-text .sby-notice-text-inner {
+        width: 60%;
+        max-width: 540px;
+    }
+    .sby_notice_op.sby_discount_notice .sby-notice-text .sby-notice-text-p {
+        margin-bottom: 0;
+    }
+}
+.sby_notice .sby-links{
+    margin-top: 4px !important;
+}
+.sby_notice p{
+    float: left;
+    clear: both;
+    width: auto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px 0 10px 0;
+    color: #434960;
+}
+.sby_notice a:hover,
+.sby_notice a:focus{
+    color: #0c7abf;
+}
+.sby_notice .sby-notice-links{
+    margin: 0;
+}
+.sby-notice-links{
+    margin-top: 0 !important;
+}
+.sby-notice-links .sby-btn {
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 32px;
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+}
+.sby-notice-links a:not(:last-child) {
+    margin-right: 5px;
+}
+.sby-notice-dismiss {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sby-notice-dismiss path {
+    fill: #8a8787;
+}
+body .sby_review_step1_notice h3.title {
+    display: inline-block;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin: 0 !important;
+}
+body .sby_review_step1_notice .sby-btn-link {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-decoration-line: underline;
+    color: #0068A0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+body .sby_review_step1_notice .sby-btn-link:not(:last-child) {
+    margin-right: 12px;
+}
+
+.sby_notice .sby_notice_close,
+.sby_notice .sby_bfcm_sale_notice_close,
+.sby_notice .sby_new_user_sale_notice_close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    line-height: 1;
+}
+.sby_notice .sby_notice_close:hover,
+.sby_notice .sby_notice_close:focus{
+    color: #a34100;
+}
+
+/* Notice CTA btn */
+
+.sby_notice .sby_other_notice{
+    padding-top: 10px;
+    font-style: italic;
+    font-size: 12px;
+}
+.sby_notice .sby_other_notice a{
+    padding: 0;
+}
+.sby-notice-consent-btns {
+    float: left;
+}
+
+.sby-notice-consent-btns .sby-btn-link {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-decoration-line: underline;
+    color: #0068A0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.sby-notice-consent-btns .sby-btn-link:not(:last-child) {
+    margin-right: 12px;
+}
+@media (min-width: 700px) {
+    .sby-notice-consent-btns {
+        margin-left: 20px;
+    }
+    body .review-step-1-btns {
+        margin-left: 20px;
+    }
+    .sby_review_step1_notice .review-step-1-btns {
+        display: inline-block;
+    }
+}
+#sby-notifications {
+    position: relative;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05), 0px 4px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
+    opacity: 1;
+    min-height: 48px;
+    padding: 20px 120px 20px 82px;
+    margin: 0 0 14px 0;
+    box-sizing: border-box;
+}
+
+#sby-notifications * {
+    box-sizing: border-box;
+}
+
+#sby-notifications .bell,
+#sby-notifications .thumb{
+    position: absolute;
+    top: 11px;
+    left: 24px;
+    width: 42px;
+    height: 42px;
+}
+#sby-notifications .bell img,
+#sby-notifications .thumb img {
+    max-width: 100%;
+    width: 52px;
+    height: 52px;
+}
+#sby-notifications .thumb .img-overlay {
+    top: 42px;
+    left: -6px;
+    width: 54px;
+    position: absolute;
+    background: #ca4a1f;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 3px;
+    line-height: 1;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#sby-notifications .messages .message {
+    display: none;
+}
+
+#sby-notifications .messages .message.current {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background: transparent;
+    border-radius: 0px;
+}
+
+#sby-notifications .messages .message .title,
+#sbc-builder-app #sby-notifications .messages .message .title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+    color: #141B38;
+    letter-spacing: 0;
+}
+
+#sby-notifications .messages .message .content {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 6px 0 32px 0;
+    color: #434960;
+}
+
+#sby-notifications .messages .message .buttons {
+    margin: -15px 105px 3px 0;
+    display: flex;
+}
+.sby-btn {
+    transition: all 0.15s ease-in-out;
+    letter-spacing: 0.2px;
+}
+/*orange*/
+.sby-btn-orange{
+    background: #FE544F!important;
+    color: #fff!important;
+}
+.sby-btn-orange:hover{
+    background: #EC352F!important;
+    color: #fff!important;
+}
+.sby-btn-orange:focus,
+.sby-btn-orange:active{
+    background: #BC120E!important;
+    color: #fff!important;
+}
+/*grey*/
+.sby-btn-grey{
+    background: #F3F4F5!important;
+    color: #141B38!important;
+    border: 1px solid #D0D1D7!important;
+}
+.sby-btn-grey:hover{
+    background: #fff!important;
+    color: #141B38!important;
+    border: 1px solid #DCDDE1!important;
+}
+.sby-btn-grey:focus,
+.sby-btn-grey:active{
+    background: #E8E8EB!important;
+    color: #141B38!important;
+    border: 1px solid #D0D1D7!important;
+}
+/* blue */
+.sby-btn-blue{
+    background: #0068A0!important;
+    color: #fff!important;
+}
+.sby-btn-blue:hover{
+    background: #0096CC!important;
+    color: #fff!important;
+}
+.sby-btn-blue:focus,
+.sby-btn-blue:active{
+    background: #004D77!important;
+    color: #fff!important;
+}
+#sby-notifications .messages .message .buttons a {
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 32px;
+    text-decoration: none;
+    font-size: 12px;
+}
+#sby-notifications .messages .message .buttons a.sby-btn-orange {
+    border: 1px solid #FE544F
+}
+#sby-notifications .messages .message .buttons a:not(:last-child) {
+    margin-right: 8px;
+}
+#sby-notifications .messages .message .buttons a:focus,
+#sby-notifications .messages .message .buttons a:active {
+    outline: none;
+    box-shadow: none;
+}
+#sby-notifications .dismiss {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 16px;
+    height: 16px;
+    color: #72777C;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 16px;
+}
+#sby-notifications .dismiss svg {
+    width: 15px;
+    height: 15px;
+}
+#sby-notifications .dismiss svg path {
+    fill: #8C8F9A;
+}
+#sby-notifications .navigation {
+    position: absolute;
+    bottom: 24px;
+    right: 21px;
+    width: 72px;
+    height: 30px;
+}
+
+#sby-notifications .navigation a {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #DCDDE1;
+    border-radius: 2px;
+    font-size: 8px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    cursor: pointer;
+    background: #F3F4F5;
+    color: #141B38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s ease-in-out;
+}
+
+#sby-notifications .navigation svg {
+    width: 9px;
+    height: 9px;
+}
+
+#sby-notifications .navigation a:not(.disabled):hover {
+    background-color: #fff;
+}
+#sby-notifications .navigation a:not(.disabled):focus,
+#sby-notifications .navigation a:not(.disabled):active {
+    background: #E8E8EB;
+    color: #141B38;
+}
+
+#sby-notifications .navigation .prev {
+    float: left;
+}
+
+#sby-notifications .navigation .next {
+    float: right;
+}
+
+#sby-notifications .navigation .disabled {
+    background: #E8E8EB;
+    color: #8C8F9A;
+    cursor: default;
+}
+
+@media screen and (max-width: 768px) {
+    #sby-notifications {
+        padding: 15px 15px 15px 72px;
+    }
+    #sby-notifications .messages .message .title {
+        margin: 0 30px 0 0;
+    }
+    #sby-notifications .messages .message .content {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #sby-notifications .messages .message .buttons {
+        margin: -30px 80px 0 0;
+    }
+    #sby-notifications .messages .message .buttons a {
+        margin: 0;
+        display: table;
+    }
+    #sby-notifications .messages .message .buttons .button-secondary {
+        margin-top: 6px;
+    }
+}
+
+
+/* Review notice */
+.sby_notice{
+    position: relative;
+    clear: right;
+    overflow: hidden;
+    padding: 20px 70px 23px 82px;
+    box-sizing: border-box;
+    margin: 40px 20px 10px 0;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 5%), 0px 4px 5px rgb(0 0 0 / 5%);
+    border-radius: 2px;
+}
+.sby_review_notice,
+.sby_discount_notice,
+.sby_review_notice_step_1 {
+    width: 100%;
+    border-top: 2px solid #0068A0;
+}
+.sby_notice .sby_thumb{
+    position: absolute;
+    display: inline-block;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin: 0;
+    top: 20px;
+    left: 24px;
+    width: 34px;
+    height: 44px;
+}
+.sby_notice .sby_thumb {
+    width: 42px;
+    height: 42px;
+    top: 11px;
+}
+.sby_notice.sby_review_notice .sby_thumb {
+    top: 16px;
+}
+.sby_notice.sby_review_notice_step_1 {
+    padding: 18px 120px 18px 82px;
+}
+.sby_notice.sby_review_notice_step_1 .sby-notice-text .sby-notice-text-p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.sby_notice .sby_thumb .img-overlay {
+    position: absolute;
+    bottom: 4px;
+    padding: 6px 7px 6px 5px;
+    font-size: 13px;
+    font-weight: bold;
+    background: #fff;
+    background: rgba(255,255,255,0.85);
+    line-height: 1;
+    color: #333;
+    box-shadow: 1px -1px 3px 0 rgba(0,0,0,0.15);
+}
+.sby_notice .sby_thumb img {
+    max-width: 100%;
+}
+.sby_notice .sby-notice-text{
+    float: left;
+    clear: none;
+    width: 100%;
+    padding: 0;
+}
+
+.sby_notice.sby_review_notice_step_1 .sby-notice-text {
+    width: auto;
+}
+.sby_notice .sby-notice-text .sby-notice-text-p {
+    margin-bottom: 15px;
+}
+
+.sby_notice .sby-notice-text .sby-notice-text-header {
+    font-size: 16px;
+    margin: 0 0 10px;
+    color: #141B38;
+}
+@media (min-width: 1170px ) {
+    .sby_notice_op.sby_discount_notice .sby-notice-text  {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .sby_notice_op.sby_discount_notice .sby-notice-text .sby-notice-text-inner {
+        width: 60%;
+        max-width: 540px;
+    }
+    .sby_notice_op.sby_discount_notice .sby-notice-text .sby-notice-text-p {
+        margin-bottom: 0;
+    }
+}
+.sby_notice .sby-links{
+    margin-top: 4px !important;
+}
+.sby_notice p{
+    float: left;
+    clear: both;
+    width: auto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 0 10px 0;
+    color: #434960;
+}
+.sby_notice a:hover,
+.sby_notice a:focus{
+    color: #0c7abf;
+}
+.sby_notice .sby-notice-links{
+    margin: 0;
+}
+.sby-notice-links{
+    margin-top: 0 !important;
+}
+.sby-notice-links .sby-btn {
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 32px;
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+}
+.sby-notice-links a:not(:last-child) {
+    margin-right: 5px;
+}
+.sby-notice-dismiss {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sby-notice-dismiss path {
+    fill: #8a8787;
+}
+body .sby_review_step1_notice h3.title {
+    display: inline-block;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin: 0 !important;
+}
+body .sby_review_step1_notice .sby-btn-link {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-decoration-line: underline;
+    color: #0068A0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+body .sby_review_step1_notice .sby-btn-link:not(:last-child) {
+    margin-right: 12px;
+}
+
+.sby_notice .sby_notice_close,
+.sby_notice .sby_bfcm_sale_notice_close,
+.sby_notice .sby_new_user_sale_notice_close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    line-height: 1;
+}
+.sby_notice .sby_notice_close:hover,
+.sby_notice .sby_notice_close:focus{
+    color: #a34100;
+}
+
+/* Notice CTA btn */
+
+.sby_notice .sby_other_notice{
+    padding-top: 10px;
+    font-style: italic;
+    font-size: 12px;
+}
+.sby_notice .sby_other_notice a{
+    padding: 0;
+}
+.sby-notice-consent-btns {
+    float: left;
+}
+
+/*** sby Admin Notices ***/
+.sby-admin-notices {
+    padding: 16px 60px 20px 60px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 4px 5px rgba(0, 0, 0, 0.05);
+    position: relative;
+    box-sizing: border-box;
+}
+.sby-admin-notices:not(:last-child) {
+    margin-bottom: 15px;
+}
+.sb-customizer-preview .sby-admin-notices:not(:last-child) {
+    margin-bottom: 0;
+}
+.sby-admin-notices.sby-license-expired-notice {
+    border-top: 2px solid #D72C2C;
+}
+.sby-admin-notices.sby-license-renewed-notice {
+    border-top: 2px solid #59AB46;
+}
+.sby-admin-notices .sb-notice-title,
+#sbc-builder-app .sby-admin-notices .sb-notice-title,
+#sby-settings .sby-admin-notices .sb-notice-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+    letter-spacing: 0;
+}
+.sby-admin-notices.sby-license-expired-notice h3,
+#sbc-builder-app .sby-admin-notices.sby-license-expired-notice h3{
+    color: #D72C2C;
+    font-size: 18px !important;
+}
+.sby-admin-notices p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #434960;
+    margin: 0;
+}
+.sby-admin-notices .sb-notice-icon {
+    position: absolute;
+    left: 22px;
+    top: 18px;
+}
+.sby-admin-notices #sb-dismiss-notice {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.sby-admin-notices #sb-dismiss-notice svg {
+    width: 14px;
+    height: 13px;
+}
+.sby-admin-notices #sb-dismiss-notice path{
+    fill: #8C8F9A;
+}
+.sby-admin-notices .license-action-btns {
+    margin-top: 16px;
+    display: flex;
+}
+.sby-admin-notices .license-action-btns .sby-notice-btn {
+    text-decoration: none;
+}
+.sby-admin-notices .license-action-btns .sby-notice-btn:not(:last-child) {
+    margin-right: 8px;
+}
+.sby-admin-notices .license-action-btns .sby-notice-btn {
+    font-size: 12px;
+    line-height: 160%;
+    padding: 6px 12px;
+}
+.sby-admin-notices .license-action-btns .sby-notice-btn .spinner-icon {
+    display: none;
+}
+.sby-admin-notices .license-action-btns .sby-notice-btn svg {
+    margin-right: 4px;
+    transform: translate(0px, 2px);
+}
+.sby-admin-notices .license-action-btns .sby-notice-btn:active,
+.sby-admin-notices .license-action-btns .sby-notice-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+.sby-admin-notices .license-action-btns .sby-btn-blue {
+    border: 1px solid #0068A0;
+}
+.sby-admin-notices .license-action-btns .sby-btn-blue:hover {
+    border: 1px solid #0096CC;
+}
+.sby-admin-notices .license-action-btns .sby-btn-blue:active,
+.sby-admin-notices .license-action-btns .sby-btn-blue:focus {
+    border: 1px solid #004D77;
+}
+.sby-btn-blue{
+    background: #0068A0!important;
+    color: #fff!important;
+}
+.sby-btn-blue:hover{
+    background: #0096CC!important;
+    border-color: #0096CC!important;
+    color: #fff!important;
+}
+.sby-btn-blue:focus,
+.sby-btn-blue:active{
+    background: #004D77!important;
+    border-color: #004D77!important;
+    color: #fff!important;
+}
+/*grey*/
+.sby-btn-grey{
+    background: #F3F4F5!important;
+    color: #141B38!important;
+    border: 1px solid #D0D1D7!important;
+}
+.sby-btn-grey:hover{
+    background: #fff!important;
+    color: #141B38!important;
+    border: 1px solid #DCDDE1!important;
+}
+.sby-btn-grey:focus,
+.sby-btn-grey:active{
+    background: #E8E8EB!important;
+    color: #141B38!important;
+    border: 1px solid #D0D1D7!important;
+}
+/*** CTF SB Modal ***/
+.sby-sb-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+    display: none;
+}
+.sb-notice-body button:hover {
+    cursor: pointer;
+}
+.license-details-modal .sby-modal-content {
+    background-color: #fff;
+    max-height: 507px;
+    height: 507px;
+    max-width: 1170px;
+    padding: 32px 42px 70px 42px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 97px auto 0;
+    width: calc(100% - 30px);
+    overflow-y: scroll;
+}
+.sby-modal-content .cancel-btn{
+    background: none;
+    border: none;
+    color: #141B38;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.sby-sb-modal-body .sb-modal-title,
+#sbc-builder-app .sby-sb-modal-body .sb-modal-title {
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0;
+    color: #141B38;
+    margin: 0;
+    text-align: left;
+}
+.sby-sb-modal-body .sb-modal-description,
+#sbc-builder-app .sby-sb-modal-body .sb-modal-description {
+    font-size: 14px;
+    line-height: 22px;
+    color: #676c80;
+    margin: 3px 0 0;
+    text-align: left;
+}
+.sby-sb-modal-body .sb-why-renew-list-parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.sby-sb-modal-body .sb-why-renew-list {
+    width: calc((100% / 2) - 0);
+    box-sizing: border-box;
+    padding-left: 55px;
+    position: relative;
+    margin-bottom: 49px;
+    padding-right: 40px;
+}
+.sby-sb-modal-body .sb-why-renew-list .sb-icon {
+    position: absolute;
+    left: 10px;
+}
+.sby-sb-modal-body .sb-why-renew-list .sb-list-item h4,
+#sbc-builder-app .sby-sb-modal-body .sb-why-renew-list .sb-list-item h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #141B38;
+    margin: 0;
+    text-align: left;
+}
+.sby-sb-modal-body .sb-why-renew-list .sb-list-item p,
+#sbc-builder-app .sby-sb-modal-body .sb-why-renew-list .sb-list-item p{
+    font-size: 14px;
+    line-height: 22px;
+    margin: 3px 0 0;
+    text-align: left;
+    color:#676c80;
+}
+@media (min-width: 768px) and (max-width: 1170px) {
+    .sby-modal-content {
+        max-height: none;
+    }
+    .sby-sb-modal-body .sb-why-renew-list:nth-child(3) {
+        margin-bottom: 0;
+    }
+    .sby-sb-modal-body .sb-why-renew-list:last-child {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 767px) {
+    .sby-sb-modal-body .sb-why-renew-list-parent {
+        margin-top: 25px;
+    }
+    .sby-modal-content {
+        max-height: none;
+    }
+    .sby-sb-modal-body .sb-why-renew-list {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .sby-sb-modal-body .sb-why-renew-list:last-child {
+        margin-bottom: 0;
+    }
+}
+
+body.index-php .sby-admin-notices {
+    margin: 40px 20px 0 0;
+}
+@media (min-width: 1170px) {
+    body.index-php .sby-admin-notices:not(.sby-license-renewed-notice) .sb-notice-body {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+body.index-php .sby-sb-modal {
+    left: -20px;
+    width: calc(100% + 20px);
+}
+@media (max-width: 767px) {
+    .sby-admin-notices .license-action-btns {
+        flex-wrap: wrap;
+    }
+
+    .sby-admin-notices .license-action-btns .sby-notice-btn:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
+    .sby-notice-consent-btns .sby-btn-link {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        text-decoration-line: underline;
+        color: #0068A0;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+    }
+
+    .sby-notice-consent-btns .sby-btn-link:not(:last-child) {
+        margin-right: 12px;
+    }
+}
+@media (min-width: 700px) {
+    .sby-notice-consent-btns {
+        margin-left: 20px;
+    }
+    body .review-step-1-btns {
+        margin-left: 20px;
+    }
+    .sby_review_step1_notice .review-step-1-btns {
+        display: inline-block;
+    }
+}
